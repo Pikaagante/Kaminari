@@ -1,0 +1,53 @@
+Plante : "color" : "#0dff00",
+Feu : "color" : "#ff0000",
+Eau : "color" : "#0099ff",
+Insecte "color" : "#b6f27e",
+Normal : "color" : "#ffffff",
+Poison : "color" : "#9999ff",
+Electrique : "color" : "#ffff66",
+Sol : "color" : "#ffcc99",
+Féé : "color" : "#ff99ff",
+Vol : "color" : "#ccffff",
+Combat : "color" : "#cc0000",
+Psy : "color" : "#cc66ff",
+Roche : "color" : "#cc9900",
+Acier : "color" : "#666699",
+Dragon : "color" :"#6666ff",
+
+
+Normal Vol "color" : "#d9ffff",
+Normal Fée : "color" : "#ffd6ff",
+
+Insecte Poison : "color" : "#b6f27e",
+Insecte Vol : "color" : "#088F8F",
+Insecte Plante : "color" : "#61ff91",
+
+Poison Sol : "color" : "#d1b5c7",
+Poison Vol : "color" : "#b0c7ff",
+Poison Plante : "color" : "#73b2bf",
+
+Eau Combat : "color" : "#8f8f66",
+Eau Poison : "color" : "#4259ff",
+Eau Psy : "color" : "#b0b5ff",
+Eau Glace : "color" : "#00ccff",
+Eau Vol : "color" : "#99e6ff",
+Eau Roche : "color" :"#a3ccab",
+
+Roche Sol : "color" : "#e6b24c",
+
+Electrique Acier : "color" : "#b2b24c",
+
+Specte Poison : "color" : "#801aff",
+
+Plante Psy : "color" : "#8cab70",
+
+Psy Fée : "color" : "#ff99ff",
+
+Glace Psy : "color" : "#73baff",
+Glace Vol : "color" : "#70ffff",
+
+Electrique Vol : "color" : "#baff73",
+
+Feu Vol : "color" : "#ff7f7f",
+
+Dragon Vol : "color" : "#66b2ff",

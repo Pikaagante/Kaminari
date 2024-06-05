@@ -1,0 +1,8220 @@
+{
+	"BULBIZARRE": {
+		"Name": "Bulbizarre",
+		"English_name": "Bulbasaur",
+		"N": "1",
+		"Type": "Plante",
+		"Category": "Graine",
+		"Size": "O,7m",
+		"Weight": "6,9kg",
+		"Talent": "Engrais et Chlorophylle ",
+		"Groupe": "Monstrueux et Vegetal",
+		"img": "1",
+		"color": "#0dff00",
+		"Evolution": "Herbizarre au niveau 16",
+		"price": 1000
+	},
+	"HERBIZARRE": {
+		"Name": "Herbizarre",
+		"English_name": "Ivysaur",
+		"N": "2",
+		"Type": "Plante",
+		"Category": "Graine",
+		"Size": "1m",
+		"Weight": "13kg",
+		"Talent": "Engrais et Chlorophylle",
+		"Groupe": "Monstrueux et Vegetal",
+		"img": "2",
+		"color": "#0dff00",
+		"Evolution": "Florizarre niveau 32",
+		"price": 1000
+	},
+	"FLORIZARRE": {
+		"Name": "Herbizarre",
+		"English_name": "Venusaur",
+		"N": "3",
+		"Type": "Plante",
+		"Category": "Graine",
+		"Size": "2m",
+		"Weight": "100kg",
+		"Talent": "Engrais et Chlorophylle",
+		"Groupe": "Monstrueux et Vegetal",
+		"img": "3",
+		"color": "#0dff00",
+		"Evolution": "Stade final"
+	},
+	"SALAMÈCHE": {
+		"Name": "Salamèche",
+		"English_name": "Charmander",
+		"N": "4",
+		"Type": "Feu",
+		"Category": "Lézard",
+		"Size": "0,6m",
+		"Weight": "8,5kg",
+		"Talent": "Brasier et Force Soleil",
+		"Groupe": "Draconique et Monstrueux",
+		"img": "4",
+		"color": "#ff0000",
+		"Evolution": "Reptincel au niveau 16"
+	},
+	"REPTINCEL": {
+		"Name": "Reptincel",
+		"English_name": "Charmeleon",
+		"N": "5",
+		"Type": "Feu",
+		"Category": "Flamme",
+		"Size": "1,1m",
+		"Weight": "19kg",
+		"Talent": "Brasier et Force Soleil",
+		"Groupe": "Draconique et Monstrueux",
+		"img": "5",
+		"color": "#ff0000",
+		"Evolution": "Dracaufeu au niveau 36"
+	},
+	"DRACAUFEU": {
+		"Name": "Dracaufeu",
+		"English_name": "Charizard",
+		"N": "6",
+		"Type": "Feu et Vol",
+		"Category": "Flamme",
+		"Size": "1,7m",
+		"Weight": "90,5kg",
+		"Talent": "Brasier et Force Soleil",
+		"Groupe": "Draconique et Monstrueux",
+		"img": "6",
+		"color": "#ff0000",
+		"Evolution": "Stade final"
+	},
+	"CARAPUCE": {
+		"Name": "Carapuce",
+		"English_name": "Squirtle",
+		"N": "7",
+		"Type": "Eau",
+		"Category": "Minitortue",
+		"Size": "0,5m",
+		"Weight": "9kg",
+		"Talent": "Torrent et Cuvette",
+		"Groupe": "Aquatique 1 et Monstrueux",
+		"img": "7",
+		"color": "#0099ff",
+		"Evolution": "Carabaffe au niveau 16"
+	},
+	"CARABAFFE": {
+		"Name": "Carabaffe",
+		"English_name": "Wartortle",
+		"N": "8",
+		"Type": "Eau",
+		"Category": "Tortue",
+		"Size": "1m",
+		"Weight": "22,5kg",
+		"Talent": "Torrent et Cuvette",
+		"Groupe": "Aquatique 1 et Monstrueux",
+		"img": "8",
+		"color": "#0099ff",
+		"Evolution": "Tortanke niveau 36"
+	},
+	"TORTANK": {
+		"Name": "Carabaffe",
+		"English_name": "Blastoise",
+		"N": "9",
+		"Type": "Eau",
+		"Category": "Carapace",
+		"Size": "1,6m",
+		"Weight": "85,5kg",
+		"Talent": "Torrent et Cuvette",
+		"Groupe": "Aquatique 1 et Monstrueux",
+		"img": "009",
+		"color": "#0099ff",
+		"Evolution": "Stade final"
+	},
+	"CHENIPAN": {
+		"Name": "Chenipan",
+		"English_name": "Caterpie",
+		"N": "10",
+		"Type": "Insecte",
+		"Category": "Ver",
+		"Size": "0,3m",
+		"Weight": "2,9kg",
+		"Talent": "Ecran Poudre et Fuite",
+		"Groupe": "Insectoïde",
+		"img": "010",
+		"color": "#b6f27e",
+		"Evolution": "Chrysacier niveau 7"
+	},
+	"CHRYSACIER": {
+		"Name": "Chrysacier",
+		"English_name": "Metapod",
+		"N": "11",
+		"Type": "Insecte",
+		"Category": "Cocon",
+		"Size": "0,7m",
+		"Weight": "9,9kg",
+		"Talent": "Mue",
+		"Groupe": "Insectoïde",
+		"img": "011",
+		"color": "#b6f27e",
+		"Evolution": "Papilusion niveau 10"
+	},
+	"PAPILUSION": {
+		"Name": "Papilusion",
+		"English_name": "Butterfree",
+		"N": "12",
+		"Type": "Insecte et Vol",
+		"Category": "Papillon",
+		"Size": "1,1m",
+		"Weight": "32kg",
+		"Talent": "Oeil Composé et Lentiteintée",
+		"Groupe": "Insectoïde",
+		"img": "012",
+		"color": "#088F8F",
+		"Evolution": "Stade final"
+	},
+	"ASPICOT": {
+		"Name": "Aspicot",
+		"English_name": "Weedle",
+		"N": "13",
+		"Type": "Insecte et Poison",
+		"Category": "Insectopic",
+		"Size": "0,3m",
+		"Weight": "3,2kg",
+		"Talent": "Ecran Poudre et Fuite",
+		"Groupe": "Insectoïde",
+		"img": "013",
+		"color": "#b6f27e",
+		"Evolution": "Coconfort au niveau 7"
+	},
+	"COCONFORT": {
+		"Name": "Coconfort",
+		"English_name": "Kakuna",
+		"N": "14",
+		"Type": "Insecte et Poison",
+		"Category": "Cocon",
+		"Size": "0,6m",
+		"Weight": "10kg",
+		"Talent": "Mue",
+		"Groupe": "Insectoïde",
+		"img": "014",
+		"color": "#b6f27e",
+		"Evolution": "Dardagnan au niveau 10"
+	},
+	"DARDAGNAN": {
+		"Name": "Dardagnan",
+		"English_name": "Beedrill",
+		"N": "15",
+		"Type": "Insecte et Poison",
+		"Category": "Guêpoison",
+		"Size": "1m",
+		"Weight": "29,5kg",
+		"Talent": "Essaim et Sniper",
+		"Groupe": "Insectoïde",
+		"img": "015",
+		"color": "#70ab8c",
+		"Evolution": "Stade final"
+	},
+	"ROUCOOL": {
+		"Name": "Roucool",
+		"English_name": "Pidgey",
+		"N": "16",
+		"Type": "Normal et Vol",
+		"Category": "Minoiseau",
+		"Size": "0,3m",
+		"Weight": "1,8kg",
+		"Talent": "Regard Vif, Pieds Confus et Coeur de Coq",
+		"Groupe": "Aérien",
+		"img": "016",
+		"color": "#d9ffff",
+		"Evolution": "Roucoups au niveau 18"
+	},
+	"ROUCOUPS": {
+		"Name": "Roucoups",
+		"English_name": "Pidgeotto",
+		"N": "17",
+		"Type": "Normal et Vol",
+		"Category": "Oiseau",
+		"Size": "1,1m",
+		"Weight": "30kg",
+		"Talent": "Regard Vif, Pieds Confus et Coeur de Coq",
+		"Groupe": "Aérien",
+		"img": "017",
+		"color": "#d9ffff",
+		"Evolution": "Roucarnage au niveau 36"
+	},
+	"ROUCARNAGE": {
+		"Name": "Roucarnage",
+		"English_name": "Pidgeot",
+		"N": "18",
+		"Type": "Normal et Vol",
+		"Category": "Oiseau",
+		"Size": "1,5m",
+		"Weight": "39,5kg",
+		"Talent": "Regard Vif, Pieds Confus et Coeur de Coq",
+		"Groupe": "Aérien",
+		"img": "018",
+		"color": "#d9ffff",
+		"Evolution": "Stade final"
+	},
+	"RATTATA": {
+		"Name": "Rattata",
+		"English_name": "Rattata",
+		"N": "19",
+		"Type": "Normal",
+		"Category": "Souris",
+		"Size": "0,3m",
+		"Weight": "3,5kg",
+		"Talent": "Fuite, Cran et Agitation",
+		"Groupe": "Terrestre",
+		"img": "019",
+		"color": "#ffffff",
+		"Evolution": "Rattatac au niveau 20"
+	},
+	"RATTATAC": {
+		"Name": "Rattatac",
+		"English_name": "Raticate",
+		"N": "20",
+		"Type": "Normal",
+		"Category": "Souris",
+		"Size": "0,7m",
+		"Weight": "18,5kg",
+		"Talent": "Fuite, Cran et Agitation",
+		"Groupe": "Terrestre",
+		"img": "020",
+		"color": "#ffffff",
+		"Evolution": "Stade final"
+	},
+	"PIAFABEC": {
+		"Name": "Piafabec",
+		"English_name": "Spearow",
+		"N": "21",
+		"Type": "Normal et Vol",
+		"Category": "Minioiseau",
+		"Size": "0,3m",
+		"Weight": "2kg",
+		"Talent": "Regard Vif et Sniper",
+		"Groupe": "Aérien",
+		"img": "021",
+		"color": "#d9ffff",
+		"Evolution": "Rapasdepic au niveau 20"
+	},
+	"RAPASDEPIC": {
+		"Name": "Rapasdepic",
+		"English_name": "Fearow",
+		"N": "22",
+		"Type": "Normal et Vol",
+		"Category": "Bec-Oiseau",
+		"Size": "1,2m",
+		"Weight": "38kg",
+		"Talent": "Regard Vif et Sniper",
+		"Groupe": "Aérien",
+		"img": "022",
+		"color": "#d9ffff",
+		"Evolution": "Stade final"
+	},
+	"ABO": {
+		"Name": "Abo",
+		"English_name": "Ekans",
+		"N": "23",
+		"Type": "Poison",
+		"Category": "Poison",
+		"Size": "2m",
+		"Weight": "6,9kg",
+		"Talent": "Intimidation, Mue et Tension",
+		"Groupe": "Terrestre",
+		"img": "023",
+		"color": "#9999ff",
+		"Evolution": "Arbok au niveau 22"
+	},
+	"ARBOK": {
+		"Name": "Arbok",
+		"English_name": "Arbok",
+		"N": "24",
+		"Type": "Poison",
+		"Category": "Cobra",
+		"Size": "3,5m",
+		"Weight": "65kg",
+		"Talent": "Intimidation, Mue et Tension",
+		"Groupe": "Terrestre et Draconique",
+		"img": "024",
+		"color": "#9999ff",
+		"Evolution": "Stade final"
+	},
+	"PIKACHU": {
+		"Name": "Pikachu",
+		"English_name": "Pikachu",
+		"N": "25",
+		"Type": "Electrik",
+		"Category": "Souris",
+		"Size": "0,4m",
+		"Weight": "6kg",
+		"Talent": "Statik et Paratonnerre",
+		"Groupe": "Terrestre et Féerique",
+		"img": "025",
+		"color": "#ffff66",
+		"Evolution": "Raichu avec une pierre électrique"
+	},
+	"RAICHU": {
+		"Name": "Raichu",
+		"English_name": "Raichu",
+		"N": "26",
+		"Type": "Electrik",
+		"Category": "Souris",
+		"Size": "0,8m",
+		"Weight": "30kg",
+		"Talent": "Statik et Paratonnerre",
+		"Groupe": "Terrestre et Féerique",
+		"img": "026",
+		"color": "#ffff66",
+		"Evolution": "Stade final"
+	},
+	"SABELETTE": {
+		"Name": "Sabelette",
+		"English_name": "Sandshrew",
+		"N": "27",
+		"Type": "Sol",
+		"Category": "Souris",
+		"Size": "0,6m",
+		"Weight": "12kg",
+		"Talent": "Voile Sable et Baigne Sable",
+		"Groupe": "Terrestre",
+		"img": "027",
+		"color": "#ffcc99",
+		"Evolution": "Sablaireau au niveau 22"
+	},
+	"SABLAIREAU": {
+		"Name": "Sablaireau",
+		"English_name": "Sandslash",
+		"N": "28",
+		"Type": "Sol",
+		"Category": "Souris",
+		"Size": "1m",
+		"Weight": "29,5kg",
+		"Talent": "Voile Sable et Baigne Sable",
+		"Groupe": "Terrestre",
+		"img": "028",
+		"color": "#ffcc99",
+		"Evolution": "Stade final"
+	},
+	"NIDORANM": {
+		"Name": "Nidoran♀",
+		"English_name": "Nidoran♀",
+		"N": "29",
+		"Type": "Poison",
+		"Category": "Vénépic",
+		"Size": "0,4m",
+		"Weight": "7kg",
+		"Talent": "Poison Point, Rivalité et Agitation",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "029",
+		"color": "#9999ff",
+		"Evolution": "Nidorina au niveau 16"
+	},
+	"NIDORINA": {
+		"Name": "Nidorina",
+		"English_name": "Nidorina",
+		"N": "30",
+		"Type": "Poison",
+		"Category": "Vénépic",
+		"Size": "0,8m",
+		"Weight": "20kg",
+		"Talent": "Poison Point, Rivalité et Agitation",
+		"Groupe": "Inconnu",
+		"img": "030",
+		"color": "#9999ff",
+		"Evolution": "Nidoqueen avec une pierre de lune"
+	},
+	"NIDOQUEEN": {
+		"Name": "Nidoqueen",
+		"English_name": "Nidoqueen",
+		"N": "31",
+		"Type": "Poison et Sol",
+		"Category": "Perceur",
+		"Size": "1,3m",
+		"Weight": "60kg",
+		"Talent": "Poison Point, Rivalité et Agitation",
+		"Groupe": "Inconnu",
+		"img": "031",
+		"color": "#d1b5c7",
+		"Evolution": "Stade final"
+	},
+	"NIDORANF": {
+		"Name": "Nidoran♂",
+		"English_name": "Nidoran♂",
+		"N": "32",
+		"Type": "Poison",
+		"Category": "Vénépic",
+		"Size": "0,5m",
+		"Weight": "9kg",
+		"Talent": "Poison Point, Rivalité et Agitation",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "032",
+		"color": "#9999ff",
+		"Evolution": "Nidorino au niveau 16"
+	},
+	"NIDORINO": {
+		"Name": "Nidorino",
+		"English_name": "Nidorino",
+		"N": "33",
+		"Type": "Poison",
+		"Category": "Vénépic",
+		"Size": "0,9m",
+		"Weight": "19,5kg",
+		"Talent": "Poison Point, Rivalité et Agitation",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "033",
+		"color": "#9999ff",
+		"Evolution": "Nidoking avec une pierre de lune"
+	},
+	"NIDOKING": {
+		"Name": "Nidoking",
+		"English_name": "Nidoking",
+		"N": "34",
+		"Type": "Poison et Sol",
+		"Category": "Perceur",
+		"Size": "1,4m",
+		"Weight": "62kg",
+		"Talent": "Poison Point, Rivalité et Agitation",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "034",
+		"color": "#d1b5c7",
+		"Evolution": "Stade final"
+	},
+	"MÉLOFÉE": {
+		"Name": "Mélofée",
+		"English_name": "Clefairy",
+		"N": "35",
+		"Type": "Fée",
+		"Category": "Fée",
+		"Size": "0,6m",
+		"Weight": "7,5kg",
+		"Talent": "Joli Sourire, Garde Magik et Garde-Ami",
+		"Groupe": "Féerique",
+		"img": "035",
+		"color": "#ff99ff",
+		"Evolution": "Mélodelfe avec une pierre lune"
+	},
+	"MÉLODELFE": {
+		"Name": "Mélodelfe",
+		"English_name": "Clefable",
+		"N": "36",
+		"Type": "Fée",
+		"Category": "Fée",
+		"Size": "1,3m",
+		"Weight": "40kg",
+		"Talent": "Joli Sourire, Garde Magik et Inconscient",
+		"Groupe": "Féerique",
+		"img": "036",
+		"color": "#ff99ff",
+		"Evolution": "Stade final"
+	},
+	"GOUPIX": {
+		"Name": "Goupix",
+		"English_name": "Vulpix",
+		"N": "37",
+		"Type": "Feu",
+		"Category": "Renard",
+		"Size": "0,6m",
+		"Weight": "9,9kg",
+		"Talent": "Torche et Sécheresse",
+		"Groupe": "Terrestre",
+		"img": "037",
+		"color": "#ff0000",
+		"Evolution": "Feunard avec une pierre feu"
+	},
+	"FEUNARD": {
+		"Name": "Feunard",
+		"English_name": "Ninetales",
+		"N": "38",
+		"Type": "Feu",
+		"Category": "Renard",
+		"Size": "1,1m",
+		"Weight": "19,9kg",
+		"Talent": "Torche et Sécheresse",
+		"Groupe": "Terrestre",
+		"img": "038",
+		"color": "#ff0000",
+		"Evolution": "Stade final"
+	},
+	"RONDOUDOU": {
+		"Name": "Rondoudou",
+		"English_name": "Jigglypuff",
+		"N": "39",
+		"Type": "Normal et Fée",
+		"Category": "Bouboule",
+		"Size": "0,5m",
+		"Weight": "5,5kg",
+		"Talent": "Joli Sourir, Battant et Garde-Ami",
+		"Groupe": "Féerique",
+		"img": "039",
+		"color": "#ffd6ff",
+		"Evolution": "Grodoudou avec une pierre lune"
+	},
+	"GRODOUDOU": {
+		"Name": "Grodoudou",
+		"English_name": "Wigglytuff",
+		"N": "40",
+		"Type": "Normal et Fée",
+		"Category": "Bouboule",
+		"Size": "1m",
+		"Weight": "12kg",
+		"Talent": "Joli Sourir, Battant et Fouille",
+		"Groupe": "Féerique",
+		"img": "040",
+		"color": "#ffd6ff",
+		"Evolution": "Stade final"
+	},
+	"NOSFERAPTI": {
+		"Name": "Nosferapti",
+		"English_name": "Zubat",
+		"N": "41",
+		"Type": "Poison et Vol",
+		"Category": "Chovsouris",
+		"Size": "0,8m",
+		"Weight": "7,5kg",
+		"Talent": "Attention et Infiltration",
+		"Groupe": "Aérien",
+		"img": "041",
+		"color": "#b0c7ff",
+		"Evolution": "Nosferalto au niveau 22"
+	},
+	"NOSFERALTO": {
+		"Name": "Nosferalto",
+		"English_name": "Golbat",
+		"N": "42",
+		"Type": "Poison et Vol",
+		"Category": "Chovsouris",
+		"Size": "1,6m",
+		"Weight": "55kg",
+		"Talent": "Attention et Infiltration",
+		"Groupe": "Aérien",
+		"img": "042",
+		"color": "#b0c7ff",
+		"Evolution": "Nostenfer avec du bonheur"
+	},
+	"MYSTHERBE": {
+		"Name": "Mystherbe",
+		"English_name": "Oddish",
+		"N": "43",
+		"Type": "Plante et Poison",
+		"Category": "Racine",
+		"Size": "0,5m",
+		"Weight": "5,4kg",
+		"Talent": "Chlorophylle et Fuite",
+		"Groupe": "Végétal",
+		"img": "043",
+		"color": "#73b2bf",
+		"Evolution": "Ortide au niveau 21"
+	},
+	"ORTIDE": {
+		"Name": "Ortide",
+		"English_name": "Gloom",
+		"N": "44",
+		"Type": "Plante et Poison",
+		"Category": "Racine",
+		"Size": "0,8m",
+		"Weight": "8,6kg",
+		"Talent": "Chlorophylle et Puanteur",
+		"Groupe": "Végétal",
+		"img": "044",
+		"color": "#73b2bf",
+		"Evolution": "Rafflesia avec une pierre plante ou Joliflor avec une pierre soleil"
+	},
+	"RAFFLESIA": {
+		"Name": "Rafflesia",
+		"English_name": "Vileplume",
+		"N": "45",
+		"Type": "Plante et Poison",
+		"Category": "Fleur",
+		"Size": "1,2m",
+		"Weight": "18,6kg",
+		"Talent": "Chlorophylle et Pose Spore",
+		"Groupe": "Végétal",
+		"img": "045",
+		"color": "#73b2bf",
+		"Evolution": "Stade final"
+	},
+	"PARAS": {
+		"Name": "Paras",
+		"English_name": "Paras",
+		"N": "46",
+		"Type": "Insecte et Plante",
+		"Category": "Champignon",
+		"Size": "0,3m",
+		"Weight": "5,4kg",
+		"Talent": "Pose Spore, Peau Sèche et Moiteur",
+		"Groupe": "Insectoïde et Végétal",
+		"img": "046",
+		"color": "#61ff91",
+		"Evolution": "Parasect au niveau 24"
+	},
+	"PARASECT": {
+		"Name": "Parasect",
+		"English_name": "Parasect",
+		"N": "47",
+		"Type": "Insecte et Plante",
+		"Category": "Champignon",
+		"Size": "1m",
+		"Weight": "29,5kg",
+		"Talent": "Pose Spore, Peau Sèche et Moiteur",
+		"Groupe": "Insectoïde et Végétal",
+		"img": "047",
+		"color": "#61ff91",
+		"Evolution": "Stade final"
+	},
+	"MIMITOSS": {
+		"Name": "Mimitoss",
+		"English_name": "Venonat",
+		"N": "48",
+		"Type": "Insecte et Poison",
+		"Category": "Vermine",
+		"Size": "1m",
+		"Weight": "30kg",
+		"Talent": "Oeil Composé, Lentiteintée et Fuite",
+		"Groupe": "Insectoïde",
+		"img": "048",
+		"color": "#b6f27e",
+		"Evolution": "Aéromite au niveau 31"
+	},
+	"AEROMITE": {
+		"Name": "Aéromite",
+		"English_name": "Venomoth",
+		"N": "49",
+		"Type": "Insecte et Poison",
+		"Category": "Papipoison",
+		"Size": "1,5m",
+		"Weight": "12,5kg",
+		"Talent": "Ecran Poudre, Lentiteintée et Peau Miracle",
+		"Groupe": "Insectoïde",
+		"img": "049",
+		"color": "#b6f27e",
+		"Evolution": "Stade final"
+	},
+	"TAUPIQUEUR": {
+		"Name": "Taupiqueur",
+		"English_name": "Diglett",
+		"N": "50",
+		"Type": "Sol",
+		"Category": "Taupe",
+		"Size": "0,2m",
+		"Weight": "0,8kg",
+		"Talent": "Voile Sable, Piège Sable et Force Sable",
+		"Groupe": "Terrestre",
+		"img": "050",
+		"color": "#ffcc99",
+		"Evolution": "Triopikeur au niveau 26"
+	},
+	"TRIOPIKEUR": {
+		"Name": "Triopikeur",
+		"English_name": "Dugtrio",
+		"N": "51",
+		"Type": "Sol",
+		"Category": "Taupe",
+		"Size": "0,7m",
+		"Weight": "33,3kg",
+		"Talent": "Voile Sable, Piège Sable et Force Sable",
+		"Groupe": "Terrestre",
+		"img": "051",
+		"color": "#ffcc99",
+		"Evolution": "Stade final"
+	},
+	"MIAOUSS": {
+		"Name": "Miaouss",
+		"English_name": "Meowth",
+		"N": "52",
+		"Type": "Normal",
+		"Category": "Chadégout",
+		"Size": "0,4m",
+		"Weight": "4,2kg",
+		"Talent": "Ramasse, Technicien et Tension",
+		"Groupe": "Terrestre",
+		"img": "052",
+		"color": "#ffffff",
+		"Evolution": "Persian au niveau 28"
+	},
+	"PERSIAN": {
+		"Name": "Persian",
+		"English_name": "Persian",
+		"N": "53",
+		"Type": "Normal",
+		"Category": "Chadeville",
+		"Size": "1m",
+		"Weight": "32kg",
+		"Talent": "Echauffement, Technicien et Tension",
+		"Groupe": "Terrestre",
+		"img": "053",
+		"color": "#ffffff",
+		"Evolution": "Stade final"
+	},
+	"PSYOKOKWAK": {
+		"Name": "Psykokwak",
+		"English_name": "Psyduck",
+		"N": "54",
+		"Type": "Eau",
+		"Category": "Canard",
+		"Size": "0,8m",
+		"Weight": "19,6kg",
+		"Talent": "Moiteur, Ciel Gris et Glissade",
+		"Groupe": "Aquatique 1 et Terrestre",
+		"img": "054",
+		"color": "#0099ff",
+		"Evolution": "Akwakwak au niveau 33"
+	},
+	"AKWAKWAK": {
+		"Name": "Akwakwak",
+		"English_name": "Golduck",
+		"N": "55",
+		"Type": "Eau",
+		"Category": "Canard",
+		"Size": "1,7m",
+		"Weight": "76,6kg",
+		"Talent": "Moiteur, Ciel Gris et Glissade",
+		"Groupe": "Aquatique 1 et Terrestre",
+		"img": "055",
+		"color": "#0099ff",
+		"Evolution": "Stade final"
+	},
+	"FÉROSINGE": {
+		"Name": "Férosinge",
+		"English_name": "Mankey",
+		"N": "56",
+		"Type": "Combat",
+		"Category": "Porsinge",
+		"Size": "0,5m",
+		"Weight": "28kg",
+		"Talent": "Esprit Vital, Colérique et Acharné",
+		"Groupe": "Terrestre",
+		"img": "056",
+		"color": "#cc0000",
+		"Evolution": "Colossinge au niveau 28"
+	},
+	"COLOSSINGE": {
+		"Name": "Colossinge",
+		"English_name": "Primeape",
+		"N": "57",
+		"Type": "Combat",
+		"Category": "Porsinge",
+		"Size": "1m",
+		"Weight": "32kg",
+		"Talent": "Esprit Vital, Colérique et Acharné",
+		"Groupe": "Terrestre",
+		"img": "057",
+		"color": "#cc0000",
+		"Evolution": "Stade final"
+	},
+	"CANINOS": {
+		"Name": "Caninos",
+		"English_name": "Growlithe",
+		"N": "58",
+		"Type": "Feu",
+		"Category": "Chiot",
+		"Size": "0,7m",
+		"Weight": "19kg",
+		"Talent": "Intimidation, Torche et Coeur Noble",
+		"Groupe": "Terrestre",
+		"img": "058",
+		"color": "#ff0000",
+		"Evolution": "Arcanin avec une pierre feu"
+	},
+	"ARCANIN": {
+		"Name": "Arcanin",
+		"English_name": "Arcanine",
+		"N": "59",
+		"Type": "Feu",
+		"Category": "Légendaire",
+		"Size": "1,9m",
+		"Weight": "155kg",
+		"Talent": "Intimidation, Torche et Coeur Noble",
+		"Groupe": "Terrestre",
+		"img": "059",
+		"color": "#ff0000",
+		"Evolution": "Stade final"
+	},
+	"PTITARD": {
+		"Name": "Ptitard",
+		"English_name": "Poliwag",
+		"N": "60",
+		"Type": "Eau",
+		"Category": "Têtard",
+		"Size": "0,6m",
+		"Weight": "12,4kg",
+		"Talent": "Absorbe-Eau, Moiteur et Glissade",
+		"Groupe": "Aquatique 1",
+		"img": "060",
+		"color": "#0099ff",
+		"Evolution": "Têtarte au niveau 25"
+	},
+	"TÊTARTE": {
+		"Name": "Têtarte",
+		"English_name": "Poliwhirl",
+		"N": "61",
+		"Type": "Eau",
+		"Category": "Têtard",
+		"Size": "1m",
+		"Weight": "20kg",
+		"Talent": "Absorbe-Eau, Moiteur et Glissade",
+		"Groupe": "Aquatique 1",
+		"img": "061",
+		"color": "#0099ff",
+		"Evolution": "Tartard avec une pierre eau ou Tarpaud en échange en tenant une pierre royale"
+	},
+	"TARTARD": {
+		"Name": "Tartard",
+		"English_name": "Poliwrath",
+		"N": "62",
+		"Type": "Eau et Combat",
+		"Category": "Têtard",
+		"Size": "1,3m",
+		"Weight": "54kg",
+		"Talent": "Absorbe-Eau, Moiteur et Glissade",
+		"Groupe": "Aquatique 1",
+		"img": "062",
+		"color": "#8f8f66",
+		"Evolution": "Stade final"
+	},
+	"ABRA": {
+		"Name": "Abra",
+		"English_name": "Abra",
+		"N": "63",
+		"Type": "Psy",
+		"Category": "Psy",
+		"Size": "0,9m",
+		"Weight": "19,5kg",
+		"Talent": "Synchro, Attention et Garme Magik",
+		"Groupe": "Humanoïde",
+		"img": "063",
+		"color": "#cc66ff",
+		"Evolution": "Kadabra au niveau 16"
+	},
+	"KADABRA": {
+		"Name": "Kadabra",
+		"English_name": "Kadabra",
+		"N": "64",
+		"Type": "Psy",
+		"Category": "Psy",
+		"Size": "1,3m",
+		"Weight": "56,5kg",
+		"Talent": "Synchro, Attention et Garme Magik",
+		"Groupe": "Humanoïde",
+		"img": "064",
+		"color": "#cc66ff",
+		"Evolution": "Alakazam en échange en tenant un fil de liaison"
+	},
+	"ALAKAZAM": {
+		"Name": "Alakazam",
+		"English_name": "Alakazam",
+		"N": "65",
+		"Type": "Psy",
+		"Category": "Psy",
+		"Size": "1,5m",
+		"Weight": "48kg",
+		"Talent": "Synchro, Attention et Garme Magik",
+		"Groupe": "Humanoïde",
+		"img": "065",
+		"color": "#cc66ff",
+		"Evolution": "Stade final"
+	},
+	"MACHOC": {
+		"Name": "Machoc",
+		"English_name": "Machop",
+		"N": "66",
+		"Type": "Combat",
+		"Category": "Colosse",
+		"Size": "0,8m",
+		"Weight": "19,5kg",
+		"Talent": "Cran, Annule Garde et Impassible",
+		"Groupe": "Humanoïde",
+		"img": "066",
+		"color": "#cc0000",
+		"Evolution": "Machopeur au niveau 28"
+	},
+	"MACHOPEUR": {
+		"Name": "Machopeur",
+		"English_name": "Machoke",
+		"N": "67",
+		"Type": "Combat",
+		"Category": "Colosse",
+		"Size": "1,5m",
+		"Weight": "70,5kg",
+		"Talent": "Cran, Annule Garde et Impassible",
+		"Groupe": "Humanoïde",
+		"img": "067",
+		"color": "#cc0000",
+		"Evolution": "Mackogneur en échange en tenant un fil de liaison"
+	},
+	"MACKOGNEUR": {
+		"Name": "Mackogneur",
+		"English_name": "Machamp",
+		"N": "68",
+		"Type": "Combat",
+		"Category": "Colosse",
+		"Size": "1,6m",
+		"Weight": "130kg",
+		"Talent": "Cran, Annule Garde et Impassible",
+		"Groupe": "Humanoïde",
+		"img": "068",
+		"color": "#cc0000",
+		"Evolution": "Stade final"
+	},
+	"CHÉTIFLOR": {
+		"Name": "Chétiflor",
+		"English_name": "Bellsprout",
+		"N": "69",
+		"Type": "Plante et Poison",
+		"Category": "Fleur",
+		"Size": "0,7m",
+		"Weight": "4kg",
+		"Talent": "Chlorophylle et Gloutonnerie",
+		"Groupe": "Végétal",
+		"img": "069",
+		"color": "#73b2bf",
+		"Evolution": "Boustiflor au niveau 21"
+	},
+	"BOUSTIFLOR": {
+		"Name": "Boustiflor",
+		"English_name": "Weepinbell",
+		"N": "70",
+		"Type": "Plante et Poison",
+		"Category": "Carnivore",
+		"Size": "1m",
+		"Weight": "6,4kg",
+		"Talent": "Chlorophylle et Gloutonnerie",
+		"Groupe": "Végétal",
+		"img": "070",
+		"color": "#73b2bf",
+		"Evolution": "Empiflor avec une pierre plante"
+	},
+	"EMPIFLOR": {
+		"Name": "Empiflor",
+		"English_name": "Victreebel",
+		"N": "71",
+		"Type": "Plante et Poison",
+		"Category": "Carnivore",
+		"Size": "1,7m",
+		"Weight": "15,5kg",
+		"Talent": "Chlorophylle et Gloutonnerie",
+		"Groupe": "Végétal",
+		"img": "071",
+		"color": "#73b2bf",
+		"Evolution": "Stade final"
+	},
+	"TENTACOOL": {
+		"Name": "Tentacool",
+		"English_name": "Tentacool",
+		"N": "72",
+		"Type": "Eau et Poison",
+		"Category": "Mollusque",
+		"Size": "0,9m",
+		"Weight": "45,5kg",
+		"Talent": "Corps Sain, Suintement et Cuvette",
+		"Groupe": "Aquatique 3",
+		"img": "072",
+		"color": "#8f5c99",
+		"Evolution": "Tentacruel au niveau 30"
+	},
+	"TENTACRUEL": {
+		"Name": "Tentacruel",
+		"English_name": "Tentacruel",
+		"N": "73",
+		"Type": "Eau et Poison",
+		"Category": "Mollusque",
+		"Size": "1,6m",
+		"Weight": "55kg",
+		"Talent": "Corps Sain, Suintement et Cuvette",
+		"Groupe": "Aquatique 3",
+		"img": "073",
+		"color": "#8f5c99",
+		"Evolution": "Stade final"
+	},
+	"RACAILLOU": {
+		"Name": "Racailou",
+		"English_name": "Geodude",
+		"N": "74",
+		"Type": "Roche et Sol",
+		"Category": "Roche",
+		"Size": "0,4m",
+		"Weight": "20kg",
+		"Talent": "Tête de Roc, Fermeté et Voile Sable",
+		"Groupe": "Minéral",
+		"img": "074",
+		"color": "#b8a038",
+		"Evolution": "Gravalanch au niveau 25"
+	},
+	"GRAVALANCH": {
+		"Name": "Gravalanch",
+		"English_name": "Graveler",
+		"N": "75",
+		"Type": "Roche et Sol",
+		"Category": "Roche",
+		"Size": "1m",
+		"Weight": "105kg",
+		"Talent": "Tête de Roc, Fermeté et Voile Sable",
+		"Groupe": "Minéral",
+		"img": "075",
+		"color": "#b8a038",
+		"Evolution": "Grolem avec un fil de liaison"
+	},
+	"GROLEM": {
+		"Name": "Grolem",
+		"English_name": "Golem",
+		"N": "76",
+		"Type": "Roche et Sol",
+		"Category": "Titanesque",
+		"Size": "1,4m",
+		"Weight": "300kg",
+		"Talent": "Tête de Roc, Fermeté et Voile Sable",
+		"Groupe": "Minéral",
+		"img": "076",
+		"color": "#b8a038",
+		"Evolution": "Stade final"
+	},
+	"PONYTA": {
+		"Name": "Ponyta",
+		"English_name": "Ponyta",
+		"N": "77",
+		"Type": "Feu",
+		"Category": "Cheval Feu",
+		"Size": "1m",
+		"Weight": "30kg",
+		"Talent": "Fuite, Torche et Corps Ardent",
+		"Groupe": "Terrestre",
+		"img": "077",
+		"color": "#ff0000",
+		"Evolution": "Galopa au niveau 40"
+	},
+	"GALOPA": {
+		"Name": "Galopa",
+		"English_name": "Rapidash",
+		"N": "78",
+		"Type": "Feu",
+		"Category": "Cheval Feu",
+		"Size": "1,7m",
+		"Weight": "95kg",
+		"Talent": "Fuite, Torche et Corps Ardent",
+		"Groupe": "Terrestre",
+		"img": "078",
+		"color": "#ff0000",
+		"Evolution": "Stade final"
+	},
+	"RAMOLOSS": {
+		"Name": "Ramoloss",
+		"English_name": "Slowpoke",
+		"N": "79",
+		"Type": "Eau et Psy",
+		"Category": "Crétin",
+		"Size": "1,2m",
+		"Weight": "36kg",
+		"Talent": "Benêt, Tempo Perso et Régé-Force",
+		"Groupe": "Monstrueux et Aquatique 1",
+		"img": "079",
+		"color": "#b0b5ff",
+		"Evolution": "Flagadoss au niveau 37"
+	},
+	"QUEUERAMOLOSS": {
+		"Name": "QueueRamoloss",
+		"English_name": "Slowpoke tail",
+		"N": "79.1",
+		"Type": "Dead",
+		"Category": "Dead",
+		"Size": "???",
+		"Weight": "???",
+		"Talent": "???",
+		"Groupe": "???",
+		"img": "tail",
+		"color": "#b0b5ff",
+		"Evolution": "Stade Final"
+	},
+	"FLAGADOSS": {
+		"Name": "Slowbro",
+		"English_name": "Slowpoke",
+		"N": "80",
+		"Type": "Eau et Psy",
+		"Category": "Crétin",
+		"Size": "1,6m",
+		"Weight": "78,5kg",
+		"Talent": "Benêt, Tempo Perso et Régé-Force",
+		"Groupe": "Monstrueux et Aquatique 1",
+		"img": "080",
+		"color": "#b0b5ff",
+		"Evolution": "Stade final"
+	},
+	"MAGNETI": {
+		"Name": "Magnéti",
+		"English_name": "Magnemite",
+		"N": "81",
+		"Type": "Électrik et Acier",
+		"Category": "Magnétique",
+		"Size": "0,3m",
+		"Weight": "6kg",
+		"Talent": "Magnépiège, Fermeté et Analyse",
+		"Groupe": "Minéral",
+		"img": "081",
+		"color": "#b2b24c",
+		"Evolution": "Magnéton au niveau 30"
+	},
+	"MAGNETON": {
+		"Name": "Magnéton",
+		"English_name": "Magneton",
+		"N": "82",
+		"Type": "Électrik et Acier",
+		"Category": "Magnétique",
+		"Size": "1m",
+		"Weight": "60kg",
+		"Talent": "Magnépiège, Fermeté et Analyse",
+		"Groupe": "Minéral",
+		"img": "082",
+		"color": "#b2b24c",
+		"Evolution": "Magnézone avec une pierre foudre"
+	},
+	"CANARTICHO": {
+		"Name": "Canarticho",
+		"English_name": "Farfetch'd",
+		"N": "83",
+		"Type": "Normal et Vol",
+		"Category": "Canard Fou",
+		"Size": "0,8m",
+		"Weight": "15kg",
+		"Talent": "Attention, Regard Vif et Acharné",
+		"Groupe": "Aérien et Terrestre",
+		"img": "083",
+		"color": "#d9ffff",
+		"Evolution": "Stade final"
+	},
+	"DODUO": {
+		"Name": "Doduo",
+		"English_name": "Doduo",
+		"N": "84",
+		"Type": "Normal et Vol",
+		"Category": "Duoiseau",
+		"Size": "1,4m",
+		"Weight": "39,2kg",
+		"Talent": "Fuite, Matinal et Pieds Confus",
+		"Groupe": "Aérien",
+		"img": "084",
+		"color": "#d9ffff",
+		"Evolution": "Dodrio au niveau 31"
+	},
+	"DODRIO": {
+		"Name": "Dodrio",
+		"English_name": "Dodrio",
+		"N": "85",
+		"Type": "Normal et Vol",
+		"Category": "Trioiseau",
+		"Size": "1,8m",
+		"Weight": "85,2kg",
+		"Talent": "Fuite, Matinal et Pieds Confus",
+		"Groupe": "Aérien",
+		"img": "085",
+		"color": "#d9ffff",
+		"Evolution": "Stade final"
+	},
+	"OTARIA": {
+		"Name": "Otaria",
+		"English_name": "Seel",
+		"N": "86",
+		"Type": "Eau",
+		"Category": "Otarie",
+		"Size": "1,1m",
+		"Weight": "90kg",
+		"Talent": "Isograisse, Hydratation et Corps Gel",
+		"Groupe": "Aquatique 1 et Terrestre",
+		"img": "086",
+		"color": "#0099ff",
+		"Evolution": "Otarlette au niveau 34"
+	},
+	"LAMANTINE": {
+		"Name": "Lamantine",
+		"English_name": "Dewgong",
+		"N": "87",
+		"Type": "Eau et Glace",
+		"Category": "Otarie",
+		"Size": "1,7m",
+		"Weight": "120kg",
+		"Talent": "Isograisse, Hydratation et Corps Gel",
+		"Groupe": "Aquatique 1 et Terrestre",
+		"img": "087",
+		"color": "#00ccff",
+		"Evolution": "Stade final"
+	},
+	"TADMORV": {
+		"Name": "Tadmorv",
+		"English_name": "Grimer",
+		"N": "88",
+		"Type": "Poison",
+		"Category": "Dégueu",
+		"Size": "0,9m",
+		"Weight": "30kg",
+		"Talent": "Puanteur, Glue et Toxitouche ",
+		"Groupe": "Amorphe",
+		"img": "088",
+		"color": "#9999ff",
+		"Evolution": "Grotadmorv au niveau 38"
+	},
+	"GROTADMORV": {
+		"Name": "Grotadmorv",
+		"English_name": "Muk",
+		"N": "89",
+		"Type": "Poison",
+		"Category": "Dégueu",
+		"Size": "1,2m",
+		"Weight": "30kg",
+		"Talent": "Puanteur, Glue et Toxitouche ",
+		"Groupe": "Amorphe",
+		"img": "089",
+		"color": "#9999ff",
+		"Evolution": "Stade final"
+	},
+	"KOKIYAS": {
+		"Name": "Kokiyas",
+		"English_name": "Shellder",
+		"N": "90",
+		"Type": "Eau",
+		"Category": "Bivalve",
+		"Size": "0,3m",
+		"Weight": "4kg",
+		"Talent": "Coque Armure, Multi-Coups et Envelocape",
+		"Groupe": "Aquatique 3",
+		"img": "090",
+		"color": "#0099ff",
+		"Evolution": "Crustabri avec une pierre eau"
+	},
+	"CRUSTABRI": {
+		"Name": "Crustabri",
+		"English_name": "Cloyster",
+		"N": "91",
+		"Type": "Eau et Glace",
+		"Category": "Bivalve",
+		"Size": "1,5m",
+		"Weight": "132,5kg",
+		"Talent": "Coque Armure, Multi-Coups et Envelocape",
+		"Groupe": "Aquatique 3",
+		"img": "091",
+		"color": "#00ccff",
+		"Evolution": "Stade final"
+	},
+	"FANTOMINUS": {
+		"Name": "Fantominus",
+		"English_name": "Gastly",
+		"N": "92",
+		"Type": "Spectre et Poison",
+		"Category": "Gaz",
+		"Size": "1,3m",
+		"Weight": "0,1kg",
+		"Talent": "Lévitation",
+		"Groupe": "Amorphe",
+		"img": "092",
+		"color": "#801aff",
+		"Evolution": "Spectrum au niveau 25"
+	},
+	"SPECTRUM": {
+		"Name": "Spectrum",
+		"English_name": "Haunter",
+		"N": "93",
+		"Type": "Spectre et Poison",
+		"Category": "Gaz",
+		"Size": "1,6m",
+		"Weight": "0,1kg",
+		"Talent": "Lévitation",
+		"Groupe": "Amorphe",
+		"img": "093",
+		"color": "#801aff",
+		"Evolution": "Ectoplasma avec un fil de liaison"
+	},
+	"ECTOPLASMA": {
+		"Name": "Ectoplasma",
+		"English_name": "Gengar",
+		"N": "94",
+		"Type": "Spectre et Poison",
+		"Category": "Ombre",
+		"Size": "1,5m",
+		"Weight": "40,5kg",
+		"Talent": "Corps Maudit et Lévitation",
+		"Groupe": "Amorphe",
+		"img": "094",
+		"color": "#801aff",
+		"Evolution": "Stade final"
+	},
+	"ONIX": {
+		"Name": "Onix",
+		"English_name": "Onix",
+		"N": "95",
+		"Type": "Roche et Sol",
+		"Category": "Serpenroc",
+		"Size": "8,8m",
+		"Weight": "210kg",
+		"Talent": "Tête de Roc, Fermeté et Armurouillée",
+		"Groupe": "Minéral",
+		"img": "095",
+		"color": "#e6b24c",
+		"Evolution": "Steelix en échange avec une peau métal"
+	},
+	"SOPORIFIK": {
+		"Name": "Soporifik",
+		"English_name": "Drowzee",
+		"N": "96",
+		"Type": "Psy",
+		"Category": "Hypnose",
+		"Size": "1m",
+		"Weight": "32kg",
+		"Talent": "Insomnia, Hypnose et Attention",
+		"Groupe": "Humanoïde",
+		"img": "096",
+		"color": "#cc66ff",
+		"Evolution": "Hypnomade au niveau 26"
+	},
+	"HYPNOMADE": {
+		"Name": "Hypnomade",
+		"English_name": "Hypno",
+		"N": "97",
+		"Type": "Psy",
+		"Category": "Hypnose",
+		"Size": "1,6m",
+		"Weight": "75,6kg",
+		"Talent": "Insomnia, Prédiction et Attention",
+		"Groupe": "Humanoïde",
+		"img": "097",
+		"color": "#cc66ff",
+		"Evolution": "Stade final"
+	},
+	"KRABBY": {
+		"Name": "Krabby",
+		"English_name": "Krabby",
+		"N": "98",
+		"Type": "Eau",
+		"Category": "Doux Crabe",
+		"Size": "0,4m",
+		"Weight": "6,5kg",
+		"Talent": "Hyper Cutter, Coque Armure et Sans Limite",
+		"Groupe": "Aquatique 3",
+		"img": "098",
+		"color": "#0099ff",
+		"Evolution": "Krabboss au niveau 28"
+	},
+	"KRABBOSS": {
+		"Name": "Krabboss",
+		"English_name": "Kingler",
+		"N": "99",
+		"Type": "Eau",
+		"Category": "Pince",
+		"Size": "1,3m",
+		"Weight": "60kg",
+		"Talent": "Hyper Cutter, Coque Armure et Sans Limite",
+		"Groupe": "Aquatique 3",
+		"img": "099",
+		"color": "#0099ff",
+		"Evolution": "Stade final"
+	},
+	"VOLTORBE": {
+		"Name": "Voltorbe",
+		"English_name": "Voltorb",
+		"N": "100",
+		"Type": "Electrik",
+		"Category": "Balle",
+		"Size": "0,5m",
+		"Weight": "10,4kg",
+		"Talent": "Statik, Anti-Bruit et Boom Final",
+		"Groupe": "Minéral",
+		"img": "100",
+		"color": "#ffff66",
+		"Evolution": "Électrode au niveau 30"
+	},
+	"ELECTRODE": {
+		"Name": "Électrode",
+		"English_name": "Electrode",
+		"N": "101",
+		"Type": "Electrik",
+		"Category": "Balle",
+		"Size": "1,2m",
+		"Weight": "66,6kg",
+		"Talent": "Statik, Anti-Bruit et Boom Final",
+		"Groupe": "Minéral",
+		"img": "101",
+		"color": "#ffff66",
+		"Evolution": "Stade final"
+	},
+	"NOEUNOEUF": {
+		"Name": "Noeunoeuf",
+		"English_name": "Exeggcute",
+		"N": "102",
+		"Type": "Plante et Psy",
+		"Category": "Œuf",
+		"Size": "0,4m",
+		"Weight": "2,5kg",
+		"Talent": "Chlorophylle et Récolte",
+		"Groupe": "Végétal",
+		"img": "102",
+		"color": "#8cab70",
+		"Evolution": "Noadkoko avec une pierre plante"
+	},
+	"NOADKOKO": {
+		"Name": "Noadkoko",
+		"English_name": "Exeggutor",
+		"N": "103",
+		"Type": "Plante et Psy",
+		"Category": "Fruitpalme",
+		"Size": "2m",
+		"Weight": "120kg",
+		"Talent": "Chlorophylle et Récolte",
+		"Groupe": "Végétal",
+		"img": "103",
+		"color": "#8cab70",
+		"Evolution": "Stade final"
+	},
+	"OSSELAIT": {
+		"Name": "Osselait",
+		"English_name": "Cubone",
+		"N": "104",
+		"Type": "Sol",
+		"Category": "Solitaire",
+		"Size": "0,4m",
+		"Weight": "6,5kg",
+		"Talent": "Tête de Roc, Paratonnerre et Armurbaston",
+		"Groupe": "Monstrueux",
+		"img": "104",
+		"color": "#ffcc99",
+		"Evolution": "Ossatueur au niveau 28"
+	},
+	"OSSATUEUR": {
+		"Name": "Ossatueur",
+		"English_name": "Marowak",
+		"N": "105",
+		"Type": "Sol",
+		"Category": "Gard'Os",
+		"Size": "1m",
+		"Weight": "45kg",
+		"Talent": "Tête de Roc, Paratonnerre et Armurbaston",
+		"Groupe": "Monstrueux",
+		"img": "105",
+		"color": "#ffcc99",
+		"Evolution": "Stade final"
+	},
+	"KICKLEE": {
+		"Name": "Kicklee",
+		"English_name": "Hitmonlee",
+		"N": "106",
+		"Type": "Combat",
+		"Category": "Latteur",
+		"Size": "1,5m",
+		"Weight": "49,8kg",
+		"Talent": "Echauffement, Téméraire et Délestage",
+		"Groupe": "Humanoïde",
+		"img": "106",
+		"color": "#cc0000",
+		"Evolution": "Stade final"
+	},
+	"TYGNON": {
+		"Name": "Tygnon",
+		"English_name": "Hitmonchan",
+		"N": "107",
+		"Type": "Combat",
+		"Category": "Puncheur",
+		"Size": "1,4m",
+		"Weight": "50,2kg",
+		"Talent": "Regard Vif, Poing de Fer et Attention",
+		"Groupe": "Humanoïde",
+		"img": "107",
+		"color": "#cc0000",
+		"Evolution": "Stade final"
+	},
+	"Y": {
+		"Name": "Y",
+		"English_name": "Y",
+		"N": "???",
+		"Type": "Ténébre",
+		"Category": "Pedophile",
+		"Size": "1.77m",
+		"Weight": "72kg",
+		"Talent": "Aucun",
+		"Groupe": "Humain... ???",
+		"img": "Y",
+		"color": "#801aff",
+		"Evolution": "N'évolue jamais"
+	},
+	"Excelangue": {
+		"Name": "Excelangue",
+		"English_name": "Lickitung",
+		"N": "108",
+		"Type": "Normal",
+		"Category": "Lécheur",
+		"Size": "1,2m",
+		"Weight": "65,5kg",
+		"Talent": "Benêt, Tempo perso et Ciel Gris",
+		"Groupe": "Humanoïde",
+		"img": "108",
+		"color": "#ffffff",
+		"Evolution": "Coudlangue en apprenant l'attaque Roulade et passer un niveau"
+	},
+	"SMOGO": {
+		"Name": "Smogo",
+		"English_name": "Koffing",
+		"N": "109",
+		"Type": "Poison",
+		"Category": "Gaz Mortel",
+		"Size": "0,6m",
+		"Weight": "1kg",
+		"Talent": "Lévitation, Gaz Inhibiteur et Puanteur",
+		"Groupe": "Amorphe",
+		"img": "109",
+		"color": "#9999ff",
+		"Evolution": "Smogogo au niveau 35"
+	},
+	"SMOGOGO": {
+		"Name": "Smogogo",
+		"English_name": "Weezing",
+		"N": "110",
+		"Type": "Poison",
+		"Category": "Gaz Mortel",
+		"Size": "1,2m",
+		"Weight": "9,5kg",
+		"Talent": "Lévitation, Gaz Inhibiteur et Puanteur",
+		"Groupe": "Amorphe",
+		"img": "110",
+		"color": "#9999ff",
+		"Evolution": "Stade final"
+	},
+	"RHINOCORNE": {
+		"Name": "Rhinocorne",
+		"English_name": "Rhyhorn",
+		"N": "111",
+		"Type": "Sol et Roche",
+		"Category": "Piquant",
+		"Size": "1m",
+		"Weight": "115kg",
+		"Talent": "Paratonnerre, Tête de Roc et Téméraire",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "111",
+		"color": "#e6b24c",
+		"Evolution": "Rhinoféros au niveau 42"
+	},
+	"RHINOFEROS": {
+		"Name": "Rhinoféros",
+		"English_name": "Rhydon",
+		"N": "112",
+		"Type": "Sol et Roche",
+		"Category": "Perceur",
+		"Size": "1,9m",
+		"Weight": "120kg",
+		"Talent": "Paratonnerre, Tête de Roc et Téméraire",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "112",
+		"color": "#e6b24c",
+		"Evolution": "Rhinastoc en échange avec un Protecteur"
+	},
+	"LEVEINARD": {
+		"Name": "Leveinard",
+		"English_name": "Chansey",
+		"N": "113",
+		"Type": "Normal",
+		"Category": "Oeuf",
+		"Size": "1,1m",
+		"Weight": "34,6kg",
+		"Talent": "Médic Nature, Sérénité et Coeur Soin",
+		"Groupe": "Féérique",
+		"img": "113",
+		"color": "#ffffff",
+		"Evolution": "Leuphorie avec du bonheur"
+	},
+	"SAQUEDENEU": {
+		"Name": "Saquedeneu",
+		"English_name": "Tangela",
+		"N": "114",
+		"Type": "Plante",
+		"Category": "Vigne",
+		"Size": "1m",
+		"Weight": "35kg",
+		"Talent": "Chlorophylle, Feuille-Garde et Régé-Force",
+		"Groupe": "Plante",
+		"img": "114",
+		"color": "#0dff00",
+		"Evolution": "Bouldeneu avec la capacité Pouvoir Antique et passer un niveau"
+	},
+	"KANGOUROU": {
+		"Name": "Kangourex",
+		"English_name": "Kangaskhan",
+		"N": "115",
+		"Type": "Normal",
+		"Category": "Maternel",
+		"Size": "2,2m",
+		"Weight": "80kg",
+		"Talent": "Matinal, Querelleur et Attention",
+		"Groupe": "Monstrueux",
+		"img": "115",
+		"color": "#ffffff",
+		"Evolution": "Stade final"
+	},
+	"HYPOTREMPE": {
+		"Name": "Hypotrempe",
+		"English_name": "Horsea",
+		"N": "116",
+		"Type": "Eau",
+		"Category": "Dragon",
+		"Size": "0,4m",
+		"Weight": "8kg",
+		"Talent": "Glissade, Sniper et Draconique",
+		"Groupe": "Aquatique 1 et Draconique",
+		"img": "116",
+		"color": "#0099ff",
+		"Evolution": "Hypocéan au niveau 32"
+	},
+	"HYPOCEAN": {
+		"Name": "Hypocéan",
+		"English_name": "Seadra",
+		"N": "117",
+		"Type": "Eau",
+		"Category": "Dragon",
+		"Size": "1,2m",
+		"Weight": "25kg",
+		"Talent": "Point Poison, Sniper et Moiteur",
+		"Groupe": "Aquatique 1 et Draconique",
+		"img": "117",
+		"color": "#0099ff",
+		"Evolution": "Hyporoi en échange avec une Ecaille Draco"
+	},
+	"POISSIRENE": {
+		"Name": "Poissonière",
+		"English_name": "Goldeen",
+		"N": "118",
+		"Type": "Eau",
+		"Category": "Poisson",
+		"Size": "0,6m",
+		"Weight": "15kg",
+		"Talent": "Glissade, Ignifu-Voile et Paratonnerre",
+		"Groupe": "Aquatique 1",
+		"img": "118",
+		"color": "#0099ff",
+		"Evolution": "Poissoroy au niveau 33"
+	},
+	"POISSOROY": {
+		"Name": "Poissoroy",
+		"English_name": "Seaking",
+		"N": "119",
+		"Type": "Eau",
+		"Category": "Poisson",
+		"Size": "1,3m",
+		"Weight": "39kg",
+		"Talent": "Glissade, Ignifu-Voile et Paratonnerre",
+		"Groupe": "Aquatique 2",
+		"img": "119",
+		"color": "#0099ff",
+		"Evolution": "Stade final"
+	},
+	"STARI": {
+		"Name": "Stari",
+		"English_name": "Staryu",
+		"N": "120",
+		"Type": "Eau",
+		"Category": "Étoile",
+		"Size": "0,8m",
+		"Weight": "34,5kg",
+		"Talent": "Médic Nature, Lumiattirance et Analyste",
+		"Groupe": "Aquatique 3",
+		"img": "120",
+		"color": "#0099ff",
+		"Evolution": "Staross avec une pierre eau"
+	},
+	"STAROSS": {
+		"Name": "Staross",
+		"English_name": "Starmie",
+		"N": "121",
+		"Type": "Eau et Psy",
+		"Category": "Mystérieux",
+		"Size": "1,1m",
+		"Weight": "80kg",
+		"Talent": "Médic Nature, Lumiattirance et Analyste",
+		"Groupe": "Aquatique 3",
+		"img": "121",
+		"color": "#b0b5ff",
+		"Evolution": "Stade final"
+	},
+	"M.MIME": {
+		"Name": "M. Mime",
+		"English_name": "Mr. Mime",
+		"N": "122",
+		"Type": "Psy et Fée",
+		"Category": "Bloqueur",
+		"Size": "1,3m",
+		"Weight": "54,5kg",
+		"Talent": "Anti-Bruit, Filtre et Technicien",
+		"Groupe": "Humanoïde",
+		"img": "122",
+		"color": "#ff99ff",
+		"Evolution": "Stade final"
+	},
+	"INSECATEUR": {
+		"Name": "Insecateur",
+		"English_name": "Scyther",
+		"N": "123",
+		"Type": "Insecte et Vol",
+		"Category": "Mante",
+		"Size": "1,5m",
+		"Weight": "56kg",
+		"Talent": "Essaim, Technicien et Impassible",
+		"Groupe": "Insectoïde",
+		"img": "123",
+		"color": "#088F8F",
+		"Evolution": "Cizayox en échange avec une Peau métal"
+	},
+	"LIPPOUTOU": {
+		"Name": "Lippoutou",
+		"English_name": "Jynx",
+		"N": "124",
+		"Type": "Glace et Psy",
+		"Category": "Humainoïde",
+		"Size": "1,4m",
+		"Weight": "40,6kg",
+		"Talent": "Benêt, Prédiction et Peau Sèche",
+		"Groupe": "Humanoïde",
+		"img": "124",
+		"color": "#73baff",
+		"Evolution": "Stade final"
+	},
+	"ELEKTEK": {
+		"Name": "Elektek",
+		"English_name": "Electabuzz",
+		"N": "125",
+		"Type": "Électrique",
+		"Category": "Humainoïde",
+		"Size": "1,1m",
+		"Weight": "30kg",
+		"Talent": "Statik et Esprit Vital",
+		"Groupe": "Humanoïde",
+		"img": "125",
+		"color": "#ffff66",
+		"Evolution": "Elekable en échange avec un electriseur"
+	},
+	"MAGMAR": {
+		"Name": "Magmar",
+		"English_name": "Magmar",
+		"N": "126",
+		"Type": "Feu",
+		"Category": "Crache-Feu",
+		"Size": "1,3m",
+		"Weight": "44,5kg",
+		"Talent": "Corps Ardent et Esprit Vital",
+		"Groupe": "Humanoïde",
+		"img": "126",
+		"color": "#ff0000",
+		"Evolution": "Maganon en échange avec un Magmariseur"
+	},
+	"SCARABRUTE": {
+		"Name": "Scarabrute",
+		"English_name": "Pinsir",
+		"N": "127",
+		"Type": "Insecte",
+		"Category": "Scarabée",
+		"Size": "1,5m",
+		"Weight": "55kg",
+		"Talent": "Hyper Cutter, Brise Moule et Impudence",
+		"Groupe": "Insectoïde",
+		"img": "127",
+		"color": "#b6f27e",
+		"Evolution": "Stade final"
+	},
+	"TAUROS": {
+		"Name": "Tauros",
+		"English_name": "Tauros",
+		"N": "128",
+		"Type": "Normal",
+		"Category": "Buffle",
+		"Size": "1,4m",
+		"Weight": "88,4kg",
+		"Talent": "Intimidation, Colérique et Sans Limite",
+		"Groupe": "Terrestre",
+		"img": "128",
+		"color": "#ffffff",
+		"Evolution": "Stade final"
+	},
+	"MAGICARPE": {
+		"Name": "Magicarpe",
+		"English_name": "Magikarp",
+		"N": "129",
+		"Type": "Eau",
+		"Category": "Poisson",
+		"Size": "0,9m",
+		"Weight": "10kg",
+		"Talent": "Glissade et Phobique",
+		"Groupe": "Aquatique 2 et Draconique",
+		"img": "129",
+		"color": "#0099ff",
+		"Evolution": "Léviator au niveau 20"
+	},
+	"LEVIATOR": {
+		"Name": "Léviator",
+		"English_name": "Gyarados",
+		"N": "130",
+		"Type": "Eau et Vol",
+		"Category": "Terrifiant",
+		"Size": "6,5m",
+		"Weight": "235kg",
+		"Talent": "Intimidation et Impudence",
+		"Groupe": "Aquatique 2 et Draconique",
+		"img": "130",
+		"color": "#0099ff",
+		"Evolution": "Stade final"
+	},
+	"LOKHLASS": {
+		"Name": "Lokhlass",
+		"English_name": "Lapras",
+		"N": "131",
+		"Type": "Eau et Glace",
+		"Category": "Transport",
+		"Size": "2,5m",
+		"Weight": "220kg",
+		"Talent": "Absorbe-Eau, Coque Armure et Hydratation",
+		"Groupe": "Monstrueux et Aquatique 1",
+		"img": "131",
+		"color": "#00ccff",
+		"Evolution": "Stade final"
+	},
+	"METAMORPH": {
+		"Name": "Métamorph",
+		"English_name": "Ditto",
+		"N": "132",
+		"Type": "Normal",
+		"Category": "Morphing",
+		"Size": "0,3m",
+		"Weight": "4kg",
+		"Talent": "Echauffement et Imposteur",
+		"Groupe": "Metamorph",
+		"img": "132",
+		"color": "#ffffff",
+		"Evolution": "Stade final"
+	},
+	"EVOLI": {
+		"Name": "Évoli",
+		"English_name": "Eevee",
+		"N": "133",
+		"Type": "Normal",
+		"Category": "Évolutif",
+		"Size": "0,3m",
+		"Weight": "6,5kg",
+		"Talent": "Fuite, Adaptabilité et Anticipation",
+		"Groupe": "Terrestre",
+		"img": "133",
+		"color": "#ffffff",
+		"Evolution": "-Aquali en échange avec une pierre eau, \n-Voltali en échange avec une pierre éclair, \n-Pyroli en échange avec une pierre feu, \n-Mentali bonheur le jour avec aucune capacité fée, \n-Noctali bonheur de nuit avec aucune capacité fée, \n-Phyllali avec une pierre herbe, \n-Givrali avec une pierre glace, \n-Nymphali bonheur avec une capacité fée"
+	},
+	"AQUALI": {
+		"Name": "Aquali",
+		"English_name": "Vaporeon",
+		"N": "134",
+		"Type": "Eau",
+		"Category": "Bulleur",
+		"Size": "1m",
+		"Weight": "29kg",
+		"Talent": "Absorbe-Eau et Hydratation",
+		"Groupe": "Terrestre",
+		"img": "134",
+		"color": "#0099ff",
+		"Evolution": "Stade final"
+	},
+	"VOLTALI": {
+		"Name": "Voltali",
+		"English_name": "Jolteon",
+		"N": "135",
+		"Type": "Électrik",
+		"Category": "Orage",
+		"Size": "0,8m",
+		"Weight": "24,5kg",
+		"Talent": "Absorbe-Volt et Pied Véloce",
+		"Groupe": "Terrestre",
+		"img": "135",
+		"color": "#ffff66",
+		"Evolution": "Stade final"
+	},
+	"PYROLI": {
+		"Name": "Pyroli",
+		"English_name": "Flareon",
+		"N": "136",
+		"Type": "Feu",
+		"Category": "Flamme",
+		"Size": "0,9m",
+		"Weight": "25kg",
+		"Talent": "Torche et Cran",
+		"Groupe": "Terrestre",
+		"img": "136",
+		"color": "#ff0000",
+		"Evolution": "Stade final"
+	},
+	"PORYGON": {
+		"Name": "Porygon",
+		"English_name": "Porygon",
+		"N": "137",
+		"Type": "Normal",
+		"Category": "Virtuel",
+		"Size": "0,8m",
+		"Weight": "36,5kg",
+		"Talent": "Calque, Télécharge et Analyste",
+		"Groupe": "Minéral",
+		"img": "137",
+		"color": "#ffffff",
+		"Evolution": "Porygon2 en échange avec un améliorator"
+	},
+	"AMONITA": {
+		"Name": "Amonita",
+		"English_name": "Omanyte",
+		"N": "138",
+		"Type": "Roche et Eau",
+		"Category": "Spriale",
+		"Size": "0,4m",
+		"Weight": "7,5kg",
+		"Talent": "Glissade, Coque Armure et Armurouillée",
+		"Groupe": "Aquatique 1 et Aquatique 3",
+		"img": "138",
+		"color": "#a3ccab",
+		"Evolution": "Amonistar au niveau 40"
+	},
+	"AMONISTAR": {
+		"Name": "Amonistar",
+		"English_name": "Omastar",
+		"N": "139",
+		"Type": "Roche et Eau",
+		"Category": "Spriale",
+		"Size": "1m",
+		"Weight": "35kg",
+		"Talent": "Glissade, Coque Armure et Armurouillée",
+		"Groupe": "Aquatique 1 et Aquatique 3",
+		"img": "139",
+		"color": "#a3ccab",
+		"Evolution": "Stade final"
+	},
+	"KABUTO": {
+		"Name": "Kabuto",
+		"English_name": "Kabuto",
+		"N": "140",
+		"Type": "Roche et Eau",
+		"Category": "Carapace",
+		"Size": "0,5m",
+		"Weight": "11,5kg",
+		"Talent": "Glissade, Armurbaston et Armurouillée",
+		"Groupe": "Aquatique 1 et Aquatique 3",
+		"img": "140",
+		"color": "#a3ccab",
+		"Evolution": "Kabutops au niveau 40"
+	},
+	"KABUTOPS": {
+		"Name": "Kabutops",
+		"English_name": "Kabutops",
+		"N": "141",
+		"Type": "Roche et Eau",
+		"Category": "Carapace",
+		"Size": "1,3m",
+		"Weight": "40,5kg",
+		"Talent": "Glissade, Armurbaston et Armurouillée",
+		"Groupe": "Aquatique 1 et Aquatique 3",
+		"img": "141",
+		"color": "#a3ccab",
+		"Evolution": "Stade final"
+	},
+	"PTERA": {
+		"Name": "Ptéra",
+		"English_name": "Aerodactyl",
+		"N": "142",
+		"Type": "Roche et Vol",
+		"Category": "Fossile",
+		"Size": "1,8m",
+		"Weight": "59kg",
+		"Talent": "Tête de Roc, Pression et Tension",
+		"Groupe": "Aérien",
+		"img": "142",
+		"color": "#a3ccab",
+		"Evolution": "Stade final"
+	},
+	"RONFLEX": {
+		"Name": "Ronflex",
+		"English_name": "Snorlax",
+		"N": "143",
+		"Type": "Normal",
+		"Category": "Gros Pionceur",
+		"Size": "2,1m",
+		"Weight": "460kg",
+		"Talent": "Vaccin, Isograisse et Gloutonnerie",
+		"Groupe": "TMonstrueux",
+		"img": "143",
+		"color": "#ffffff",
+		"Evolution": "Stade final"
+	},
+	"ARTIKODIN": {
+		"Name": "Artikodin",
+		"English_name": "Articuno",
+		"N": "144",
+		"Type": "Glace et Vol",
+		"Category": "Glaciaire",
+		"Size": "1,7m",
+		"Weight": "55,4kg",
+		"Talent": "Pression et Rideau de Neige",
+		"Groupe": "AInconnu",
+		"img": "144",
+		"color": "#70ffff",
+		"Evolution": "Stade final"
+	},
+	"ELECTHOR": {
+		"Name": "Électhor",
+		"English_name": "Zapdos",
+		"N": "145",
+		"Type": "Électrik et Vol",
+		"Category": "Électrique",
+		"Size": "1,6m",
+		"Weight": "52,6kg",
+		"Talent": "Pression et Statik",
+		"Groupe": "Inconnu",
+		"img": "145",
+		"color": "#baff73",
+		"Evolution": "Stade final"
+	},
+	"SULFURA": {
+		"Name": "Sulfura",
+		"English_name": "Moltres",
+		"N": "146",
+		"Type": "Feu et Vol",
+		"Category": "Flamme",
+		"Size": "2m",
+		"Weight": "60kg",
+		"Talent": "Pression et Corps Ardent",
+		"Groupe": "Inconnu",
+		"img": "146",
+		"color": "#ff7f7f",
+		"Evolution": "Stade final"
+	},
+	"MINIDRACO": {
+		"Name": "Minidraco",
+		"English_name": "Dratini",
+		"N": "147",
+		"Type": "Dragon",
+		"Category": "Dragon",
+		"Size": "1,8m",
+		"Weight": "3,3kg",
+		"Talent": "Mue et Ecaille Spéciale",
+		"Groupe": "Draconique et Aquatique 1",
+		"img": "147",
+		"color": "#6666ff",
+		"Evolution": "Draco au niveau 30"
+	},
+	"DRACO": {
+		"Name": "Draco",
+		"English_name": "Dragonair",
+		"N": "148",
+		"Type": "Dragon",
+		"Category": "Dragonair",
+		"Size": "4m",
+		"Weight": "16,5kg",
+		"Talent": "Mue et Ecaille Spéciale",
+		"Groupe": "Draconique et Aquatique 1",
+		"img": "148",
+		"color": "#6666ff",
+		"Evolution": "Dracolosse au niveau 55"
+	},
+	"DRACOLOSSE": {
+		"Name": "Dracolosse",
+		"English_name": "Dragonite",
+		"N": "149",
+		"Type": "Dragon et Vol",
+		"Category": "Dragon",
+		"Size": "2,2m",
+		"Weight": "210kg",
+		"Talent": "Attention et Multiécaille",
+		"Groupe": "Draconique et Aquatique 1",
+		"img": "149",
+		"color": " #66b2ff",
+		"Evolution": "Stade final"
+	},
+	"MEWTWO": {
+		"Name": "Mewtwo",
+		"English_name": "Mewtwo",
+		"N": "150",
+		"Type": "Psy",
+		"Category": "Génétique",
+		"Size": "2m",
+		"Weight": "122kg",
+		"Talent": "Pression et Tension",
+		"Groupe": "Inconnu",
+		"img": "150",
+		"color": "#cc66ff",
+		"Evolution": "Stade final"
+	},
+	"MEW": {
+		"Name": "Mew",
+		"English_name": "Mew",
+		"N": "151",
+		"Type": "Psy",
+		"Category": "Nouveau",
+		"Size": "0,4m",
+		"Weight": "4kg",
+		"Talent": "Synchro",
+		"Groupe": "Inconnu",
+		"img": "151",
+		"color": "#cc66ff",
+		"Evolution": "Stade final"
+	},
+	"GERMINGNON": {
+		"Name": "Germignon",
+		"English_name": "Chikorita",
+		"N": "152",
+		"Type": "Plante",
+		"Category": "Feuille",
+		"Size": "0,9m",
+		"Weight": "6,4kg",
+		"Talent": "Engrais et Feuille Garde",
+		"Groupe": "Monstrueux et Végétal",
+		"img": "152",
+		"color": "#00ff00",
+		"Evolution": "Macronium au niveau 16"
+	},
+	"MACRONIUM": {
+		"Name": "Macronium",
+		"English_name": "Bayleef",
+		"N": "153",
+		"Type": "Plante",
+		"Category": "Feuille",
+		"Size": "1,2m",
+		"Weight": "15,8kg",
+		"Talent": "Engrais et Feuille Garde",
+		"Groupe": "Monstrueux et Végétal",
+		"img": "153",
+		"color": "#00ff00",
+		"Evolution": "Macronium niveau 16"
+	},
+	"MEGANIUM": {
+		"Name": "Meganium",
+		"English_name": "Bayleef",
+		"N": "154",
+		"Type": "Feuille",
+		"Category": "Fleur",
+		"Size": "1,2m",
+		"Weight": "15,8kg",
+		"Talent": "Engrais et Médic Nature",
+		"Groupe": "Monstrueux et Végétal",
+		"img": "154",
+		"color": "#00ff00",
+		"Evolution": "Méganium niveau 32"
+	},
+	"HERICENDRE": {
+		"Name": "Héricendre",
+		"English_name": "Cyndaquil",
+		"N": "155",
+		"Type": "Feu",
+		"Category": "Souris feu",
+		"Size": "0,5m",
+		"Weight": "7,9kg",
+		"Talent": "Brasier et Torche",
+		"Groupe": "Terrestre",
+		"img": "155",
+		"color": "#ff6600",
+		"Evolution": "Feurisson au niveau 14"
+	},
+	"FEURISSON": {
+		"Name": "Feurisson",
+		"English_name": "Quilava",
+		"N": "156",
+		"Type": "Feu",
+		"Category": "Volcan",
+		"Size": "0,9m",
+		"Weight": "19kg",
+		"Talent": "Brasier et Torche",
+		"Groupe": "Terrestre",
+		"img": "156",
+		"color": "#ff6600",
+		"Evolution": "Typhlosion au niveau 36"
+	},
+	"TYPHLOSION": {
+		"Name": "Typhlosion",
+		"English_name": "Typhlosion",
+		"N": "157",
+		"Type": "Feu",
+		"Category": "Volcan",
+		"Size": "1,7m",
+		"Weight": "79,5kg",
+		"Talent": "Brasier et Torche",
+		"Groupe": "Terrestre",
+		"img": "157",
+		"color": "#ff6600",
+		"Evolution": "Stade final"
+	},
+	"KAIMINUS": {
+		"Name": "Kaiminus",
+		"English_name": "Totodile",
+		"N": "158",
+		"Type": "Eau",
+		"Category": "Machoire",
+		"Size": "0,6m",
+		"Weight": "9,5kg",
+		"Talent": "Torrent et Sans Limite",
+		"Groupe": "Aquatique 1 et Monstrueux",
+		"img": "158",
+		"color": "#3366ff",
+		"Evolution": "Crocrodil au niveau 18"
+	},
+	"CROCRODIL": {
+		"Name": "Crocrodil",
+		"English_name": "Croconaw",
+		"N": "159",
+		"Type": "Eau",
+		"Category": "Machoire",
+		"Size": "1,1m",
+		"Weight": "25kg",
+		"Talent": "Torrent et Sans Limite",
+		"Groupe": "Aquatique 1 et Monstrueux",
+		"img": "159",
+		"color": "#3366ff",
+		"Evolution": "Aligatueur au niveau 30"
+	},
+	"ALIGATUEUR": {
+		"Name": "Aligatueur",
+		"English_name": "Feraligatr",
+		"N": "160",
+		"Type": "Eau",
+		"Category": "Machoire",
+		"Size": "2,3m",
+		"Weight": "88,8kg",
+		"Talent": "Torrent et Sans Limite",
+		"Groupe": "Aquatique 1 et Monstrueux",
+		"img": "160",
+		"color": "#3366ff",
+		"Evolution": "Stade final"
+	},
+	"FOUINETTE": {
+		"Name": "Fouinette",
+		"English_name": "Sentret",
+		"N": "161",
+		"Type": "Normal",
+		"Category": "Espion",
+		"Size": "0,8m",
+		"Weight": "6kg",
+		"Talent": "Fuite, Regard Vif et Fouille",
+		"Groupe": "Terrestre",
+		"img": "161",
+		"color": "#c2c2a3",
+		"Evolution": "Fouinar au niveau 15"
+	},
+	"FOUINAR": {
+		"Name": "Fouinar",
+		"English_name": "Furret",
+		"N": "162",
+		"Type": "Normal",
+		"Category": "Allongé",
+		"Size": "1,8m",
+		"Weight": "32,5kg",
+		"Talent": "Fuite, Regard Vif et Fouille",
+		"Groupe": "Terrestre",
+		"img": "162",
+		"color": "#c2c2a3",
+		"Evolution": "Stade final"
+	},
+	"HOOTHOOT": {
+		"Name": "Hoothoot",
+		"English_name": "Hoothoot",
+		"N": "163",
+		"Type": "Normal et Vol",
+		"Category": "Hibou",
+		"Size": "0,7m",
+		"Weight": "21,2kg",
+		"Talent": "Insomnia, Regard Vif et Lentiteintée",
+		"Groupe": "Vol",
+		"img": "163",
+		"color": "#b3b3b3",
+		"Evolution": "Noctowl au niveau 20"
+	},
+	"NOARFANG": {
+		"Name": "Noarfang",
+		"English_name": "Noctowl",
+		"N": "164",
+		"Type": "Normal et Vol",
+		"Category": "Hibou",
+		"Size": "1,6m",
+		"Weight": "40,8kg",
+		"Talent": "Insomnia, Regard Vif et Lentiteintée",
+		"Groupe": "Vol",
+		"img": "164",
+		"color": "#b3b3b3",
+		"Evolution": "Aucune"
+	},
+	"COXY": {
+		"Name": "Coxy",
+		"English_name": "Ledyba",
+		"N": "165",
+		"Type": "Insecte et Vol",
+		"Category": "5 étoiles",
+		"Size": "1m",
+		"Weight": "10,8kg",
+		"Talent": "Essaim, Matinal et Phobique",
+		"Groupe": "Insectoïde",
+		"img": "165",
+		"color": "#ff99cc",
+		"Evolution": "Coxyclaque au niveau 18"
+	},
+	"COXYCLAQUE": {
+		"Name": "Coxyclaque",
+		"English_name": "Ledian",
+		"N": "166",
+		"Type": "Insecte et Vol",
+		"Category": "Coccinelle",
+		"Size": "1,4m",
+		"Weight": "35,6kg",
+		"Talent": "Essaim, Matinal et Phobique",
+		"Groupe": "Insectoïde",
+		"img": "166",
+		"color": "#ff99cc",
+		"Evolution": "Aucune"
+	},
+	"MIMIGAL": {
+		"Name": "Mimigal",
+		"English_name": "Spinarak",
+		"N": "167",
+		"Type": "Insecte / Poison",
+		"Category": "Crache Fil",
+		"Size": "0,5m",
+		"Weight": "8,5kg",
+		"Talent": "Essaim, Insomnia et Sniper",
+		"Groupe": "Insectoïde",
+		"img": "167",
+		"color": "#8b0000",
+		"Evolution": "Migalos au niveau 22"
+	},
+	"MIGALOS": {
+		"Name": "Migalos",
+		"English_name": "Ariados",
+		"N": "168",
+		"Type": "Insecte / Poison",
+		"Category": "Long Pattes",
+		"Size": "1,1m",
+		"Weight": "33,5kg",
+		"Talent": "Essaim, Insomnia et Sniper",
+		"Groupe": "Insectoïde",
+		"img": "168",
+		"color": "#8b0000",
+		"Evolution": "Aucune"
+	},
+	"NOSTENFER": {
+		"Name": "Nostenfer",
+		"English_name": "Crobat",
+		"N": "169",
+		"Type": "Poison / Vol",
+		"Category": "Chovsouris",
+		"Size": "1,8m",
+		"Weight": "75kg",
+		"Talent": "Attention, Infiltration",
+		"Groupe": "Aérien",
+		"img": "169",
+		"color": "#8b008b",
+		"Evolution": "Aucune"
+	},
+	"LOUPIO": {
+		"Name": "Loupio",
+		"English_name": "Chinchou",
+		"N": "170",
+		"Type": "Eau et Électrik",
+		"Category": "Poisson",
+		"Size": "0.5m",
+		"Weight": "12.0kg",
+		"Talent": "Absorb Volt, Lumiattirance et Absorbe-Eau",
+		"Groupe": "Aquatique 2",
+		"img": "170",
+		"color": "#6699ff",
+		"Evolution": "Lanturn au niveau 27"
+	},
+	"LANTURN": {
+		"Name": "Lanturn",
+		"English_name": "Lanturn",
+		"N": "171",
+		"Type": "Eau et Électrik",
+		"Category": "Lumière",
+		"Size": "1.2m",
+		"Weight": "22.5kg",
+		"Talent": "Absorb Volt, Lumiattirance et Absorbe-Eau",
+		"Groupe": "Aquatique 2",
+		"img": "171",
+		"color": "#6699ff",
+		"Evolution": "Aucune"
+	},
+	"PICHU": {
+		"Name": "Pichu",
+		"English_name": "Pichu",
+		"N": "172",
+		"Type": "Électrik",
+		"Category": "Minisouris",
+		"Size": "0.3m",
+		"Weight": "2.0kg",
+		"Talent": "Statik et Paratonnerre",
+		"Groupe": "Inconnu",
+		"img": "172",
+		"color": "#ffff00",
+		"Evolution": "Pikachu par Bonheur"
+	},
+	"MÉLO": {
+		"Name": "Mélo",
+		"English_name": "Cleffa",
+		"N": "173",
+		"Type": "Fée",
+		"Category": "Étoile",
+		"Size": "0.3m",
+		"Weight": "3.0kg",
+		"Talent": "Joli Sourire, Garde Magik et Garde-Ami",
+		"Groupe": "Inconnu",
+		"img": "173",
+		"color": "#ff99cc",
+		"Evolution": "Mélofée avec Bonheur et une Pierre Lune"
+	},
+	"TOUDOUDOU": {
+		"Name": "Toudoudou",
+		"English_name": "Igglybuff",
+		"N": "174",
+		"Type": "Normal/Fée",
+		"Category": "Bouboule",
+		"Size": "0.3m",
+		"Weight": "1.0kg",
+		"Talent": "Joli Sourire, Battant et Garde-Ami",
+		"Groupe": "Inconnu",
+		"img": "174",
+		"color": "#ff99cc",
+		"Evolution": "Rondoudou par Bonheur"
+	},
+	"TOGEPI": {
+		"Name": "Togepi",
+		"English_name": "Togepi",
+		"N": "175",
+		"Type": "Fée",
+		"Category": "Balle Pic",
+		"Size": "0.3m",
+		"Weight": "1.5kg",
+		"Talent": "Sérénité, Agitation et Chanceux",
+		"Groupe": "Inconnu",
+		"img": "175",
+		"color": "#ff99cc",
+		"Evolution": "Togetic par Bonheur"
+	},
+	"TOGETIC": {
+		"Name": "Togetic",
+		"English_name": "Togetic",
+		"N": "176",
+		"Type": "Fée/Vol",
+		"Category": "Bonheur",
+		"Size": "0.6m",
+		"Weight": "3.2kg",
+		"Talent": "Sérénité, Agitation et Chanceux",
+		"Groupe": "Fée et Aérien",
+		"img": "176",
+		"color": "#ff99cc",
+		"Evolution": "Togekiss avec Pierre éclat"
+	},
+	"NATU": {
+		"Name": "Natu",
+		"English_name": "Natu",
+		"N": "177",
+		"Type": "Psy/Vol",
+		"Category": "Minoiseau",
+		"Size": "0.2m",
+		"Weight": "2kg",
+		"Talent": "Synchro, Matinal et Miroir Magik",
+		"Groupe": "Aérien",
+		"img": "177",
+		"color": "#9966cc",
+		"Evolution": "Xatu au niveau 25"
+	},
+	"XATU": {
+		"Name": "Xatu",
+		"English_name": "Xatu",
+		"N": "178",
+		"Type": "Psy/Vol",
+		"Category": "Mystique",
+		"Size": "1.5m",
+		"Weight": "15kg",
+		"Talent": "Synchro, Matinal et Miroir Magik",
+		"Groupe": "Aérien",
+		"img": "178",
+		"color": "#9966cc",
+		"Evolution": "Aucune"
+	},
+	"WATTOUAT": {
+		"Name": "Wattouat",
+		"English_name": "Mareep",
+		"N": "179",
+		"Type": "Électrik",
+		"Category": "Laine",
+		"Size": "0.6m",
+		"Weight": "7.8kg",
+		"Talent": "Statik et Plus",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "179",
+		"color": "#ffcc00",
+		"Evolution": "Lainergie au niveau 15"
+	},
+	"LAINERGIE": {
+		"Name": "Lainergie",
+		"English_name": "Flaaffy",
+		"N": "180",
+		"Type": "Électrik",
+		"Category": "Laine",
+		"Size": "0.8m",
+		"Weight": "13.3kg",
+		"Talent": "Statik et Plus",
+		"Groupe": "Monstrueux et Terrestre",
+		"img": "180",
+		"color": "#ffcc00",
+		"Evolution": "Pharamp au niveau 30"
+	},
+	"PHARAMP": {
+		"Name": "Pharamp",
+		"English_name": "Ampharos",
+		"N": "181",
+		"Type": "Électrik",
+		"Category": "Lumière",
+		"Size": "1.4m",
+		"Weight": "61.5kg",
+		"Talent": "Statik",
+		"Groupe": "Monstrueux et Plus",
+		"img": "181",
+		"color": "#ffcc00",
+		"Evolution": "Stade final"
+	},
+	"JOLIFLOR": {
+		"Name": "Joliflor",
+		"English_name": "Bellossom",
+		"N": "182",
+		"Type": "Plante",
+		"Category": "Fleur",
+		"Size": "0,4m",
+		"Weight": "5,8kg",
+		"Talent": "Chlorophylle et Coeur Soin",
+		"Groupe": "Végétal",
+		"img": "182",
+		"color": "#00ff00",
+		"Evolution": "Stade final"
+	},
+	"MARILL": {
+		"Name": "Marill",
+		"English_name": "Marill",
+		"N": "183",
+		"Type": "Eau et Fée",
+		"Category": "Aquasouris",
+		"Size": "0,4m",
+		"Weight": "8,5kg",
+		"Talent": "Isograisse, Coloforce et Herbivore",
+		"Groupe": "Fée et Aquatique 1",
+		"img": "183",
+		"color": "#0066ff",
+		"Evolution": "Azumarill au niveau 18"
+	},
+	"AZUMARILL": {
+		"Name": "Azumarill",
+		"English_name": "Azumarill",
+		"N": "184",
+		"Type": "Eau",
+		"Category": "Aqualapin",
+		"Size": "0,8m",
+		"Weight": "28,5kg",
+		"Talent": "Isograisse, Coloforce et Herbivore",
+		"Groupe": "Fée et Aquatique 1",
+		"img": "184",
+		"color": "#0066ff",
+		"Evolution": "Stade final"
+	},
+	"SIMULARBRE": {
+		"Name": "Simularbre",
+		"English_name": "Sudowoodo",
+		"N": "185",
+		"Type": "Roche",
+		"Category": "Imitation",
+		"Size": "1,2m",
+		"Weight": "38kg",
+		"Talent": "Fermeté, Tete de Roc et Phobique",
+		"Groupe": "Minéral",
+		"img": "185",
+		"color": "#b8a038",
+		"Evolution": "Stade final"
+	},
+	"TARPAUD": {
+		"Name": "Tartard",
+		"English_name": "Politoed",
+		"N": "186",
+		"Type": "Eau",
+		"Category": "Grenouille",
+		"Size": "1,1m",
+		"Weight": "33,9kg",
+		"Talent": "Absorbe-Eau, Moiteur et Crachin",
+		"Groupe": "Aquatique 1",
+		"img": "186",
+		"color": "#6890f0",
+		"Evolution": "Stade final"
+	},
+	"GRANIVOL": {
+		"Name": "Granivol",
+		"English_name": "Hoppip",
+		"N": "187",
+		"Type": "Plante",
+		"Category": "Pissenlit",
+		"Size": "0,4m",
+		"Weight": "0,5kg",
+		"Talent": "Chlorophylle, Feuille Garde et Infiltration",
+		"Groupe": "Féerique et Végétal",
+		"img": "187",
+		"color": "#00ff00",
+		"Evolution": "Cotovol au niveau 18"
+	},
+	"FLORAVOL": {
+		"Name": "Floravol",
+		"English_name": "Skiploom",
+		"N": "188",
+		"Type": "Plante",
+		"Category": "Pissenlit",
+		"Size": "0,6m",
+		"Weight": "1kg",
+		"Talent": "Chlorophylle, Feuille Garde et Infiltration",
+		"Groupe": "Féerique et Végétal",
+		"img": "188",
+		"color": "#00ff00",
+		"Evolution": "Cotovol au niveau 27"
+	},
+	"COTOVOL": {
+		"Name": "Cotovol",
+		"English_name": "Jumpluff",
+		"N": "189",
+		"Type": "Plante / Vol",
+		"Category": "Pissenlit",
+		"Size": "0,8m",
+		"Weight": "3kg",
+		"Talent": "Chlorophylle et Médic Nature",
+		"Groupe": "Féerique et Végétal",
+		"img": "189",
+		"color": "#00ff00",
+		"Evolution": "Stade final"
+	},
+	"CAPUMAIN": {
+		"Name": "Capumain",
+		"English_name": "Aipom",
+		"N": "190",
+		"Type": "Normal",
+		"Category": "Longqueue",
+		"Size": "0,8m",
+		"Weight": "11,5kg",
+		"Talent": "Fuite, Ramassage et Multi-Coups",
+		"Groupe": "Terrestre",
+		"img": "190",
+		"color": "#a8a8a8",
+		"Evolution": "Monter d'un niveau avec la capacité Coup Double"
+	},
+	"TOURNEGRIN": {
+		"Name": "Tournegrin",
+		"English_name": "Sunkern",
+		"N": "191",
+		"Type": "Plante",
+		"Category": "Graine",
+		"Size": "0.3m",
+		"Weight": "1.8kg",
+		"Talent": "Chlorophylle, Force Soleil et Matinal",
+		"Groupe": "Végétal",
+		"img": "191",
+		"color": "#00ff00",
+		"Evolution": "Heliatronc avec une Pierre Soleil"
+	},
+	"HELIATRONC": {
+		"Name": "Heliatronc",
+		"English_name": "Sunflora",
+		"N": "192",
+		"Type": "Plante",
+		"Category": "Soleil",
+		"Size": "0.8m",
+		"Weight": "8.5kg",
+		"Talent": "Chlorophylle, Force Soleil et Matinal",
+		"Groupe": "Végétal",
+		"img": "192",
+		"color": "#00ff00",
+		"Evolution": "Stade final"
+	},
+	"Yanma": {
+		"Name": "Yanma",
+		"English_name": "Yanma",
+		"N": "193",
+		"Type": "Insecte, Vol",
+		"Category": "Translaile",
+		"Size": "1,2m",
+		"Weight": "38kg",
+		"Talent": "Turbo, Oeil Composé et Fouille",
+		"Groupe": "Bugs",
+		"img": "193",
+		"color": "#b3e6ff",
+		"Evolution": "Yanmega en apprenant la capacité Pouvoir Antique + monter d'un niveau"
+	},
+	"Axoloto": {
+		"Name": "Axoloto",
+		"English_name": "Wooper",
+		"N": "194",
+		"Type": "Eau, Sol",
+		"Category": "Poisson",
+		"Size": "0,4m",
+		"Weight": "8,5kg",
+		"Talent": "Absorbe-Eau, Moiteur et Inconscient",
+		"Groupe": "Aquatique 1, Terrestre",
+		"img": "194",
+		"color": "#0077c8",
+		"Evolution": "Maraiste au niveau 20"
+	},
+	"Maraiste": {
+		"Name": "Maraiste",
+		"English_name": "Quagsire",
+		"N": "195",
+		"Type": "Eau, Sol",
+		"Category": "Poisson",
+		"Size": "1,4m",
+		"Weight": "75kg",
+		"Talent": "Absorbe-Eau, Moiteur et Inconscient",
+		"Groupe": "Aquatique 1, Terrestre",
+		"img": "195",
+		"color": "#0077c8",
+		"Evolution": "Stade final"
+	},
+	"MENTALI": {
+		"Name": "Mentali",
+		"English_name": "Espeon",
+		"N": "196",
+		"Type": "Psy",
+		"Category": "Soleil",
+		"Size": "0,9m",
+		"Weight": "26,5kg",
+		"Talent": "Synchro et Miroir Magik",
+		"Groupe": "Terrestre",
+		"img": "196",
+		"color": "#cc66ff",
+		"Evolution": "Stade final"
+	},
+	"NOCTALI": {
+		"Name": "Noctali",
+		"English_name": "Umbreon",
+		"N": "197",
+		"Type": "Ténèbres",
+		"Category": "Lune",
+		"Size": "1m",
+		"Weight": "27kg",
+		"Talent": "Synchro et Attention",
+		"Groupe": "Inconnu",
+		"img": "197",
+		"color": "#000000",
+		"Evolution": "Stade final"
+	},
+	"CORNEBRE": {
+		"Name": "Cornèbre",
+		"English_name": "Murkrow",
+		"N": "198",
+		"Type": "Ténèbres et Vol",
+		"Category": "Obscurité",
+		"Size": "0,5m",
+		"Weight": "2,1kg",
+		"Talent": "Insomnia, Chanceux et Farceur",
+		"Groupe": "Insomna, Chanceux et Farceur",
+		"img": "198",
+		"color": "#000000",
+		"Evolution": "Corboss avec une Pierre Lune"
+	},
+	"ROIGADA": {
+		"Name": "Roigada",
+		"English_name": "Slowking",
+		"N": "199",
+		"Type": "Eau et Psy",
+		"Category": "Royal",
+		"Size": "2m",
+		"Weight": "79,5kg",
+		"Talent": "Benêt, Tempo Perso et Régé-Force",
+		"Groupe": "Monstrueux et Aquatique 1",
+		"img": "199",
+		"color": "#87CEEB",
+		"Evolution": "Stade final"
+	},
+	"FEUFOREVE": {
+		"Name": "Feuforeve",
+		"English_name": "Misdreavus",
+		"N": "200",
+		"Type": "Spectre",
+		"Category": "Strident",
+		"Size": "0,7m",
+		"Weight": "1kg",
+		"Talent": "Lévitation",
+		"Groupe": "Amorphe",
+		"img": "200",
+		"color": "#9400D3",
+		"Evolution": "Magirêve avec une Pierre Nuit"
+	},
+	"ZARBI": {
+		"Name": "Zarbi",
+		"N": "201",
+		"img": "201",
+		"price": 1000
+	},
+	"QuULBUTOKE": {
+		"Name": "Qulbutoké",
+		"N": "202",
+		"img": "202",
+		"price": 1000
+	},
+	"GIRAFIG": {
+		"Name": "GIRAFIG",
+		"N": "203",
+		"img": "203",
+		"price": 1000
+	},
+	"POMDEPIK": {
+		"Name": "POMDEPIK",
+		"N": "204",
+		"img": "204",
+		"price": 1000
+	},
+	"FORETRESS": {
+		"Name": "Bulbizarre",
+		"N": "205",
+		"img": "205",
+		"price": 1000
+	},
+	"INSOLOURDO": {
+		"Name": "Bulbizarre",
+		"N": "206",
+		"img": "206",
+		"price": 1000
+	},
+	"SCORPLANE": {
+		"Name": "Bulbizarre",
+		"N": "207",
+		"img": "207",
+		"price": 1000
+	},
+	"STEELIX": {
+		"Name": "Bulbizarre",
+		"N": "208",
+		"img": "208",
+		"price": 1000
+	},
+	"SNUBBULL": {
+		"Name": "Bulbizarre",
+		"N": "209",
+		"img": "209",
+		"price": 1000
+	},
+	"GRANBULL": {
+		"Name": "Bulbizarre",
+		"N": "210",
+		"img": "210",
+		"price": 1000
+	},
+	"QWILFISH": {
+		"Name": "Bulbizarre",
+		"N": "211",
+		"img": "211",
+		"price": 1000
+	},
+	"CIZAYOX": {
+		"Name": "Bulbizarre",
+		"N": "212",
+		"img": "212",
+		"price": 1000
+	},
+	"CARATROC": {
+		"Name": "Bulbizarre",
+		"N": "213",
+		"img": "213",
+		"price": 1000
+	},
+	"SCARHINO": {
+		"Name": "Bulbizarre",
+		"N": "214",
+		"img": "214",
+		"price": 1000
+	},
+	"FARFURET": {
+		"Name": "Bulbizarre",
+		"N": "215",
+		"img": "215",
+		"price": 1000
+	},
+	"TEDDIURSA": {
+		"Name": "Bulbizarre",
+		"N": "216",
+		"img": "216",
+		"price": 1000
+	},
+	"URSARING": {
+		"Name": "Bulbizarre",
+		"N": "217",
+		"img": "217",
+		"price": 1000
+	},
+	"LIMAGMA": {
+		"Name": "Bulbizarre",
+		"N": "218",
+		"img": "218",
+		"price": 1000
+	},
+	"VOLCAROPOD": {
+		"Name": "Bulbizarre",
+		"N": "219",
+		"img": "219",
+		"price": 1000
+	},
+	"MARCACRIN": {
+		"Name": "Bulbizarre",
+		"N": "220",
+		"img": "220",
+		"price": 1000
+	},
+	"COCHIGNON": {
+		"Name": "Bulbizarre",
+		"N": "221",
+		"img": "221",
+		"price": 1000
+	},
+	"CORAYON": {
+		"Name": "Bulbizarre",
+		"N": "222",
+		"img": "222",
+		"price": 1000
+	},
+	"REMORAID": {
+		"Name": "Bulbizarre",
+		"N": "223",
+		"img": "223",
+		"price": 1000
+	},
+	"OCTILLERY": {
+		"Name": "Bulbizarre",
+		"N": "224",
+		"img": "224",
+		"price": 1000
+	},
+	"CADOIZO": {
+		"Name": "Bulbizarre",
+		"N": "225",
+		"img": "225",
+		"price": 1000
+	},
+	"DEMANTA": {
+		"Name": "Bulbizarre",
+		"N": "226",
+		"img": "226",
+		"price": 1000
+	},
+	"AIRMURE": {
+		"Name": "Bulbizarre",
+		"N": "227",
+		"img": "227",
+		"price": 1000
+	},
+	"MALOSSE": {
+		"Name": "Bulbizarre",
+		"N": "228",
+		"img": "228",
+		"price": 1000
+	},
+	"DEMOLOSSE": {
+		"Name": "Bulbizarre",
+		"N": "229",
+		"img": "229",
+		"price": 1000
+	},
+	"HYPOROI": {
+		"Name": "Bulbizarre",
+		"N": "230",
+		"img": "230",
+		"price": 1000
+	},
+	"PHANPY": {
+		"Name": "Bulbizarre",
+		"N": "231",
+		"img": "231",
+		"price": 1000
+	},
+	"DONPHAN": {
+		"Name": "Bulbizarre",
+		"N": "232",
+		"img": "232",
+		"price": 1000
+	},
+	"PORYGON2": {
+		"Name": "Bulbizarre",
+		"N": "233",
+		"img": "233",
+		"price": 1000
+	},
+	"CERFROUSSE": {
+		"Name": "Bulbizarre",
+		"N": "234",
+		"img": "234",
+		"price": 1000
+	},
+	"QUEULORIOR": {
+		"Name": "Bulbizarre",
+		"N": "235",
+		"img": "235",
+		"price": 1000
+	},
+	"DEBUGANT": {
+		"Name": "Bulbizarre",
+		"N": "236",
+		"img": "236",
+		"price": 1000
+	},
+	"KAPOERA": {
+		"Name": "Bulbizarre",
+		"N": "237",
+		"img": "237",
+		"price": 1000
+	},
+	"LIPPOUTI": {
+		"Name": "Bulbizarre",
+		"N": "238",
+		"img": "238",
+		"price": 1000
+	},
+	"ELEKID": {
+		"Name": "Bulbizarre",
+		"N": "239",
+		"img": "239",
+		"price": 1000
+	},
+	"MAGBY": {
+		"Name": "Bulbizarre",
+		"N": "240",
+		"img": "240",
+		"price": 1000
+	},
+	"ECREMEUH": {
+		"Name": "Bulbizarre",
+		"N": "241",
+		"img": "241",
+		"price": 1000
+	},
+	"LEUPHORIE": {
+		"Name": "Bulbizarre",
+		"N": "242",
+		"img": "242",
+		"price": 1000
+	},
+	"RAIKOU": {
+		"Name": "Bulbizarre",
+		"N": "243",
+		"img": "243",
+		"price": 1000
+	},
+	"ENTEI": {
+		"Name": "Bulbizarre",
+		"N": "244",
+		"img": "244",
+		"price": 1000
+	},
+	"SUICUNE": {
+		"Name": "Bulbizarre",
+		"N": "245",
+		"img": "245",
+		"price": 1000
+	},
+	"EMBRYLEX": {
+		"Name": "Bulbizarre",
+		"N": "246",
+		"img": "246",
+		"price": 1000
+	},
+	"YMPHECT": {
+		"Name": "Bulbizarre",
+		"N": "247",
+		"img": "247",
+		"price": 1000
+	},
+	"TYRANOCIF": {
+		"Name": "Bulbizarre",
+		"N": "248",
+		"img": "248",
+		"price": 1000
+	},
+	"LUGIA": {
+		"Name": "Bulbizarre",
+		"N": "249",
+		"img": "249",
+		"price": 1000
+	},
+	"HO-OH": {
+		"Name": "Bulbizarre",
+		"N": "250",
+		"img": "250",
+		"price": 1000
+	},
+	"CELEBI": {
+		"Name": "Bulbizarre",
+		"N": "251",
+		"img": "251",
+		"price": 1000
+	},
+	"ARCKO": {
+		"Name": "Bulbizarre",
+		"N": "252",
+		"img": "252",
+		"price": 1000
+	},
+	"MASSKO": {
+		"Name": "Bulbizarre",
+		"N": "253",
+		"img": "253",
+		"price": 1000
+	},
+	"JUNGKO": {
+		"Name": "Bulbizarre",
+		"N": "254",
+		"img": "254",
+		"price": 1000
+	},
+	"POUSSIFEU": {
+		"Name": "Bulbizarre",
+		"N": "255",
+		"img": "255",
+		"price": 1000
+	},
+	"GALIFEU": {
+		"Name": "Bulbizarre",
+		"N": "256",
+		"img": "256",
+		"price": 1000
+	},
+	"BRASEGALI": {
+		"Name": "Bulbizarre",
+		"N": "257",
+		"img": "257",
+		"price": 1000
+	},
+	"GOBOU": {
+		"Name": "Bulbizarre",
+		"N": "258",
+		"img": "258",
+		"price": 1000
+	},
+	"FLOBIO": {
+		"Name": "Bulbizarre",
+		"N": "259",
+		"img": "259",
+		"price": 1000
+	},
+	"LAGGRON": {
+		"Name": "Bulbizarre",
+		"N": "260",
+		"img": "260",
+		"price": 1000
+	},
+	"MEDHYENA": {
+		"Name": "Bulbizarre",
+		"N": "261",
+		"img": "261",
+		"price": 1000
+	},
+	"GRAHYENA": {
+		"Name": "Bulbizarre",
+		"N": "262",
+		"img": "262",
+		"price": 1000
+	},
+	"ZIGZATON": {
+		"Name": "Bulbizarre",
+		"N": "263",
+		"img": "263",
+		"price": 1000
+	},
+	"LINEON": {
+		"Name": "Bulbizarre",
+		"N": "264",
+		"img": "264",
+		"price": 1000
+	},
+	"CHENIPOTTE": {
+		"Name": "Bulbizarre",
+		"N": "265",
+		"img": "265",
+		"price": 1000
+	},
+	"ARMULYS": {
+		"Name": "Bulbizarre",
+		"N": "266",
+		"img": "266",
+		"price": 1000
+	},
+	"CHARMILLON": {
+		"Name": "Bulbizarre",
+		"N": "267",
+		"img": "267",
+		"price": 1000
+	},
+	"BLINDALYS": {
+		"Name": "Bulbizarre",
+		"N": "268",
+		"img": "268",
+		"price": 1000
+	},
+	"PAPINOX": {
+		"Name": "Bulbizarre",
+		"N": "269",
+		"img": "269",
+		"price": 1000
+	},
+	"NENUPIOT": {
+		"Name": "Bulbizarre",
+		"N": "270",
+		"img": "270",
+		"price": 1000
+	},
+	"LOMBRE": {
+		"Name": "Bulbizarre",
+		"N": "271",
+		"img": "271",
+		"price": 1000
+	},
+	"LUDICOLO": {
+		"Name": "Bulbizarre",
+		"N": "272",
+		"img": "272",
+		"price": 1000
+	},
+	"GRAINIPIOT": {
+		"Name": "Bulbizarre",
+		"N": "273",
+		"img": "273",
+		"price": 1000
+	},
+	"PIFEUIL": {
+		"Name": "Bulbizarre",
+		"N": "274",
+		"img": "274",
+		"price": 1000
+	},
+	"TENGALICE": {
+		"Name": "Bulbizarre",
+		"N": "275",
+		"img": "275",
+		"price": 1000
+	},
+	"NIRONDELLE": {
+		"Name": "Bulbizarre",
+		"N": "276",
+		"img": "276",
+		"price": 1000
+	},
+	"HELEDELLE": {
+		"Name": "Bulbizarre",
+		"N": "277",
+		"img": "277",
+		"price": 1000
+	},
+	"GOELISE": {
+		"Name": "Bulbizarre",
+		"N": "278",
+		"img": "278",
+		"price": 1000
+	},
+	"BEKIPAN": {
+		"Name": "Bulbizarre",
+		"N": "279",
+		"img": "279",
+		"price": 1000
+	},
+	"TARSAL": {
+		"Name": "Bulbizarre",
+		"N": "280",
+		"img": "280",
+		"price": 1000
+	},
+	"KIRLIA": {
+		"Name": "Bulbizarre",
+		"N": "281",
+		"img": "281",
+		"price": 1000
+	},
+	"GARDEVOIR": {
+		"Name": "Bulbizarre",
+		"N": "282",
+		"img": "282",
+		"price": 1000
+	},
+	"ARAKDO": {
+		"Name": "Bulbizarre",
+		"N": "283",
+		"img": "283",
+		"price": 1000
+	},
+	"MASKADRA": {
+		"Name": "Bulbizarre",
+		"N": "284",
+		"img": "284",
+		"price": 1000
+	},
+	"BALIGNON": {
+		"Name": "Bulbizarre",
+		"N": "285",
+		"img": "285",
+		"price": 1000
+	},
+	"CHAPIGNON": {
+		"Name": "Bulbizarre",
+		"N": "286",
+		"img": "286",
+		"price": 1000
+	},
+	"PARECOOL": {
+		"Name": "Bulbizarre",
+		"N": "287",
+		"img": "287",
+		"price": 1000
+	},
+	"VIGOROTH": {
+		"Name": "Bulbizarre",
+		"N": "288",
+		"img": "288",
+		"price": 1000
+	},
+	"MONAFLEMIT": {
+		"Name": "Bulbizarre",
+		"N": "289",
+		"img": "289",
+		"price": 1000
+	},
+	"NINGALE": {
+		"Name": "Bulbizarre",
+		"N": "290",
+		"img": "290",
+		"price": 1000
+	},
+	"NINJASK": {
+		"Name": "Bulbizarre",
+		"N": "291",
+		"img": "291",
+		"price": 1000
+	},
+	"MUNJA": {
+		"Name": "Bulbizarre",
+		"N": "292",
+		"img": "292",
+		"price": 1000
+	},
+	"CHUCHMUR": {
+		"Name": "Bulbizarre",
+		"N": "293",
+		"img": "293",
+		"price": 1000
+	},
+	"RAMBOUM": {
+		"Name": "Bulbizarre",
+		"N": "294",
+		"img": "294",
+		"price": 1000
+	},
+	"BROUHABAM": {
+		"Name": "Bulbizarre",
+		"N": "295",
+		"img": "295",
+		"price": 1000
+	},
+	"MAKUHITA": {
+		"Name": "Bulbizarre",
+		"N": "296",
+		"img": "296",
+		"price": 1000
+	},
+	"HARIYAMA": {
+		"Name": "Bulbizarre",
+		"N": "297",
+		"img": "297",
+		"price": 1000
+	},
+	"AZURILL": {
+		"Name": "Bulbizarre",
+		"N": "298",
+		"img": "298",
+		"price": 1000
+	},
+	"TARINOR": {
+		"Name": "Bulbizarre",
+		"N": "299",
+		"img": "299",
+		"price": 1000
+	},
+	"SKITTY": {
+		"Name": "Bulbizarre",
+		"N": "300",
+		"img": "300",
+		"price": 1000
+	},
+	"DELCATTY": {
+		"Name": "Bulbizarre",
+		"N": "301",
+		"img": "301",
+		"price": 1000
+	},
+	"TENEFIX": {
+		"Name": "Bulbizarre",
+		"N": "302",
+		"img": "302",
+		"price": 1000
+	},
+	"MYSDIBULE": {
+		"Name": "Bulbizarre",
+		"N": "303",
+		"img": "303",
+		"price": 1000
+	},
+	"GALEKID": {
+		"Name": "Bulbizarre",
+		"N": "304",
+		"img": "304",
+		"price": 1000
+	},
+	"GALEGON": {
+		"Name": "Bulbizarre",
+		"N": "305",
+		"img": "305",
+		"price": 1000
+	},
+	"GALEKING": {
+		"Name": "Bulbizarre",
+		"N": "306",
+		"img": "306",
+		"price": 1000
+	},
+	"MEDITIKKA": {
+		"Name": "Bulbizarre",
+		"N": "307",
+		"img": "307",
+		"price": 1000
+	},
+	"CHARMINA": {
+		"Name": "Bulbizarre",
+		"N": "308",
+		"img": "308",
+		"price": 1000
+	},
+	"DYNAVOLT": {
+		"Name": "Bulbizarre",
+		"N": "309",
+		"img": "309",
+		"price": 1000
+	},
+	"ELECSPRINT": {
+		"Name": "Bulbizarre",
+		"N": "310",
+		"img": "310",
+		"price": 1000
+	},
+	"POSIPI": {
+		"Name": "Bulbizarre",
+		"N": "311",
+		"img": "311",
+		"price": 1000
+	},
+	"NEGAPI": {
+		"Name": "Bulbizarre",
+		"N": "312",
+		"img": "312",
+		"price": 1000
+	},
+	"MUCIOLE": {
+		"Name": "Bulbizarre",
+		"N": "313",
+		"img": "313",
+		"price": 1000
+	},
+	"3LUMIVOLE": {
+		"Name": "Bulbizarre",
+		"N": "314",
+		"img": "314",
+		"price": 1000
+	},
+	"ROSELIA": {
+		"Name": "Bulbizarre",
+		"N": "315",
+		"img": "315",
+		"price": 1000
+	},
+	"GLOUPTI": {
+		"Name": "Bulbizarre",
+		"N": "316",
+		"img": "316",
+		"price": 1000
+	},
+	"AVALTOUT": {
+		"Name": "Bulbizarre",
+		"N": "317",
+		"img": "317",
+		"price": 1000
+	},
+	"CARVANHA": {
+		"Name": "Bulbizarre",
+		"N": "318",
+		"img": "318",
+		"price": 1000
+	},
+	"SHARPEDO": {
+		"Name": "Bulbizarre",
+		"N": "319",
+		"img": "319",
+		"price": 1000
+	},
+	"WAILMER": {
+		"Name": "Bulbizarre",
+		"N": "320",
+		"img": "320",
+		"price": 1000
+	},
+	"WAILORD": {
+		"Name": "Bulbizarre",
+		"N": "321",
+		"img": "321",
+		"price": 1000
+	},
+	"CHAMALLOT": {
+		"Name": "Bulbizarre",
+		"N": "322",
+		"img": "322",
+		"price": 1000
+	},
+	"CAMERUPT": {
+		"Name": "Bulbizarre",
+		"N": "323",
+		"img": "323",
+		"price": 1000
+	},
+	"CHARTOR": {
+		"Name": "Bulbizarre",
+		"N": "324",
+		"img": "324",
+		"price": 1000
+	},
+	"SPOINK": {
+		"Name": "Bulbizarre",
+		"N": "325",
+		"img": "325",
+		"price": 1000
+	},
+	"GRORET": {
+		"Name": "Bulbizarre",
+		"N": "326",
+		"img": "326",
+		"price": 1000
+	},
+	"SPINDA": {
+		"Name": "Bulbizarre",
+		"N": "327",
+		"img": "327",
+		"price": 1000
+	},
+	"KRAKNOIX": {
+		"Name": "Bulbizarre",
+		"N": "328",
+		"img": "328",
+		"price": 1000
+	},
+	"VIBRANINF": {
+		"Name": "Bulbizarre",
+		"N": "329",
+		"img": "329",
+		"price": 1000
+	},
+	"LIBEGON": {
+		"Name": "Bulbizarre",
+		"N": "330",
+		"img": "330",
+		"price": 1000
+	},
+	"CACNEA": {
+		"Name": "Bulbizarre",
+		"N": "331",
+		"img": "331",
+		"price": 1000
+	},
+	"CACTURNE": {
+		"Name": "Bulbizarre",
+		"N": "332",
+		"img": "332",
+		"price": 1000
+	},
+	"TYLTON": {
+		"Name": "Bulbizarre",
+		"N": "333",
+		"img": "333",
+		"price": 1000
+	},
+	"ALTARIA": {
+		"Name": "Bulbizarre",
+		"N": "334",
+		"img": "334",
+		"price": 1000
+	},
+	"MANGRIFF": {
+		"Name": "Bulbizarre",
+		"N": "335",
+		"img": "335",
+		"price": 1000
+	},
+	"SEVIPER": {
+		"Name": "Bulbizarre",
+		"N": "336",
+		"img": "336",
+		"price": 1000
+	},
+	"SELEROC": {
+		"Name": "Bulbizarre",
+		"N": "337",
+		"img": "337",
+		"price": 1000
+	},
+	"SOLAROC": {
+		"Name": "Bulbizarre",
+		"N": "338",
+		"img": "338",
+		"price": 1000
+	},
+	"BARLOCHE": {
+		"Name": "Bulbizarre",
+		"N": "339",
+		"img": "339",
+		"price": 1000
+	},
+	"BARBICHA": {
+		"Name": "Bulbizarre",
+		"N": "340",
+		"img": "340",
+		"price": 1000
+	},
+	"ECRAPINCE": {
+		"Name": "Bulbizarre",
+		"N": "341",
+		"img": "341",
+		"price": 1000
+	},
+	"COLHOMARD": {
+		"Name": "Bulbizarre",
+		"N": "342",
+		"img": "342",
+		"price": 1000
+	},
+	"BALBUTO": {
+		"Name": "Bulbizarre",
+		"N": "343",
+		"img": "343",
+		"price": 1000
+	},
+	"KAORINE": {
+		"Name": "Bulbizarre",
+		"N": "344",
+		"img": "344",
+		"price": 1000
+	},
+	"LILIA": {
+		"Name": "Bulbizarre",
+		"N": "345",
+		"img": "345",
+		"price": 1000
+	},
+	"VACILYS": {
+		"Name": "Bulbizarre",
+		"N": "346",
+		"img": "346",
+		"price": 1000
+	},
+	"ANORITH": {
+		"Name": "Bulbizarre",
+		"N": "347",
+		"img": "347",
+		"price": 1000
+	},
+	"ARMALDO": {
+		"Name": "Bulbizarre",
+		"N": "348",
+		"img": "348",
+		"price": 1000
+	},
+	"BARPAU": {
+		"Name": "Bulbizarre",
+		"N": "349",
+		"img": "349",
+		"price": 1000
+	},
+	"MILOBELLUS": {
+		"Name": "Bulbizarre",
+		"N": "350",
+		"img": "350",
+		"price": 1000
+	},
+	"MORPHEO": {
+		"Name": "Bulbizarre",
+		"N": "351",
+		"img": "351",
+		"price": 1000
+	},
+	"KECLEON": {
+		"Name": "Bulbizarre",
+		"N": "352",
+		"img": "352",
+		"price": 1000
+	},
+	"POLICHOMBR": {
+		"Name": "Bulbizarre",
+		"N": "353",
+		"img": "353",
+		"price": 1000
+	},
+	"BRANETTE": {
+		"Name": "Bulbizarre",
+		"N": "354",
+		"img": "354",
+		"price": 1000
+	},
+	"SKELENOX": {
+		"Name": "Bulbizarre",
+		"N": "355",
+		"img": "355",
+		"price": 1000
+	},
+	"TERACLOPE": {
+		"Name": "Bulbizarre",
+		"N": "356",
+		"img": "356",
+		"price": 1000
+	},
+	"TROPIUS": {
+		"Name": "Bulbizarre",
+		"N": "357",
+		"img": "357",
+		"price": 1000
+	},
+	"EOKO": {
+		"Name": "Bulbizarre",
+		"N": "358",
+		"img": "358",
+		"price": 1000
+	},
+	"ABSOL": {
+		"Name": "Bulbizarre",
+		"N": "359",
+		"img": "359",
+		"price": 1000
+	},
+	"OKEOKE": {
+		"Name": "Bulbizarre",
+		"N": "360",
+		"img": "360",
+		"price": 1000
+	},
+	"STALGAMIN": {
+		"Name": "Bulbizarre",
+		"N": "361",
+		"img": "361",
+		"price": 1000
+	},
+	"ONIGLALI": {
+		"Name": "Bulbizarre",
+		"N": "362",
+		"img": "362",
+		"price": 1000
+	},
+	"OBALIE": {
+		"Name": "Bulbizarre",
+		"N": "363",
+		"img": "363",
+		"price": 1000
+	},
+	"PHOGLEUR": {
+		"Name": "Bulbizarre",
+		"N": "364",
+		"img": "364",
+		"price": 1000
+	},
+	"KAIMORSE": {
+		"Name": "Bulbizarre",
+		"N": "365",
+		"img": "365",
+		"price": 1000
+	},
+	"COQUIPERL": {
+		"Name": "Bulbizarre",
+		"N": "366",
+		"img": "366",
+		"price": 1000
+	},
+	"SERPANG": {
+		"Name": "Bulbizarre",
+		"N": "367",
+		"img": "367",
+		"price": 1000
+	},
+	"ROSABYSS": {
+		"Name": "Bulbizarre",
+		"N": "368",
+		"img": "368",
+		"price": 1000
+	},
+	"RELICANTH": {
+		"Name": "Bulbizarre",
+		"N": "369",
+		"img": "369",
+		"price": 1000
+	},
+	"LOVDISC": {
+		"Name": "Bulbizarre",
+		"N": "370",
+		"img": "370",
+		"price": 1000
+	},
+	"DRABY": {
+		"Name": "Bulbizarre",
+		"N": "371",
+		"img": "371",
+		"price": 1000
+	},
+	"DRACKHAUS": {
+		"Name": "Bulbizarre",
+		"N": "372",
+		"img": "372",
+		"price": 1000
+	},
+	"DRATTAK": {
+		"Name": "Bulbizarre",
+		"N": "373",
+		"img": "373",
+		"price": 1000
+	},
+	"TERHAL": {
+		"Name": "Bulbizarre",
+		"N": "374",
+		"img": "374",
+		"price": 1000
+	},
+	"METANG": {
+		"Name": "Bulbizarre",
+		"N": "375",
+		"img": "375",
+		"price": 1000
+	},
+	"METALOSSE": {
+		"Name": "Bulbizarre",
+		"N": "376",
+		"img": "376",
+		"price": 1000
+	},
+	"REGIROCK": {
+		"Name": "Bulbizarre",
+		"N": "377",
+		"img": "377",
+		"price": 1000
+	},
+	"REGICE": {
+		"Name": "Bulbizarre",
+		"N": "378",
+		"img": "378",
+		"price": 1000
+	},
+	"REGISTEEL": {
+		"Name": "Bulbizarre",
+		"N": "379",
+		"img": "379",
+		"price": 1000
+	},
+	"LATIAS": {
+		"Name": "Bulbizarre",
+		"N": "380",
+		"img": "380",
+		"price": 1000
+	},
+	"LATIOS": {
+		"Name": "Bulbizarre",
+		"N": "381",
+		"img": "381",
+		"price": 1000
+	},
+	"KYOGRE": {
+		"Name": "Bulbizarre",
+		"N": "382",
+		"img": "382",
+		"price": 1000
+	},
+	"GROUDON": {
+		"Name": "Bulbizarre",
+		"N": "383",
+		"img": "383",
+		"price": 1000
+	},
+	"RAYQUAZA": {
+		"Name": "Bulbizarre",
+		"N": "384",
+		"img": "384",
+		"price": 1000
+	},
+	"JIRACHI": {
+		"Name": "Bulbizarre",
+		"N": "385",
+		"img": "385",
+		"price": 1000
+	},
+	"DEOXYS": {
+		"Name": "Bulbizarre",
+		"N": "386",
+		"img": "386",
+		"price": 1000
+	},
+	"TORTIPOUSS": {
+		"Name": "Bulbizarre",
+		"N": "387",
+		"img": "387",
+		"price": 1000
+	},
+	"BOSKARA": {
+		"Name": "Bulbizarre",
+		"N": "388",
+		"img": "388",
+		"price": 1000
+	},
+	"TORTERRA": {
+		"Name": "Bulbizarre",
+		"N": "389",
+		"img": "389",
+		"price": 1000
+	},
+	"OUISTICRAM": {
+		"Name": "Bulbizarre",
+		"N": "390",
+		"img": "390",
+		"price": 1000
+	},
+	"CHIMPENFEU": {
+		"Name": "Bulbizarre",
+		"N": "391",
+		"img": "391",
+		"price": 1000
+	},
+	"SIMIABRAZ": {
+		"Name": "Bulbizarre",
+		"N": "392",
+		"img": "392",
+		"price": 1000
+	},
+	"TIPLOUF": {
+		"Name": "Bulbizarre",
+		"N": "393",
+		"img": "393",
+		"price": 1000
+	},
+	"PRINPLOUF": {
+		"Name": "Bulbizarre",
+		"N": "394",
+		"img": "394",
+		"price": 1000
+	},
+	"PINGOLEON": {
+		"Name": "Bulbizarre",
+		"N": "395",
+		"img": "395",
+		"price": 1000
+	},
+	"ETOURMI": {
+		"Name": "Bulbizarre",
+		"N": "396",
+		"img": "396",
+		"price": 1000
+	},
+	"ETOURVOL": {
+		"Name": "Bulbizarre",
+		"N": "397",
+		"img": "397",
+		"price": 1000
+	},
+	"ETOURAPTOR": {
+		"Name": "Bulbizarre",
+		"N": "398",
+		"img": "398",
+		"price": 1000
+	},
+	"KEUNOTOR": {
+		"Name": "Bulbizarre",
+		"N": "399",
+		"img": "399",
+		"price": 1000
+	},
+	"CASTORNO": {
+		"Name": "Bulbizarre",
+		"N": "400",
+		"img": "400",
+		"price": 1000
+	},
+	"CRIKZIK": {
+		"Name": "Bulbizarre",
+		"N": "401",
+		"img": "401",
+		"price": 1000
+	},
+	"MELOKRIK": {
+		"Name": "Bulbizarre",
+		"N": "402",
+		"img": "402",
+		"price": 1000
+	},
+	"LIXY": {
+		"Name": "Bulbizarre",
+		"N": "403",
+		"img": "403",
+		"price": 1000
+	},
+	"LUXIO": {
+		"Name": "Bulbizarre",
+		"N": "404",
+		"img": "404",
+		"price": 1000
+	},
+	"LUXRAY": {
+		"Name": "Bulbizarre",
+		"N": "405",
+		"img": "405",
+		"price": 1000
+	},
+	"ROZBOUTON": {
+		"Name": "Bulbizarre",
+		"N": "406",
+		"img": "406",
+		"price": 1000
+	},
+	"ROSERADE": {
+		"Name": "Bulbizarre",
+		"N": "407",
+		"img": "407",
+		"price": 1000
+	},
+	"KRANIDOS": {
+		"Name": "Bulbizarre",
+		"N": "408",
+		"img": "408",
+		"price": 1000
+	},
+	"CHARKOS": {
+		"Name": "Bulbizarre",
+		"N": "409",
+		"img": "409",
+		"price": 1000
+	},
+	"DINOCLIER": {
+		"Name": "Bulbizarre",
+		"N": "410",
+		"img": "410",
+		"price": 1000
+	},
+	"BASTIODON": {
+		"Name": "Bulbizarre",
+		"N": "411",
+		"img": "411",
+		"price": 1000
+	},
+	"CHENITI": {
+		"Name": "Bulbizarre",
+		"N": "412",
+		"img": "412",
+		"price": 1000
+	},
+	"CHENISELLE": {
+		"Name": "Bulbizarre",
+		"N": "413",
+		"img": "413",
+		"price": 1000
+	},
+	"PAPILORD": {
+		"Name": "Bulbizarre",
+		"N": "414",
+		"img": "414",
+		"price": 1000
+	},
+	"APITRINI": {
+		"Name": "Bulbizarre",
+		"N": "415",
+		"img": "415",
+		"price": 1000
+	},
+	"APIREINE": {
+		"Name": "Bulbizarre",
+		"N": "416",
+		"img": "416",
+		"price": 1000
+	},
+	"PACHIRISU": {
+		"Name": "Bulbizarre",
+		"N": "417",
+		"img": "417",
+		"price": 1000
+	},
+	"MUSTEBOUEE": {
+		"Name": "Bulbizarre",
+		"N": "418",
+		"img": "418",
+		"price": 1000
+	},
+	"MUSTEFLOT": {
+		"Name": "Bulbizarre",
+		"N": "419",
+		"img": "419",
+		"price": 1000
+	},
+	"CERIBOU": {
+		"Name": "Bulbizarre",
+		"N": "420",
+		"img": "420",
+		"price": 1000
+	},
+	"CERIFLOR": {
+		"Name": "Bulbizarre",
+		"N": "421",
+		"img": "421",
+		"price": 1000
+	},
+	"SANCOKI": {
+		"Name": "Bulbizarre",
+		"N": "422",
+		"img": "422",
+		"price": 1000
+	},
+	"TRITOSOR": {
+		"Name": "Bulbizarre",
+		"N": "423",
+		"img": "423",
+		"price": 1000
+	},
+	"CAPIDEXTRE": {
+		"Name": "Bulbizarre",
+		"N": "424",
+		"img": "424",
+		"price": 1000
+	},
+	"BAUDRIVE": {
+		"Name": "Bulbizarre",
+		"N": "425",
+		"img": "425",
+		"price": 1000
+	},
+	"GRODRIVE": {
+		"Name": "Bulbizarre",
+		"N": "426",
+		"img": "426",
+		"price": 1000
+	},
+	"LAPOREILLE": {
+		"Name": "Bulbizarre",
+		"N": "427",
+		"img": "427",
+		"price": 1000
+	},
+	"LOCKPIN": {
+		"Name": "Bulbizarre",
+		"N": "428",
+		"img": "428",
+		"price": 1000
+	},
+	"MAGIREVE": {
+		"Name": "Bulbizarre",
+		"N": "429",
+		"img": "429",
+		"price": 1000
+	},
+	"CORBOSS": {
+		"Name": "Bulbizarre",
+		"N": "430",
+		"img": "430",
+		"price": 1000
+	},
+	"CHAGLAM": {
+		"Name": "Bulbizarre",
+		"N": "431",
+		"img": "431",
+		"price": 1000
+	},
+	"CHAFFREUX": {
+		"Name": "Bulbizarre",
+		"N": "432",
+		"img": "432",
+		"price": 1000
+	},
+	"KORILLON": {
+		"Name": "Bulbizarre",
+		"N": "433",
+		"img": "433",
+		"price": 1000
+	},
+	"MOUFOUETTE": {
+		"Name": "Bulbizarre",
+		"N": "434",
+		"img": "434",
+		"price": 1000
+	},
+	"MOUFFLAIR": {
+		"Name": "Bulbizarre",
+		"N": "435",
+		"img": "435",
+		"price": 1000
+	},
+	"ARCHEOMIRE": {
+		"Name": "Bulbizarre",
+		"N": "436",
+		"img": "436",
+		"price": 1000
+	},
+	"ARCHEODONG": {
+		"Name": "Bulbizarre",
+		"N": "437",
+		"img": "437",
+		"price": 1000
+	},
+	"MANZAI": {
+		"Name": "Bulbizarre",
+		"N": "438",
+		"img": "438",
+		"price": 1000
+	},
+	"MIMEJR": {
+		"Name": "Bulbizarre",
+		"N": "439",
+		"img": "439",
+		"price": 1000
+	},
+	"PTIRAVI": {
+		"Name": "Bulbizarre",
+		"N": "440",
+		"img": "440",
+		"price": 1000
+	},
+	"PIJAKO": {
+		"Name": "Bulbizarre",
+		"N": "441",
+		"img": "441",
+		"price": 1000
+	},
+	"SPIRITOMB": {
+		"Name": "Bulbizarre",
+		"N": "442",
+		"img": "442",
+		"price": 1000
+	},
+	"GRIKNOT": {
+		"Name": "Bulbizarre",
+		"N": "443",
+		"img": "443",
+		"price": 1000
+	},
+	"CARMACHE": {
+		"Name": "Bulbizarre",
+		"N": "444",
+		"img": "444",
+		"price": 1000
+	},
+	"CARCHACROK": {
+		"Name": "Bulbizarre",
+		"N": "445",
+		"img": "445",
+		"price": 1000
+	},
+	"GOINFREX": {
+		"Name": "Bulbizarre",
+		"N": "446",
+		"img": "446",
+		"price": 1000
+	},
+	"RIOLU": {
+		"Name": "Bulbizarre",
+		"N": "447",
+		"img": "447",
+		"price": 1000
+	},
+	"LUCARIO": {
+		"Name": "Bulbizarre",
+		"N": "448",
+		"img": "448",
+		"price": 1000
+	},
+	"HIPPOPOTAS": {
+		"Name": "Bulbizarre",
+		"N": "449",
+		"img": "449",
+		"price": 1000
+	},
+	"HIPPODOCUS": {
+		"Name": "Bulbizarre",
+		"N": "450",
+		"img": "450",
+		"price": 1000
+	},
+	"RAPION": {
+		"Name": "Bulbizarre",
+		"N": "451",
+		"img": "451",
+		"price": 1000
+	},
+	"DRASCORE": {
+		"Name": "Bulbizarre",
+		"N": "452",
+		"img": "452",
+		"price": 1000
+	},
+	"CRADOPAUD": {
+		"Name": "Bulbizarre",
+		"N": "453",
+		"img": "453",
+		"price": 1000
+	},
+	"COATOX": {
+		"Name": "Bulbizarre",
+		"N": "454",
+		"img": "454",
+		"price": 1000
+	},
+	"VORTENTE": {
+		"Name": "Bulbizarre",
+		"N": "455",
+		"img": "455",
+		"price": 1000
+	},
+	"ECAYON": {
+		"Name": "Bulbizarre",
+		"N": "456",
+		"img": "456",
+		"price": 1000
+	},
+	"LUMINEON": {
+		"Name": "Bulbizarre",
+		"N": "457",
+		"img": "457",
+		"price": 1000
+	},
+	"BABIMANTA": {
+		"Name": "Bulbizarre",
+		"N": "458",
+		"img": "458",
+		"price": 1000
+	},
+	"BLIZZI": {
+		"Name": "Bulbizarre",
+		"N": "459",
+		"img": "459",
+		"price": 1000
+	},
+	"BLIZZAROI": {
+		"Name": "Bulbizarre",
+		"N": "460",
+		"img": "460",
+		"price": 1000
+	},
+	"DIMORET": {
+		"Name": "Bulbizarre",
+		"N": "461",
+		"img": "461",
+		"price": 1000
+	},
+	"MAGNEZONE": {
+		"Name": "Bulbizarre",
+		"N": "462",
+		"img": "462",
+		"price": 1000
+	},
+	"COUDLANGUE": {
+		"Name": "Bulbizarre",
+		"N": "463",
+		"img": "463",
+		"price": 1000
+	},
+	"RHINASTOC": {
+		"Name": "Bulbizarre",
+		"N": "464",
+		"img": "464",
+		"price": 1000
+	},
+	"BOULDENEU": {
+		"Name": "Bulbizarre",
+		"N": "465",
+		"img": "465",
+		"price": 1000
+	},
+	"ELEKABLE": {
+		"Name": "Bulbizarre",
+		"N": "466",
+		"img": "466",
+		"price": 1000
+	},
+	"MAGANON": {
+		"Name": "Bulbizarre",
+		"N": "467",
+		"img": "467",
+		"price": 1000
+	},
+	"TOGEKISS": {
+		"Name": "Bulbizarre",
+		"N": "468",
+		"img": "468",
+		"price": 1000
+	},
+	"YANMEGA": {
+		"Name": "Bulbizarre",
+		"N": "469",
+		"img": "469",
+		"price": 1000
+	},
+	"PHYLLALI": {
+		"Name": "Bulbizarre",
+		"N": "470",
+		"img": "470",
+		"price": 1000
+	},
+	"GIVRALI": {
+		"Name": "Bulbizarre",
+		"N": "471",
+		"img": "471",
+		"price": 1000
+	},
+	"SCORVOL": {
+		"Name": "Bulbizarre",
+		"N": "472",
+		"img": "472",
+		"price": 1000
+	},
+	"MAMMOCHON": {
+		"Name": "Bulbizarre",
+		"N": "473",
+		"img": "473",
+		"price": 1000
+	},
+	"PORYGONZ": {
+		"Name": "Bulbizarre",
+		"N": "474",
+		"img": "474",
+		"price": 1000
+	},
+	"GALLAME": {
+		"Name": "Bulbizarre",
+		"N": "475",
+		"img": "475",
+		"price": 1000
+	},
+	"TARINORME": {
+		"Name": "Bulbizarre",
+		"N": "476",
+		"img": "476",
+		"price": 1000
+	},
+	"NOCTUNOIR": {
+		"Name": "Bulbizarre",
+		"N": "477",
+		"img": "477",
+		"price": 1000
+	},
+	"MOMARTIK": {
+		"Name": "Bulbizarre",
+		"N": "478",
+		"img": "478",
+		"price": 1000
+	},
+	"MOTISMA": {
+		"Name": "Bulbizarre",
+		"N": "479",
+		"img": "479",
+		"price": 1000
+	},
+	"CREHELF": {
+		"Name": "Bulbizarre",
+		"N": "480",
+		"img": "480",
+		"price": 1000
+	},
+	"CREFADET": {
+		"Name": "Bulbizarre",
+		"N": "481",
+		"img": "481",
+		"price": 1000
+	},
+	"CREFOLLET": {
+		"Name": "Bulbizarre",
+		"N": "482",
+		"img": "482",
+		"price": 1000
+	},
+	"DIALGA": {
+		"Name": "Bulbizarre",
+		"N": "483",
+		"img": "483",
+		"price": 1000
+	},
+	"PALKIA": {
+		"Name": "Bulbizarre",
+		"N": "484",
+		"img": "484",
+		"price": 1000
+	},
+	"HEATRAN": {
+		"Name": "Bulbizarre",
+		"N": "485",
+		"img": "485",
+		"price": 1000
+	},
+	"REGIGIGAS": {
+		"Name": "Bulbizarre",
+		"N": "486",
+		"img": "486",
+		"price": 1000
+	},
+	"GIRATINA": {
+		"Name": "Bulbizarre",
+		"N": "487",
+		"img": "487",
+		"price": 1000
+	},
+	"CRESSELIA": {
+		"Name": "Bulbizarre",
+		"N": "488",
+		"img": "488",
+		"price": 1000
+	},
+	"PHIONE": {
+		"Name": "Bulbizarre",
+		"N": "489",
+		"img": "489",
+		"price": 1000
+	},
+	"MANAPHY": {
+		"Name": "Bulbizarre",
+		"N": "490",
+		"img": "490",
+		"price": 1000
+	},
+	"DARKRAI": {
+		"Name": "Bulbizarre",
+		"N": "491",
+		"img": "491",
+		"price": 1000
+	},
+	"SHAYMIN": {
+		"Name": "Bulbizarre",
+		"N": "492",
+		"img": "492",
+		"price": 1000
+	},
+	"ARCEUS": {
+		"Name": "Bulbizarre",
+		"N": "493",
+		"img": "493",
+		"price": 1000
+	},
+	"VICTINI": {
+		"Name": "Bulbizarre",
+		"N": "494",
+		"img": "494",
+		"price": 1000
+	},
+	"VIPELIERRE": {
+		"Name": "Bulbizarre",
+		"N": "495",
+		"img": "495",
+		"price": 1000
+	},
+	"LIANAJA": {
+		"Name": "Bulbizarre",
+		"N": "496",
+		"img": "496",
+		"price": 1000
+	},
+	"MAJASPIC": {
+		"Name": "Bulbizarre",
+		"N": "497",
+		"img": "497",
+		"price": 1000
+	},
+	"GRUIKUI": {
+		"Name": "Bulbizarre",
+		"N": "498",
+		"img": "498",
+		"price": 1000
+	},
+	"GROTICHON": {
+		"Name": "Bulbizarre",
+		"N": "499",
+		"img": "499",
+		"price": 1000
+	},
+	"ROITIFLAM": {
+		"Name": "Bulbizarre",
+		"N": "500",
+		"img": "500",
+		"price": 1000
+	},
+	"MOUSTILLON": {
+		"Name": "Bulbizarre",
+		"N": "501",
+		"img": "501",
+		"price": 1000
+	},
+	"MATELOUTRE": {
+		"Name": "Bulbizarre",
+		"N": "502",
+		"img": "502",
+		"price": 1000
+	},
+	"CLAMIRAL": {
+		"Name": "Bulbizarre",
+		"N": "503",
+		"img": "503",
+		"price": 1000
+	},
+	"RATENTIF": {
+		"Name": "Bulbizarre",
+		"N": "504",
+		"img": "504",
+		"price": 1000
+	},
+	"MIRADAR": {
+		"Name": "Bulbizarre",
+		"N": "505",
+		"img": "505",
+		"price": 1000
+	},
+	"PONCHIOT": {
+		"Name": "Bulbizarre",
+		"N": "506",
+		"img": "506",
+		"price": 1000
+	},
+	"PONCHIEN": {
+		"Name": "Bulbizarre",
+		"N": "507",
+		"img": "507",
+		"price": 1000
+	},
+	"MASTOUFFE": {
+		"Name": "Bulbizarre",
+		"N": "508",
+		"img": "508",
+		"price": 1000
+	},
+	"CHACRIPAN": {
+		"Name": "Bulbizarre",
+		"N": "509",
+		"img": "509",
+		"price": 1000
+	},
+	"LEOPARDUS": {
+		"Name": "Bulbizarre",
+		"N": "510",
+		"img": "510",
+		"price": 1000
+	},
+	"FEUILLAJOU": {
+		"Name": "Bulbizarre",
+		"N": "511",
+		"img": "511",
+		"price": 1000
+	},
+	"FEUILOUTAN": {
+		"Name": "Bulbizarre",
+		"N": "512",
+		"img": "512",
+		"price": 1000
+	},
+	"FLAMAJOU": {
+		"Name": "Bulbizarre",
+		"N": "513",
+		"img": "513",
+		"price": 1000
+	},
+	"FLAMOUTAN": {
+		"Name": "Bulbizarre",
+		"N": "514",
+		"img": "514",
+		"price": 1000
+	},
+	"FLOTAJOU": {
+		"Name": "Bulbizarre",
+		"N": "515",
+		"img": "515",
+		"price": 1000
+	},
+	"FLOTOUTAN": {
+		"Name": "Bulbizarre",
+		"N": "516",
+		"img": "516",
+		"price": 1000
+	},
+	"MUNNA": {
+		"Name": "Bulbizarre",
+		"N": "517",
+		"img": "517",
+		"price": 1000
+	},
+	"MUSHANA": {
+		"Name": "Bulbizarre",
+		"N": "518",
+		"img": "518",
+		"price": 1000
+	},
+	"POICHIGEON": {
+		"Name": "Bulbizarre",
+		"N": "519",
+		"img": "519",
+		"price": 1000
+	},
+	"COLOMBEAU": {
+		"Name": "Bulbizarre",
+		"N": "520",
+		"img": "520",
+		"price": 1000
+	},
+	"DEFLAISAN": {
+		"Name": "Bulbizarre",
+		"N": "521",
+		"img": "521",
+		"price": 1000
+	},
+	"ZEBIBRON": {
+		"Name": "Bulbizarre",
+		"N": "522",
+		"img": "522",
+		"price": 1000
+	},
+	"ZEBLITZ": {
+		"Name": "Bulbizarre",
+		"N": "523",
+		"img": "523",
+		"price": 1000
+	},
+	"NODULITHE": {
+		"Name": "Bulbizarre",
+		"N": "524",
+		"img": "524",
+		"price": 1000
+	},
+	"GEOLITHE": {
+		"Name": "Bulbizarre",
+		"N": "525",
+		"img": "525",
+		"price": 1000
+	},
+	"GIGALITHE": {
+		"Name": "Bulbizarre",
+		"N": "526",
+		"img": "526",
+		"price": 1000
+	},
+	"CHOVSOURIR": {
+		"Name": "Bulbizarre",
+		"N": "527",
+		"img": "527",
+		"price": 1000
+	},
+	"RHINOLOVE": {
+		"Name": "Bulbizarre",
+		"N": "528",
+		"img": "528",
+		"price": 1000
+	},
+	"ROTOTAUPE": {
+		"Name": "Bulbizarre",
+		"N": "529",
+		"img": "529",
+		"price": 1000
+	},
+	"MINOTAUPE": {
+		"Name": "Bulbizarre",
+		"N": "530",
+		"img": "530",
+		"price": 1000
+	},
+	"NANMEOUIE": {
+		"Name": "Bulbizarre",
+		"N": "531",
+		"img": "531",
+		"price": 1000
+	},
+	"CHARPENTI": {
+		"Name": "Bulbizarre",
+		"N": "532",
+		"img": "532",
+		"price": 1000
+	},
+	"OUVRIFIER": {
+		"Name": "Bulbizarre",
+		"N": "533",
+		"img": "533",
+		"price": 1000
+	},
+	"BETOCHEF": {
+		"Name": "Bulbizarre",
+		"N": "534",
+		"img": "534",
+		"price": 1000
+	},
+	"TRITONDE": {
+		"Name": "Bulbizarre",
+		"N": "535",
+		"img": "535",
+		"price": 1000
+	},
+	"BACTRANE": {
+		"Name": "Bulbizarre",
+		"N": "536",
+		"img": "536",
+		"price": 1000
+	},
+	"CRAPUSTULE": {
+		"Name": "Bulbizarre",
+		"N": "537",
+		"img": "537",
+		"price": 1000
+	},
+	"JUDOKRAK": {
+		"Name": "Bulbizarre",
+		"N": "538",
+		"img": "538",
+		"price": 1000
+	},
+	"KARACLEE": {
+		"Name": "Bulbizarre",
+		"N": "539",
+		"img": "539",
+		"price": 1000
+	},
+	"LARVEYETTE": {
+		"Name": "Bulbizarre",
+		"N": "540",
+		"img": "540",
+		"price": 1000
+	},
+	"COUVERDURE": {
+		"Name": "Bulbizarre",
+		"N": "541",
+		"img": "541",
+		"price": 1000
+	},
+	"MANTERNEL": {
+		"Name": "Bulbizarre",
+		"N": "542",
+		"img": "542",
+		"price": 1000
+	},
+	"VENIPATTE": {
+		"Name": "Bulbizarre",
+		"N": "543",
+		"img": "543",
+		"price": 1000
+	},
+	"SCOBOLIDE": {
+		"Name": "Bulbizarre",
+		"N": "544",
+		"img": "544",
+		"price": 1000
+	},
+	"BRUTAPODE": {
+		"Name": "Bulbizarre",
+		"N": "545",
+		"img": "545",
+		"price": 1000
+	},
+	"DOUDOUVET": {
+		"Name": "Bulbizarre",
+		"N": "546",
+		"img": "546",
+		"price": 1000
+	},
+	"FARFADUVET": {
+		"Name": "Bulbizarre",
+		"N": "547",
+		"img": "547",
+		"price": 1000
+	},
+	"CHLOROBULE": {
+		"Name": "Bulbizarre",
+		"N": "548",
+		"img": "548",
+		"price": 1000
+	},
+	"FRAGILADY": {
+		"Name": "Bulbizarre",
+		"N": "549",
+		"img": "549",
+		"price": 1000
+	},
+	"BARGANTUA": {
+		"Name": "Bulbizarre",
+		"N": "550",
+		"img": "550",
+		"price": 1000
+	},
+	"MASCAIMAN": {
+		"Name": "Bulbizarre",
+		"N": "551",
+		"img": "551",
+		"price": 1000
+	},
+	"ESCROCO": {
+		"Name": "Bulbizarre",
+		"N": "552",
+		"img": "552",
+		"price": 1000
+	},
+	"CROCORIBLE": {
+		"Name": "Bulbizarre",
+		"N": "553",
+		"img": "553",
+		"price": 1000
+	},
+	"DARUMAROND": {
+		"Name": "Bulbizarre",
+		"N": "554",
+		"img": "554",
+		"price": 1000
+	},
+	"DARUMACHO": {
+		"Name": "Bulbizarre",
+		"N": "555",
+		"img": "555",
+		"price": 1000
+	},
+	"MARACACHI": {
+		"Name": "Bulbizarre",
+		"N": "556",
+		"img": "556",
+		"price": 1000
+	},
+	"CRABICOQUE": {
+		"Name": "Bulbizarre",
+		"N": "557",
+		"img": "557",
+		"price": 1000
+	},
+	"CRABARAQUE": {
+		"Name": "Bulbizarre",
+		"N": "558",
+		"img": "558",
+		"price": 1000
+	},
+	"BAGGAID": {
+		"Name": "Bulbizarre",
+		"N": "559",
+		"img": "559",
+		"price": 1000
+	},
+	"CRYPTERO": {
+		"Name": "Bulbizarre",
+		"N": "560",
+		"img": "560",
+		"price": 1000
+	},
+	"TUTAFEH": {
+		"Name": "Bulbizarre",
+		"N": "561",
+		"img": "561",
+		"price": 1000
+	},
+	"TUTANKAFER": {
+		"Name": "Bulbizarre",
+		"N": "562",
+		"img": "562",
+		"price": 1000
+	},
+	"CARAPAGOS": {
+		"Name": "Bulbizarre",
+		"N": "563",
+		"img": "563",
+		"price": 1000
+	},
+	"MEGAPAGOS": {
+		"Name": "Bulbizarre",
+		"N": "564",
+		"img": "564",
+		"price": 1000
+	},
+	"ARKEAPTI": {
+		"Name": "Bulbizarre",
+		"N": "565",
+		"img": "565",
+		"price": 1000
+	},
+	"AEROPTERYX": {
+		"Name": "Bulbizarre",
+		"N": "566",
+		"img": "566",
+		"price": 1000
+	},
+	"MIAMIASME": {
+		"Name": "Bulbizarre",
+		"N": "567",
+		"img": "567",
+		"price": 1000
+	},
+	"MIASMAX": {
+		"Name": "Bulbizarre",
+		"N": "568",
+		"img": "568",
+		"price": 1000
+	},
+	"ZORUA": {
+		"Name": "Bulbizarre",
+		"N": "570",
+		"img": "570",
+		"price": 1000
+	},
+	"ZOROARK": {
+		"Name": "Bulbizarre",
+		"N": "571",
+		"img": "571",
+		"price": 1000
+	},
+	"CHINCHIDOU": {
+		"Name": "Bulbizarre",
+		"N": "572",
+		"img": "572",
+		"price": 1000
+	},
+	"PASHMILLA": {
+		"Name": "Bulbizarre",
+		"N": "573",
+		"img": "573",
+		"price": 1000
+	},
+	"SCRUTELLA": {
+		"Name": "Bulbizarre",
+		"N": "574",
+		"img": "574",
+		"price": 1000
+	},
+	"MESMERELLA": {
+		"Name": "Bulbizarre",
+		"N": "575",
+		"img": "575",
+		"price": 1000
+	},
+	"SIDERELLA": {
+		"Name": "Bulbizarre",
+		"N": "576",
+		"img": "576",
+		"price": 1000
+	},
+	"NUCLEOS": {
+		"Name": "Bulbizarre",
+		"N": "577",
+		"img": "577",
+		"price": 1000
+	},
+	"MEIOS": {
+		"Name": "Bulbizarre",
+		"N": "578",
+		"img": "578",
+		"price": 1000
+	},
+	"SYMBIOS": {
+		"Name": "Bulbizarre",
+		"N": "579",
+		"img": "579",
+		"price": 1000
+	},
+	"COUANETON": {
+		"Name": "Bulbizarre",
+		"N": "580",
+		"img": "580",
+		"price": 1000
+	},
+	"LACKMECYGNE": {
+		"Name": "Bulbizarre",
+		"N": "581",
+		"img": "581",
+		"price": 1000
+	},
+	"SORBEBE": {
+		"Name": "Bulbizarre",
+		"N": "582",
+		"img": "582",
+		"price": 1000
+	},
+	"SORBOUL": {
+		"Name": "Bulbizarre",
+		"N": "583",
+		"img": "583",
+		"price": 1000
+	},
+	"SORBOUBOUL": {
+		"Name": "Bulbizarre",
+		"N": "584",
+		"img": "584",
+		"price": 1000
+	},
+	"VIVALDAIM": {
+		"Name": "Bulbizarre",
+		"N": "585",
+		"img": "585",
+		"price": 1000
+	},
+	"HAYDAIM": {
+		"Name": "Bulbizarre",
+		"N": "586",
+		"img": "586",
+		"price": 1000
+	},
+	"EMOLGA": {
+		"Name": "Bulbizarre",
+		"N": "587",
+		"img": "587",
+		"price": 1000
+	},
+	"CARABING": {
+		"Name": "Bulbizarre",
+		"N": "588",
+		"img": "588",
+		"price": 1000
+	},
+	"LANCARGOT": {
+		"Name": "Bulbizarre",
+		"N": "589",
+		"img": "589",
+		"price": 1000
+	},
+	"TROMPIGNON": {
+		"Name": "Bulbizarre",
+		"N": "590",
+		"img": "590",
+		"price": 1000
+	},
+	"GAULET": {
+		"Name": "Bulbizarre",
+		"N": "591",
+		"img": "591",
+		"price": 1000
+	},
+	"VISKUSE": {
+		"Name": "Bulbizarre",
+		"N": "592",
+		"img": "592",
+		"price": 1000
+	},
+	"MOYADE": {
+		"Name": "Bulbizarre",
+		"N": "593",
+		"img": "593",
+		"price": 1000
+	},
+	"MAMANBO": {
+		"Name": "Bulbizarre",
+		"N": "594",
+		"img": "594",
+		"price": 1000
+	},
+	"STATITIK": {
+		"Name": "Bulbizarre",
+		"N": "595",
+		"img": "595",
+		"price": 1000
+	},
+	"MYGAVOLT": {
+		"Name": "Bulbizarre",
+		"N": "596",
+		"img": "596",
+		"price": 1000
+	},
+	"GRINDUR": {
+		"Name": "Bulbizarre",
+		"N": "597",
+		"img": "597",
+		"price": 1000
+	},
+	"NOACIER": {
+		"Name": "Bulbizarre",
+		"N": "598",
+		"img": "598",
+		"price": 1000
+	},
+	"TIC": {
+		"Name": "Bulbizarre",
+		"N": "599",
+		"img": "599",
+		"price": 1000
+	},
+	"CLIC": {
+		"Name": "Bulbizarre",
+		"N": "600",
+		"img": "600",
+		"price": 1000
+	},
+	"CLITICLIC": {
+		"Name": "Bulbizarre",
+		"N": "601",
+		"img": "601",
+		"price": 1000
+	},
+	"ANCHWATT": {
+		"Name": "Bulbizarre",
+		"N": "602",
+		"img": "602",
+		"price": 1000
+	},
+	"LAMPEROIE": {
+		"Name": "Bulbizarre",
+		"N": "603",
+		"img": "603",
+		"price": 1000
+	},
+	"OHMASSACRE": {
+		"Name": "Bulbizarre",
+		"N": "604",
+		"img": "604",
+		"price": 1000
+	},
+	"LEWSOR": {
+		"Name": "Bulbizarre",
+		"N": "605",
+		"img": "605",
+		"price": 1000
+	},
+	"NEITRAM": {
+		"Name": "Bulbizarre",
+		"N": "606",
+		"img": "606",
+		"price": 1000
+	},
+	"FUNECIRE": {
+		"Name": "Bulbizarre",
+		"N": "607",
+		"img": "607",
+		"price": 1000
+	},
+	"MELANCOLUX": {
+		"Name": "Bulbizarre",
+		"N": "608",
+		"img": "608",
+		"price": 1000
+	},
+	"LUGULABRE": {
+		"Name": "Bulbizarre",
+		"N": "609",
+		"img": "609",
+		"price": 1000
+	},
+	"COUPENOTTE": {
+		"Name": "Bulbizarre",
+		"N": "610",
+		"img": "610",
+		"price": 1000
+	},
+	"INCISACHE": {
+		"Name": "Bulbizarre",
+		"N": "611",
+		"img": "611",
+		"price": 1000
+	},
+	"TRANCHODON": {
+		"Name": "Bulbizarre",
+		"N": "612",
+		"img": "612",
+		"price": 1000
+	},
+	"POLARHUME": {
+		"Name": "Bulbizarre",
+		"N": "613",
+		"img": "613",
+		"price": 1000
+	},
+	"POLAGRIFFE": {
+		"Name": "Bulbizarre",
+		"N": "614",
+		"img": "614",
+		"price": 1000
+	},
+	"HEXAGEL": {
+		"Name": "Bulbizarre",
+		"N": "615",
+		"img": "615",
+		"price": 1000
+	},
+	"ESCARGAUME": {
+		"Name": "Bulbizarre",
+		"N": "616",
+		"img": "616",
+		"price": 1000
+	},
+	"LIMASPEED": {
+		"Name": "Bulbizarre",
+		"N": "617",
+		"img": "617",
+		"price": 1000
+	},
+	"LIMONDE": {
+		"Name": "Bulbizarre",
+		"N": "618",
+		"img": "618",
+		"price": 1000
+	},
+	"KUNGFOUINE": {
+		"Name": "Bulbizarre",
+		"N": "619",
+		"img": "619",
+		"price": 1000
+	},
+	"SHAOFOUINE": {
+		"Name": "Bulbizarre",
+		"N": "620",
+		"img": "620",
+		"price": 1000
+	},
+	"DRAKKARMIN": {
+		"Name": "Bulbizarre",
+		"N": "621",
+		"img": "621",
+		"price": 1000
+	},
+	"GRINGOLEM": {
+		"Name": "Bulbizarre",
+		"N": "622",
+		"img": "622",
+		"price": 1000
+	},
+	"GOLEMASTOC": {
+		"Name": "Bulbizarre",
+		"N": "623",
+		"img": "623",
+		"price": 1000
+	},
+	"SCALPION": {
+		"Name": "Bulbizarre",
+		"N": "624",
+		"img": "624",
+		"price": 1000
+	},
+	"SCALPROIE": {
+		"Name": "Bulbizarre",
+		"N": "625",
+		"img": "625",
+		"price": 1000
+	},
+	"FRISON": {
+		"Name": "Bulbizarre",
+		"N": "626",
+		"img": "626",
+		"price": 1000
+	},
+	"FURAIGLON": {
+		"Name": "Bulbizarre",
+		"N": "627",
+		"img": "627",
+		"price": 1000
+	},
+	"GUERIAIGLE": {
+		"Name": "Bulbizarre",
+		"N": "628",
+		"img": "628",
+		"price": 1000
+	},
+	"VOSTOURNO": {
+		"Name": "Bulbizarre",
+		"N": "629",
+		"img": "629",
+		"price": 1000
+	},
+	"VAUTUTRICE": {
+		"Name": "Bulbizarre",
+		"N": "630",
+		"img": "630",
+		"price": 1000
+	},
+	"AFLAMANOIR": {
+		"Name": "Bulbizarre",
+		"N": "631",
+		"img": "631",
+		"price": 1000
+	},
+	"FERMITE": {
+		"Name": "Bulbizarre",
+		"N": "632",
+		"img": "632",
+		"price": 1000
+	},
+	"SOLOCHI": {
+		"Name": "Bulbizarre",
+		"N": "633",
+		"img": "633",
+		"price": 1000
+	},
+	"DIAMAT": {
+		"Name": "Bulbizarre",
+		"N": "634",
+		"img": "634",
+		"price": 1000
+	},
+	"TRIOXHYDRE": {
+		"Name": "Bulbizarre",
+		"N": "635",
+		"img": "635",
+		"price": 1000
+	},
+	"PYRONILLE": {
+		"Name": "Bulbizarre",
+		"N": "636",
+		"img": "636",
+		"price": 1000
+	},
+	"PYRAX": {
+		"Name": "Bulbizarre",
+		"N": "637",
+		"img": "637",
+		"price": 1000
+	},
+	"COBALTIUM": {
+		"Name": "Bulbizarre",
+		"N": "638",
+		"img": "638",
+		"price": 1000
+	},
+	"TERRAKIUM": {
+		"Name": "Bulbizarre",
+		"N": "639",
+		"img": "639",
+		"price": 1000
+	},
+	"VIRIDIUM": {
+		"Name": "Bulbizarre",
+		"N": "640",
+		"img": "640",
+		"price": 1000
+	},
+	"BOREAS": {
+		"Name": "Bulbizarre",
+		"N": "641",
+		"img": "641",
+		"price": 1000
+	},
+	"FULGURIS": {
+		"Name": "Bulbizarre",
+		"N": "642",
+		"img": "642",
+		"price": 1000
+	},
+	"RESHIRAM": {
+		"Name": "Bulbizarre",
+		"N": "643",
+		"img": "643",
+		"price": 1000
+	},
+	"ZEKROM": {
+		"Name": "Bulbizarre",
+		"N": "644",
+		"img": "644",
+		"price": 1000
+	},
+	"DEMETEROS": {
+		"Name": "Bulbizarre",
+		"N": "645",
+		"img": "645",
+		"price": 1000
+	},
+	"KYUREM": {
+		"Name": "Bulbizarre",
+		"N": "646",
+		"img": "646",
+		"price": 1000
+	},
+	"KELDEO": {
+		"Name": "Bulbizarre",
+		"N": "647",
+		"img": "647",
+		"price": 1000
+	},
+	"MELOETTA": {
+		"Name": "Bulbizarre",
+		"N": "648",
+		"img": "648",
+		"price": 1000
+	},
+	"GENESECT": {
+		"Name": "Bulbizarre",
+		"N": "649",
+		"img": "649",
+		"price": 1000
+	},
+	"MARISSON": {
+		"Name": "Bulbizarre",
+		"N": "650",
+		"img": "650",
+		"price": 1000
+	},
+	"BOGUERISSE": {
+		"Name": "Bulbizarre",
+		"N": "651",
+		"img": "651",
+		"price": 1000
+	},
+	"BLINDEPIQUE": {
+		"Name": "Bulbizarre",
+		"N": "652",
+		"img": "652",
+		"price": 1000
+	},
+	"FEUNNEC": {
+		"Name": "Bulbizarre",
+		"N": "653",
+		"img": "653",
+		"price": 1000
+	},
+	"ROUSSIL": {
+		"Name": "Bulbizarre",
+		"N": "654",
+		"img": "654",
+		"price": 1000
+	},
+	"GOUPELIN": {
+		"Name": "Bulbizarre",
+		"N": "655",
+		"img": "655",
+		"price": 1000
+	},
+	"GRENOUSSE": {
+		"Name": "Bulbizarre",
+		"N": "656",
+		"img": "656",
+		"price": 1000
+	},
+	"CROAPORAL": {
+		"Name": "Bulbizarre",
+		"N": "657",
+		"img": "657",
+		"price": 1000
+	},
+	"AMPHINOBI": {
+		"Name": "Bulbizarre",
+		"N": "658",
+		"img": "658",
+		"price": 1000
+	},
+	"SAPEREAU": {
+		"Name": "Bulbizarre",
+		"N": "659",
+		"img": "659",
+		"price": 1000
+	},
+	"EXCAVARENNE": {
+		"Name": "Bulbizarre",
+		"N": "660",
+		"img": "660",
+		"price": 1000
+	},
+	"PASSEROUGE": {
+		"Name": "Bulbizarre",
+		"N": "661",
+		"img": "661",
+		"price": 1000
+	},
+	"BRAISILLON": {
+		"Name": "Bulbizarre",
+		"N": "662",
+		"img": "662",
+		"price": 1000
+	},
+	"FLAMBUSARD": {
+		"Name": "Bulbizarre",
+		"N": "663",
+		"img": "663",
+		"price": 1000
+	},
+	"LEPIDONILLE": {
+		"Name": "Bulbizarre",
+		"N": "664",
+		"img": "664",
+		"price": 1000
+	},
+	"PEREGRAIN": {
+		"Name": "Bulbizarre",
+		"N": "665",
+		"img": "665",
+		"price": 1000
+	},
+	"PRISMILLON": {
+		"Name": "Bulbizarre",
+		"N": "666",
+		"img": "666",
+		"price": 1000
+	},
+	"HELIONCEAU": {
+		"Name": "Bulbizarre",
+		"N": "667",
+		"img": "667",
+		"price": 1000
+	},
+	"NEMELIOS": {
+		"Name": "Bulbizarre",
+		"N": "668",
+		"img": "668",
+		"price": 1000
+	},
+	"FLABEBE": {
+		"Name": "Bulbizarre",
+		"N": "669",
+		"img": "669",
+		"price": 1000
+	},
+	"FLOETTE": {
+		"Name": "Bulbizarre",
+		"N": "670",
+		"img": "670",
+		"price": 1000
+	},
+	"FLORGES": {
+		"Name": "Bulbizarre",
+		"N": "671",
+		"img": "671",
+		"price": 1000
+	},
+	"CABRIOLAINE": {
+		"Name": "Bulbizarre",
+		"N": "672",
+		"img": "672",
+		"price": 1000
+	},
+	"CHEVROUM": {
+		"Name": "Bulbizarre",
+		"N": "673",
+		"img": "673",
+		"price": 1000
+	},
+	"PANDESPIEGLE": {
+		"Name": "Bulbizarre",
+		"N": "674",
+		"img": "674",
+		"price": 1000
+	},
+	"PANDARBARE": {
+		"Name": "Bulbizarre",
+		"N": "675",
+		"img": "675",
+		"price": 1000
+	},
+	"COUAFAREL": {
+		"Name": "Bulbizarre",
+		"N": "676",
+		"img": "676",
+		"price": 1000
+	},
+	"PSYTIGRI": {
+		"Name": "Bulbizarre",
+		"N": "677",
+		"img": "677",
+		"price": 1000
+	},
+	"MISTIGRIX": {
+		"Name": "Bulbizarre",
+		"N": "678",
+		"img": "678",
+		"price": 1000
+	},
+	"MONORPALE": {
+		"Name": "Bulbizarre",
+		"N": "679",
+		"img": "679",
+		"price": 1000
+	},
+	"DIMOCLES": {
+		"Name": "Bulbizarre",
+		"N": "680",
+		"img": "680",
+		"price": 1000
+	},
+	"EXAGIDE": {
+		"Name": "Bulbizarre",
+		"N": "681",
+		"img": "681",
+		"price": 1000
+	},
+	"FLUVETIN": {
+		"Name": "Bulbizarre",
+		"N": "682",
+		"img": "682",
+		"price": 1000
+	},
+	"COCOTINE": {
+		"Name": "Bulbizarre",
+		"N": "683",
+		"img": "683",
+		"price": 1000
+	},
+	"SUCROQUIN": {
+		"Name": "Bulbizarre",
+		"N": "684",
+		"img": "684",
+		"price": 1000
+	},
+	"CUPCANAILLE": {
+		"Name": "Bulbizarre",
+		"N": "685",
+		"img": "685",
+		"price": 1000
+	},
+	"SEPIATOP": {
+		"Name": "Bulbizarre",
+		"N": "686",
+		"img": "686",
+		"price": 1000
+	},
+	"SEPIATROCE": {
+		"Name": "Bulbizarre",
+		"N": "687",
+		"img": "687",
+		"price": 1000
+	},
+	"OPERMINE": {
+		"Name": "Bulbizarre",
+		"N": "688",
+		"img": "688",
+		"price": 1000
+	},
+	"GOLGOPATHE": {
+		"Name": "Bulbizarre",
+		"N": "689",
+		"img": "689",
+		"price": 1000
+	},
+	"VENALGUE": {
+		"Name": "Bulbizarre",
+		"N": "690",
+		"img": "690",
+		"price": 1000
+	},
+	"KRAVARECH": {
+		"Name": "Bulbizarre",
+		"N": "691",
+		"img": "691",
+		"price": 1000
+	},
+	"FLINGOUSTE": {
+		"Name": "Bulbizarre",
+		"N": "692",
+		"img": "692",
+		"price": 1000
+	},
+	"GAMBLAST": {
+		"Name": "Bulbizarre",
+		"N": "693",
+		"img": "693",
+		"price": 1000
+	},
+	"GALVARAN": {
+		"Name": "Bulbizarre",
+		"N": "694",
+		"img": "694",
+		"price": 1000
+	},
+	"IGUOLTA": {
+		"Name": "Bulbizarre",
+		"N": "695",
+		"img": "695",
+		"price": 1000
+	},
+	"PTYRANIDUR": {
+		"Name": "Bulbizarre",
+		"N": "696",
+		"img": "696",
+		"price": 1000
+	},
+	"REXILIUS": {
+		"Name": "Bulbizarre",
+		"N": "697",
+		"img": "697",
+		"price": 1000
+	},
+	"AMAGARA": {
+		"Name": "Bulbizarre",
+		"N": "698",
+		"img": "698",
+		"price": 1000
+	},
+	"DRAGMARA": {
+		"Name": "Bulbizarre",
+		"N": "699",
+		"img": "699",
+		"price": 1000
+	},
+	"NYMPHALI": {
+		"Name": "Bulbizarre",
+		"N": "700",
+		"img": "700",
+		"price": 1000
+	},
+	"BRUTALIBRE": {
+		"Name": "Bulbizarre",
+		"N": "701",
+		"img": "701",
+		"price": 1000
+	},
+	"DEDENNE": {
+		"Name": "Bulbizarre",
+		"N": "702",
+		"img": "702",
+		"price": 1000
+	},
+	"STRASSIE": {
+		"Name": "Bulbizarre",
+		"N": "703",
+		"img": "703",
+		"price": 1000
+	},
+	"MUCUSCULE": {
+		"Name": "Bulbizarre",
+		"N": "704",
+		"img": "704",
+		"price": 1000
+	},
+	"COLIMUCUS": {
+		"Name": "Bulbizarre",
+		"N": "705",
+		"img": "705",
+		"price": 1000
+	},
+	"MUPLODOCUS": {
+		"Name": "Bulbizarre",
+		"N": "706",
+		"img": "706",
+		"price": 1000
+	},
+	"TROUSSELIN": {
+		"Name": "Bulbizarre",
+		"N": "707",
+		"img": "707",
+		"price": 1000
+	},
+	"BROCELOME": {
+		"Name": "Bulbizarre",
+		"N": "708",
+		"img": "708",
+		"price": 1000
+	},
+	"DESSELIANDE": {
+		"Name": "Bulbizarre",
+		"N": "709",
+		"img": "709",
+		"price": 1000
+	},
+	"PITROUILLE": {
+		"Name": "Bulbizarre",
+		"N": "710",
+		"img": "710",
+		"price": 1000
+	},
+	"BANSHITROUYE": {
+		"Name": "Bulbizarre",
+		"N": "711",
+		"img": "711",
+		"price": 1000
+	},
+	"GRELACON": {
+		"Name": "Bulbizarre",
+		"N": "712",
+		"img": "712",
+		"price": 1000
+	},
+	"SERACRAWL": {
+		"Name": "Bulbizarre",
+		"N": "713",
+		"img": "713",
+		"price": 1000
+	},
+	"SONISTRELLE": {
+		"Name": "Bulbizarre",
+		"N": "714",
+		"img": "714",
+		"price": 1000
+	},
+	"BRUYVERNE": {
+		"Name": "Bulbizarre",
+		"N": "715",
+		"img": "715",
+		"price": 1000
+	},
+	"XERNEAS": {
+		"Name": "Bulbizarre",
+		"N": "716",
+		"img": "716",
+		"price": 1000
+	},
+	"YVELTAL": {
+		"Name": "Bulbizarre",
+		"N": "717",
+		"img": "717",
+		"price": 1000
+	},
+	"ZYGARDE": {
+		"Name": "Bulbizarre",
+		"N": "718",
+		"img": "718",
+		"price": 1000
+	},
+	"DIANCIE": {
+		"Name": "Bulbizarre",
+		"N": "719",
+		"img": "719",
+		"price": 1000
+	},
+	"HOOPA": {
+		"Name": "Bulbizarre",
+		"N": "720",
+		"img": "720",
+		"price": 1000
+	},
+	"VOLCANION": {
+		"Name": "Bulbizarre",
+		"N": "721",
+		"img": "721",
+		"price": 1000
+	},
+	"BRINDIBOU": {
+		"Name": "Bulbizarre",
+		"N": "722",
+		"img": "722",
+		"price": 1000
+	},
+	"EFFLECHE": {
+		"Name": "Bulbizarre",
+		"N": "723",
+		"img": "723",
+		"price": 1000
+	},
+	"ARCHEDUC": {
+		"Name": "Bulbizarre",
+		"N": "724",
+		"img": "724",
+		"price": 1000
+	},
+	"FLAMIAOU": {
+		"Name": "Bulbizarre",
+		"N": "725",
+		"img": "725",
+		"price": 1000
+	},
+	"MATOUFEU": {
+		"Name": "Bulbizarre",
+		"N": "726",
+		"img": "726",
+		"price": 1000
+	},
+	"FELINFERNO": {
+		"Name": "Bulbizarre",
+		"N": "727",
+		"img": "727",
+		"price": 1000
+	},
+	"OTAQUIN": {
+		"Name": "Bulbizarre",
+		"N": "728",
+		"img": "728",
+		"price": 1000
+	},
+	"OTARLETTE": {
+		"Name": "Bulbizarre",
+		"N": "729",
+		"img": "729",
+		"price": 1000
+	},
+	"ORATORIA": {
+		"Name": "Bulbizarre",
+		"N": "730",
+		"img": "730",
+		"price": 1000
+	},
+	"PICASSAUT": {
+		"Name": "Bulbizarre",
+		"N": "731",
+		"img": "731",
+		"price": 1000
+	},
+	"PICLAIRON": {
+		"Name": "Bulbizarre",
+		"N": "732",
+		"img": "732",
+		"price": 1000
+	},
+	"BAZOUCAN": {
+		"Name": "Bulbizarre",
+		"N": "733",
+		"img": "733",
+		"price": 1000
+	},
+	"MANGLOUTON": {
+		"Name": "Bulbizarre",
+		"N": "734",
+		"img": "734",
+		"price": 1000
+	},
+	"ARGOUSTE": {
+		"Name": "Bulbizarre",
+		"N": "735",
+		"img": "735",
+		"price": 1000
+	},
+	"LARVIBULE": {
+		"Name": "Bulbizarre",
+		"N": "736",
+		"img": "736",
+		"price": 1000
+	},
+	"CHRYSAPILE": {
+		"Name": "Bulbizarre",
+		"N": "737",
+		"img": "737",
+		"price": 1000
+	},
+	"LUCANON": {
+		"Name": "Bulbizarre",
+		"N": "738",
+		"img": "738",
+		"price": 1000
+	},
+	"CRABAGARRE": {
+		"Name": "Bulbizarre",
+		"N": "739",
+		"img": "739",
+		"price": 1000
+	},
+	"CRABOMINABLE": {
+		"Name": "Bulbizarre",
+		"N": "740",
+		"img": "740",
+		"price": 1000
+	},
+	"PLUMELINE": {
+		"Name": "Bulbizarre",
+		"N": "741",
+		"img": "741",
+		"price": 1000
+	},
+	"BOMBYDOU": {
+		"Name": "Bulbizarre",
+		"N": "742",
+		"img": "742",
+		"price": 1000
+	},
+	"RUBOMBELLE": {
+		"Name": "Bulbizarre",
+		"N": "743",
+		"img": "743",
+		"price": 1000
+	},
+	"ROCABOT": {
+		"Name": "Bulbizarre",
+		"N": "744",
+		"img": "744",
+		"price": 1000
+	},
+	"LOUGAROC": {
+		"Name": "Bulbizarre",
+		"N": "745",
+		"img": "745",
+		"price": 1000
+	},
+	"FROUSSARDINE": {
+		"Name": "Bulbizarre",
+		"N": "746",
+		"img": "746",
+		"price": 1000
+	},
+	"VORASTERIE": {
+		"Name": "Bulbizarre",
+		"N": "747",
+		"img": "747",
+		"price": 1000
+	},
+	"PREDASTERIE": {
+		"Name": "Bulbizarre",
+		"N": "748",
+		"img": "748",
+		"price": 1000
+	},
+	"TIBOUDET": {
+		"Name": "Bulbizarre",
+		"N": "749",
+		"img": "749",
+		"price": 1000
+	},
+	"BOURRINOS": {
+		"Name": "Bulbizarre",
+		"N": "750",
+		"img": "750",
+		"price": 1000
+	},
+	"ARAQUA": {
+		"Name": "Bulbizarre",
+		"N": "751",
+		"img": "751",
+		"price": 1000
+	},
+	"TARENBULLE": {
+		"Name": "Bulbizarre",
+		"N": "752",
+		"img": "752",
+		"price": 1000
+	},
+	"MIMANTIS": {
+		"Name": "Bulbizarre",
+		"N": "753",
+		"img": "753",
+		"price": 1000
+	},
+	"FLORAMANTIS": {
+		"Name": "Bulbizarre",
+		"N": "754",
+		"img": "754",
+		"price": 1000
+	},
+	"SPODODO": {
+		"Name": "Bulbizarre",
+		"N": "755",
+		"img": "755",
+		"price": 1000
+	},
+	"LAMPIGNON": {
+		"Name": "Bulbizarre",
+		"N": "756",
+		"img": "756",
+		"price": 1000
+	},
+	"TRITOX": {
+		"Name": "Bulbizarre",
+		"N": "757",
+		"img": "757",
+		"price": 1000
+	},
+	"MALAMANDRE": {
+		"Name": "Bulbizarre",
+		"N": "758",
+		"img": "758",
+		"price": 1000
+	},
+	"NOUNOURSON": {
+		"Name": "Bulbizarre",
+		"N": "759",
+		"img": "759",
+		"price": 1000
+	},
+	"CHELOURS": {
+		"Name": "Bulbizarre",
+		"N": "760",
+		"img": "760",
+		"price": 1000
+	},
+	"CROQUINE": {
+		"Name": "Bulbizarre",
+		"N": "761",
+		"img": "761",
+		"price": 1000
+	},
+	"CANDINE": {
+		"Name": "Bulbizarre",
+		"N": "762",
+		"img": "762",
+		"price": 1000
+	},
+	"SUCREINE": {
+		"Name": "Bulbizarre",
+		"N": "763",
+		"img": "763",
+		"price": 1000
+	},
+	"GUERILANDE": {
+		"Name": "Bulbizarre",
+		"N": "764",
+		"img": "764",
+		"price": 1000
+	},
+	"GOUROUTAN": {
+		"Name": "Bulbizarre",
+		"N": "765",
+		"img": "765",
+		"price": 1000
+	},
+	"QUATERMAC": {
+		"Name": "Bulbizarre",
+		"N": "766",
+		"img": "766",
+		"price": 1000
+	},
+	"SOVKIPOU": {
+		"Name": "Bulbizarre",
+		"N": "767",
+		"img": "767",
+		"price": 1000
+	},
+	"SARMURAI": {
+		"Name": "Bulbizarre",
+		"N": "768",
+		"img": "768",
+		"price": 1000
+	},
+	"BACABOUH": {
+		"Name": "Bulbizarre",
+		"N": "769",
+		"img": "769",
+		"price": 1000
+	},
+	"TREPASSABLE": {
+		"Name": "Bulbizarre",
+		"N": "770",
+		"img": "770",
+		"price": 1000
+	},
+	"COCOMBAFFE": {
+		"Name": "Bulbizarre",
+		"N": "771",
+		"img": "771",
+		"price": 1000
+	},
+	"TYPE:0": {
+		"Name": "Bulbizarre",
+		"N": "772",
+		"img": "772",
+		"price": 1000
+	},
+	"SILVALLIE": {
+		"Name": "Bulbizarre",
+		"N": "773",
+		"img": "773",
+		"price": 1000
+	},
+	"METENO": {
+		"Name": "Bulbizarre",
+		"N": "774",
+		"img": "774",
+		"price": 1000
+	},
+	"DODOALA": {
+		"Name": "Bulbizarre",
+		"N": "775",
+		"img": "775",
+		"price": 1000
+	},
+	"BOUMATA": {
+		"Name": "Bulbizarre",
+		"N": "776",
+		"img": "776",
+		"price": 1000
+	},
+	"TOGEDEMARU": {
+		"Name": "Bulbizarre",
+		"N": "777",
+		"img": "777",
+		"price": 1000
+	},
+	"MIMIQUI": {
+		"Name": "Bulbizarre",
+		"N": "778",
+		"img": "778",
+		"price": 1000
+	},
+	"DENTICRISSE": {
+		"Name": "Bulbizarre",
+		"N": "779",
+		"img": "779",
+		"price": 1000
+	},
+	"DRAIEUL": {
+		"Name": "Bulbizarre",
+		"N": "780",
+		"img": "780",
+		"price": 1000
+	},
+	"SINISTRAIL": {
+		"Name": "Bulbizarre",
+		"N": "781",
+		"img": "781",
+		"price": 1000
+	},
+	"BEBECAILLE": {
+		"Name": "Bulbizarre",
+		"N": "782",
+		"img": "782",
+		"price": 1000
+	},
+	"ECAID": {
+		"Name": "Bulbizarre",
+		"N": "783",
+		"img": "783",
+		"price": 1000
+	},
+	"EKAISER": {
+		"Name": "Bulbizarre",
+		"N": "784",
+		"img": "784",
+		"price": 1000
+	},
+	"TOKORICO": {
+		"Name": "Bulbizarre",
+		"N": "785",
+		"img": "785",
+		"price": 1000
+	},
+	"TOKOPIYON": {
+		"Name": "Bulbizarre",
+		"N": "786",
+		"img": "786",
+		"price": 1000
+	},
+	"TOKOTORO": {
+		"Name": "Bulbizarre",
+		"N": "787",
+		"img": "787",
+		"price": 1000
+	},
+	"TOKOPISCO": {
+		"Name": "Bulbizarre",
+		"N": "788",
+		"img": "788",
+		"price": 1000
+	},
+	"COSMOG": {
+		"Name": "Bulbizarre",
+		"N": "789",
+		"img": "789",
+		"price": 1000
+	},
+	"COSMOVUM": {
+		"Name": "Bulbizarre",
+		"N": "790",
+		"img": "790",
+		"price": 1000
+	},
+	"SOLGALEO": {
+		"Name": "Bulbizarre",
+		"N": "791",
+		"img": "791",
+		"price": 1000
+	},
+	"LUNALA": {
+		"Name": "Bulbizarre",
+		"N": "792",
+		"img": "792",
+		"price": 1000
+	},
+	"ZEROID": {
+		"Name": "Bulbizarre",
+		"N": "793",
+		"img": "793",
+		"price": 1000
+	},
+	"MOUSCOTO": {
+		"Name": "Bulbizarre",
+		"N": "794",
+		"img": "794",
+		"price": 1000
+	},
+	"CANCRELOVE": {
+		"Name": "Bulbizarre",
+		"N": "795",
+		"img": "795",
+		"price": 1000
+	},
+	"CABLIFERE": {
+		"Name": "Bulbizarre",
+		"N": "796",
+		"img": "796",
+		"price": 1000
+	},
+	"BAMBOISELLE": {
+		"Name": "Bulbizarre",
+		"N": "797",
+		"img": "797",
+		"price": 1000
+	},
+	"KATAGMI": {
+		"Name": "Bulbizarre",
+		"N": "798",
+		"img": "798",
+		"price": 1000
+	},
+	"ENGLOUTYRAN": {
+		"Name": "Bulbizarre",
+		"N": "799",
+		"img": "799",
+		"price": 1000
+	},
+	"NECROZMA": {
+		"Name": "Bulbizarre",
+		"N": "800",
+		"img": "800",
+		"price": 1000
+	},
+	"MAGEARNA": {
+		"Name": "Bulbizarre",
+		"N": "801",
+		"img": "801",
+		"price": 1000
+	},
+	"MARSHADOW": {
+		"Name": "Bulbizarre",
+		"N": "802",
+		"img": "802",
+		"price": 1000
+	},
+	"VEMINI": {
+		"Name": "Bulbizarre",
+		"N": "803",
+		"img": "803",
+		"price": 1000
+	},
+	"MANDRILLON": {
+		"Name": "Bulbizarre",
+		"N": "804",
+		"img": "804",
+		"price": 1000
+	},
+	"AMA-AMA": {
+		"Name": "Bulbizarre",
+		"N": "805",
+		"img": "805",
+		"price": 1000
+	},
+	"PIERROTEKNIK": {
+		"Name": "Bulbizarre",
+		"N": "806",
+		"img": "806",
+		"price": 1000
+	},
+	"ZERAORA": {
+		"Name": "Bulbizarre",
+		"N": "807",
+		"img": "807",
+		"price": 1000
+	},
+	"MELTAN": {
+		"Name": "Bulbizarre",
+		"N": "808",
+		"img": "808",
+		"price": 1000
+	},
+	"MELMETAL": {
+		"Name": "Bulbizarre",
+		"N": "809",
+		"img": "809",
+		"price": 1000
+	},
+	"OUISTEMPO": {
+		"Name": "Bulbizarre",
+		"N": "810",
+		"img": "810",
+		"price": 1000
+	},
+	"BADABOUIN": {
+		"Name": "Bulbizarre",
+		"N": "811",
+		"img": "811",
+		"price": 1000
+	},
+	"GORYTHMIC": {
+		"Name": "Bulbizarre",
+		"N": "812",
+		"img": "812",
+		"price": 1000
+	},
+	"FLAMBINO": {
+		"Name": "Bulbizarre",
+		"N": "813",
+		"img": "813",
+		"price": 1000
+	},
+	"LAPYRO": {
+		"Name": "Bulbizarre",
+		"N": "814",
+		"img": "814",
+		"price": 1000
+	},
+	"PYROBUT": {
+		"Name": "Bulbizarre",
+		"N": "815",
+		"img": "815",
+		"price": 1000
+	},
+	"LARMELEON": {
+		"Name": "Bulbizarre",
+		"N": "816",
+		"img": "816",
+		"price": 1000
+	},
+	"ARROZARD": {
+		"Name": "Bulbizarre",
+		"N": "817",
+		"img": "817",
+		"price": 1000
+	},
+	"LEZARGUS": {
+		"Name": "Bulbizarre",
+		"N": "818",
+		"img": "818",
+		"price": 1000
+	},
+	"RONGOURMAND": {
+		"Name": "Bulbizarre",
+		"N": "819",
+		"img": "819",
+		"price": 1000
+	},
+	"RONGRIGOU": {
+		"Name": "Bulbizarre",
+		"N": "820",
+		"img": "820",
+		"price": 1000
+	},
+	"MINISANGE": {
+		"Name": "Bulbizarre",
+		"N": "821",
+		"img": "821",
+		"price": 1000
+	},
+	"BLEUSEILLE": {
+		"Name": "Bulbizarre",
+		"N": "822",
+		"img": "822",
+		"price": 1000
+	},
+	"CORVAILLUS": {
+		"Name": "Bulbizarre",
+		"N": "823",
+		"img": "823",
+		"price": 1000
+	},
+	"LARVADAR": {
+		"Name": "Bulbizarre",
+		"N": "824",
+		"img": "824",
+		"price": 1000
+	},
+	"COLEODOME": {
+		"Name": "Bulbizarre",
+		"N": "825",
+		"img": "825",
+		"price": 1000
+	},
+	"ASTRONELLE": {
+		"Name": "Bulbizarre",
+		"N": "826",
+		"img": "826",
+		"price": 1000
+	},
+	"GOUPILOU": {
+		"Name": "Bulbizarre",
+		"N": "827",
+		"img": "827",
+		"price": 1000
+	},
+	"ROUBLENARD": {
+		"Name": "Bulbizarre",
+		"N": "828",
+		"img": "828",
+		"price": 1000
+	},
+	"TOURNICOTON": {
+		"Name": "Bulbizarre",
+		"N": "829",
+		"img": "829",
+		"price": 1000
+	},
+	"BLANCOTON": {
+		"Name": "Bulbizarre",
+		"N": "830",
+		"img": "830",
+		"price": 1000
+	},
+	"MOUMOUTON": {
+		"Name": "Bulbizarre",
+		"N": "831",
+		"img": "831",
+		"price": 1000
+	},
+	"MOUMOUFLON": {
+		"Name": "Bulbizarre",
+		"N": "832",
+		"img": "832",
+		"price": 1000
+	},
+	"KHELOCROCK": {
+		"Name": "Bulbizarre",
+		"N": "833",
+		"img": "833",
+		"price": 1000
+	},
+	"TORGAMORD": {
+		"Name": "Bulbizarre",
+		"N": "834",
+		"img": "834",
+		"price": 1000
+	},
+	"VOLTOUTOU": {
+		"Name": "Bulbizarre",
+		"N": "835",
+		"img": "835",
+		"price": 1000
+	},
+	"FULGUDOG": {
+		"Name": "Bulbizarre",
+		"N": "836",
+		"img": "836",
+		"price": 1000
+	},
+	"CHARBI": {
+		"Name": "Bulbizarre",
+		"N": "837",
+		"img": "837",
+		"price": 1000
+	},
+	"WAGOMINE": {
+		"Name": "Bulbizarre",
+		"N": "838",
+		"img": "838",
+		"price": 1000
+	},
+	"MONTHRACITE": {
+		"Name": "Bulbizarre",
+		"N": "839",
+		"img": "839",
+		"price": 1000
+	},
+	"VERPOM": {
+		"Name": "Bulbizarre",
+		"N": "840",
+		"img": "840",
+		"price": 1000
+	},
+	"POMDRAPI": {
+		"Name": "Bulbizarre",
+		"N": "841",
+		"img": "841",
+		"price": 1000
+	},
+	"DRATATIN": {
+		"Name": "Bulbizarre",
+		"N": "842",
+		"img": "842",
+		"price": 1000
+	},
+	"DUNAJA": {
+		"Name": "Bulbizarre",
+		"N": "843",
+		"img": "843",
+		"price": 1000
+	},
+	"DUNACONDA": {
+		"Name": "Bulbizarre",
+		"N": "844",
+		"img": "844",
+		"price": 1000
+	},
+	"NIGOSIER": {
+		"Name": "Bulbizarre",
+		"N": "845",
+		"img": "845",
+		"price": 1000
+	},
+	"EMBROCHET": {
+		"Name": "Bulbizarre",
+		"N": "846",
+		"img": "846",
+		"price": 1000
+	},
+	"HASTACUDA": {
+		"Name": "Bulbizarre",
+		"N": "847",
+		"img": "847",
+		"price": 1000
+	},
+	"TOXIZAP": {
+		"Name": "Bulbizarre",
+		"N": "848",
+		"img": "848",
+		"price": 1000
+	},
+	"SALARSEN": {
+		"Name": "Bulbizarre",
+		"N": "849",
+		"img": "849",
+		"price": 1000
+	},
+	"GRILLEPATTES": {
+		"Name": "Bulbizarre",
+		"N": "850",
+		"img": "850",
+		"price": 1000
+	},
+	"SCOLOCENDRE": {
+		"Name": "Bulbizarre",
+		"N": "851",
+		"img": "851",
+		"price": 1000
+	},
+	"POULPAF": {
+		"Name": "Bulbizarre",
+		"N": "852",
+		"img": "852",
+		"price": 1000
+	},
+	"KRAKOS": {
+		"Name": "Bulbizarre",
+		"N": "853",
+		"img": "853",
+		"price": 1000
+	},
+	"THEFFROI": {
+		"Name": "Bulbizarre",
+		"N": "854",
+		"img": "854",
+		"price": 1000
+	},
+	"POLTHEGEIST": {
+		"Name": "Bulbizarre",
+		"N": "855",
+		"img": "855",
+		"price": 1000
+	},
+	"BIBICHUT": {
+		"Name": "Bulbizarre",
+		"N": "856",
+		"img": "856",
+		"price": 1000
+	},
+	"CHAPOTUS": {
+		"Name": "Bulbizarre",
+		"N": "857",
+		"img": "857",
+		"price": 1000
+	},
+	"SORCILENCE": {
+		"Name": "Bulbizarre",
+		"N": "858",
+		"img": "858",
+		"price": 1000
+	},
+	"GRIMALIN": {
+		"Name": "Bulbizarre",
+		"N": "859",
+		"img": "859",
+		"price": 1000
+	},
+	"FOURBELIN": {
+		"Name": "Bulbizarre",
+		"N": "860",
+		"img": "860",
+		"price": 1000
+	},
+	"ANGOLIATH": {
+		"Name": "Bulbizarre",
+		"N": "861",
+		"img": "861",
+		"price": 1000
+	},
+	"IXON": {
+		"Name": "Bulbizarre",
+		"N": "862",
+		"img": "862",
+		"price": 1000
+	},
+	"BERSERKATT": {
+		"Name": "Bulbizarre",
+		"N": "863",
+		"img": "863",
+		"price": 1000
+	},
+	"CORAYOME": {
+		"Name": "Bulbizarre",
+		"N": "864",
+		"img": "864",
+		"price": 1000
+	},
+	"PALARTICHO": {
+		"Name": "Bulbizarre",
+		"N": "865",
+		"img": "865",
+		"price": 1000
+	},
+	"M.GLAQUETTE": {
+		"Name": "Bulbizarre",
+		"N": "866",
+		"img": "866",
+		"price": 1000
+	},
+	"TUTETEKRI": {
+		"Name": "Bulbizarre",
+		"N": "867",
+		"img": "867",
+		"price": 1000
+	},
+	"CREMY": {
+		"Name": "Bulbizarre",
+		"N": "868",
+		"img": "868",
+		"price": 1000
+	},
+	"CHARMILLY": {
+		"Name": "Bulbizarre",
+		"N": "869",
+		"img": "869",
+		"price": 1000
+	},
+	"HEXADRON": {
+		"Name": "Bulbizarre",
+		"N": "870",
+		"img": "870",
+		"price": 1000
+	},
+	"WATTAPIK": {
+		"Name": "Bulbizarre",
+		"N": "871",
+		"img": "871",
+		"price": 1000
+	},
+	"FRISSONILLE": {
+		"Name": "Bulbizarre",
+		"N": "872",
+		"img": "872",
+		"price": 1000
+	},
+	"BELDENEIGE": {
+		"Name": "Bulbizarre",
+		"N": "873",
+		"img": "873",
+		"price": 1000
+	},
+	"DOLMAN": {
+		"Name": "Bulbizarre",
+		"N": "874",
+		"img": "874",
+		"price": 1000
+	},
+	"BEKAGLACON": {
+		"Name": "Bulbizarre",
+		"N": "875",
+		"img": "875",
+		"price": 1000
+	},
+	"WIMESSIR": {
+		"Name": "Bulbizarre",
+		"N": "876",
+		"img": "876",
+		"price": 1000
+	},
+	"MORPEKO": {
+		"Name": "Bulbizarre",
+		"N": "877",
+		"img": "877",
+		"price": 1000
+	},
+	"CHARIBARI": {
+		"Name": "Bulbizarre",
+		"N": "878",
+		"img": "878",
+		"price": 1000
+	},
+	"PACHYRADJAH": {
+		"Name": "Bulbizarre",
+		"N": "879",
+		"img": "879",
+		"price": 1000
+	},
+	"GALVAGON": {
+		"Name": "Bulbizarre",
+		"N": "880",
+		"img": "880",
+		"price": 1000
+	},
+	"GALVAGLA": {
+		"Name": "Bulbizarre",
+		"N": "881",
+		"img": "881",
+		"price": 1000
+	},
+	"HYDRAGON": {
+		"Name": "Bulbizarre",
+		"N": "882",
+		"img": "882",
+		"price": 1000
+	},
+	"HYDRAGLA": {
+		"Name": "Bulbizarre",
+		"N": "883",
+		"img": "883",
+		"price": 1000
+	},
+	"DURALUGON": {
+		"Name": "Bulbizarre",
+		"N": "884",
+		"img": "884",
+		"price": 1000
+	},
+	"FANTYRM": {
+		"Name": "Bulbizarre",
+		"N": "885",
+		"img": "885",
+		"price": 1000
+	},
+	"DISPAREPTIL": {
+		"Name": "Bulbizarre",
+		"N": "886",
+		"img": "886",
+		"price": 1000
+	},
+	"LANSSORIEN": {
+		"Name": "Bulbizarre",
+		"N": "887",
+		"img": "887",
+		"price": 1000
+	},
+	"ZACIAN": {
+		"Name": "Bulbizarre",
+		"N": "888",
+		"img": "888",
+		"price": 1000
+	},
+	"ZAMAZENTA": {
+		"Name": "Bulbizarre",
+		"N": "889",
+		"img": "889",
+		"price": 1000
+	},
+	"ETHERNATOS": {
+		"Name": "Bulbizarre",
+		"N": "890",
+		"img": "890",
+		"price": 1000
+	},
+	"WUSHOURS": {
+		"Name": "Bulbizarre",
+		"N": "891",
+		"img": "891",
+		"price": 1000
+	},
+	"SHIFOURS": {
+		"Name": "Bulbizarre",
+		"N": "892",
+		"img": "892",
+		"price": 1000
+	},
+	"ZARUDE": {
+		"Name": "Bulbizarre",
+		"N": "893",
+		"img": "893",
+		"price": 1000
+	},
+	"REGIELEKI": {
+		"Name": "Bulbizarre",
+		"N": "894",
+		"img": "894",
+		"price": 1000
+	},
+	"REGIDRAGO": {
+		"Name": "Bulbizarre",
+		"N": "895",
+		"img": "895",
+		"price": 1000
+	},
+	"BLIZZEVAL": {
+		"Name": "Bulbizarre",
+		"N": "896",
+		"img": "896",
+		"price": 1000
+	},
+	"SPECTREVAL": {
+		"Name": "Bulbizarre",
+		"N": "897",
+		"img": "897",
+		"price": 1000
+	},
+	"SYLVEROY": {
+		"Name": "Bulbizarre",
+		"N": "898",
+		"img": "898",
+		"price": 1000
+	},
+	"CERBYLLIN": {
+		"Name": "Bulbizarre",
+		"N": "899",
+		"img": "899",
+		"price": 1000
+	},
+	"HACHECATEUR": {
+		"Name": "Bulbizarre",
+		"N": "900",
+		"img": "900",
+		"price": 1000
+	},
+	"URSAKING": {
+		"Name": "Bulbizarre",
+		"N": "901",
+		"img": "901",
+		"price": 1000
+	},
+	"PARAGRUEL": {
+		"Name": "Bulbizarre",
+		"N": "902",
+		"img": "902",
+		"price": 1000
+	},
+	"FARFUREX": {
+		"Name": "Bulbizarre",
+		"N": "903",
+		"img": "903",
+		"price": 1000
+	},
+	"QWILPIK": {
+		"Name": "Bulbizarre",
+		"N": "904",
+		"img": "904",
+		"price": 1000
+	},
+	"AMOVENUS": {
+		"Name": "Bulbizarre",
+		"N": "905",
+		"img": "905",
+		"price": 1000
+	},
+	"POUSSACHA": {
+		"Name": "Bulbizarre",
+		"N": "906",
+		"img": "906",
+		"price": 1000
+	},
+	"MATOURGEON": {
+		"Name": "Bulbizarre",
+		"N": "907",
+		"img": "907",
+		"price": 1000
+	},
+	"MIASCARADE": {
+		"Name": "Bulbizarre",
+		"N": "908",
+		"img": "908",
+		"price": 1000
+	},
+	"CHOCHODILE": {
+		"Name": "Bulbizarre",
+		"N": "909",
+		"img": "909",
+		"price": 1000
+	},
+	"CROCOGRIL": {
+		"Name": "Bulbizarre",
+		"N": "910",
+		"img": "910",
+		"price": 1000
+	},
+	"FLAMIGATOR": {
+		"Name": "Bulbizarre",
+		"N": "911",
+		"img": "911",
+		"price": 1000
+	},
+	"COIFFETON": {
+		"Name": "Bulbizarre",
+		"N": "912",
+		"img": "912",
+		"price": 1000
+	},
+	"CANARBELLO": {
+		"Name": "Bulbizarre",
+		"N": "913",
+		"img": "913",
+		"price": 1000
+	},
+	"PALMAVAL": {
+		"Name": "Bulbizarre",
+		"N": "914",
+		"img": "914",
+		"price": 1000
+	},
+	"GOURMELET": {
+		"Name": "Bulbizarre",
+		"N": "915",
+		"img": "915",
+		"price": 1000
+	},
+	"FRAGROIN": {
+		"Name": "Bulbizarre",
+		"N": "916",
+		"img": "916",
+		"price": 1000
+	},
+	"TISSENBOULE": {
+		"Name": "Bulbizarre",
+		"N": "917",
+		"img": "917",
+		"price": 1000
+	},
+	"FILENTRAPPE": {
+		"Name": "Bulbizarre",
+		"N": "918",
+		"img": "918",
+		"price": 1000
+	},
+	"LILLITERELLE": {
+		"Name": "Bulbizarre",
+		"N": "919",
+		"img": "919",
+		"price": 1000
+	},
+	"GAMBEX": {
+		"Name": "Bulbizarre",
+		"N": "920",
+		"img": "920",
+		"price": 1000
+	},
+	"POHM": {
+		"Name": "Bulbizarre",
+		"N": "921",
+		"img": "921",
+		"price": 1000
+	},
+	"POHMOTTE": {
+		"Name": "Bulbizarre",
+		"N": "922",
+		"img": "922",
+		"price": 1000
+	},
+	"POHMARMOTTE": {
+		"Name": "Bulbizarre",
+		"N": "923",
+		"img": "923",
+		"price": 1000
+	},
+	"COMPAGNOL": {
+		"Name": "Bulbizarre",
+		"N": "924",
+		"img": "924",
+		"price": 1000
+	},
+	"FAMIGNOL": {
+		"Name": "Bulbizarre",
+		"N": "925",
+		"img": "925",
+		"price": 1000
+	},
+	"PATACHIOT": {
+		"Name": "Bulbizarre",
+		"N": "926",
+		"img": "926",
+		"price": 1000
+	},
+	"BRIOCHIEN": {
+		"Name": "Bulbizarre",
+		"N": "927",
+		"img": "927",
+		"price": 1000
+	},
+	"OLIVINI": {
+		"Name": "Bulbizarre",
+		"N": "928",
+		"img": "928",
+		"price": 1000
+	},
+	"OLIVADO": {
+		"Name": "Bulbizarre",
+		"N": "929",
+		"img": "929",
+		"price": 1000
+	},
+	"ARBOLIVA": {
+		"Name": "Bulbizarre",
+		"N": "930",
+		"img": "930",
+		"price": 1000
+	},
+	"TAPATOES": {
+		"Name": "Bulbizarre",
+		"N": "931",
+		"img": "931",
+		"price": 1000
+	},
+	"SELUTIN": {
+		"Name": "Bulbizarre",
+		"N": "932",
+		"img": "932",
+		"price": 1000
+	},
+	"AMASSEL": {
+		"Name": "Bulbizarre",
+		"N": "933",
+		"img": "933",
+		"price": 1000
+	},
+	"GIGANSEL": {
+		"Name": "Bulbizarre",
+		"N": "934",
+		"img": "934",
+		"price": 1000
+	},
+	"CHARBAMBIN": {
+		"Name": "Bulbizarre",
+		"N": "935",
+		"img": "935",
+		"price": 1000
+	},
+	"CARMADURA": {
+		"Name": "Bulbizarre",
+		"N": "936",
+		"img": "936",
+		"price": 1000
+	},
+	"MALVALAME": {
+		"Name": "Bulbizarre",
+		"N": "937",
+		"img": "937",
+		"price": 1000
+	},
+	"TETAMPOULE": {
+		"Name": "Bulbizarre",
+		"N": "938",
+		"img": "938",
+		"price": 1000
+	},
+	"AMPIBIDOU": {
+		"Name": "Bulbizarre",
+		"N": "939",
+		"img": "939",
+		"price": 1000
+	},
+	"ZAPETREL": {
+		"Name": "Bulbizarre",
+		"N": "940",
+		"img": "940",
+		"price": 1000
+	},
+	"FULGULAIRO": {
+		"Name": "Bulbizarre",
+		"N": "941",
+		"img": "941",
+		"price": 1000
+	},
+	"GRONDOGUE": {
+		"Name": "Bulbizarre",
+		"N": "942",
+		"img": "942",
+		"price": 1000
+	},
+	"DOGRINO": {
+		"Name": "Bulbizarre",
+		"N": "943",
+		"img": "943",
+		"price": 1000
+	},
+	"GRIBOURAIGNE": {
+		"Name": "Bulbizarre",
+		"N": "944",
+		"img": "944",
+		"price": 1000
+	},
+	"TAG-TAG": {
+		"Name": "Bulbizarre",
+		"N": "945",
+		"img": "945",
+		"price": 1000
+	},
+	"VIROVENT": {
+		"Name": "Bulbizarre",
+		"N": "946",
+		"img": "946",
+		"price": 1000
+	},
+	"VIREVORREUR": {
+		"Name": "Bulbizarre",
+		"N": "947",
+		"img": "947",
+		"price": 1000
+	},
+	"TERRACOOL": {
+		"Name": "Bulbizarre",
+		"N": "948",
+		"img": "948",
+		"price": 1000
+	},
+	"TERRACRUEL": {
+		"Name": "Bulbizarre",
+		"N": "949",
+		"img": "949",
+		"price": 1000
+	},
+	"CRAPAROI": {
+		"Name": "Bulbizarre",
+		"N": "950",
+		"img": "950",
+		"price": 1000
+	},
+	"PIMITO": {
+		"Name": "Bulbizarre",
+		"N": "951",
+		"img": "951",
+		"price": 1000
+	},
+	"SCOVILAIN": {
+		"Name": "Bulbizarre",
+		"N": "952",
+		"img": "952",
+		"price": 1000
+	},
+	"LEBOULEROU": {
+		"Name": "Bulbizarre",
+		"N": "953",
+		"img": "953",
+		"price": 1000
+	},
+	"BERASCA": {
+		"Name": "Bulbizarre",
+		"N": "954",
+		"img": "954",
+		"price": 1000
+	},
+	"FLOTILLON": {
+		"Name": "Bulbizarre",
+		"N": "955",
+		"img": "955",
+		"price": 1000
+	},
+	"CLEOPSYTRA": {
+		"Name": "Bulbizarre",
+		"N": "956",
+		"img": "956",
+		"price": 1000
+	},
+	"FORGERETTE": {
+		"Name": "Bulbizarre",
+		"N": "957",
+		"img": "957",
+		"price": 1000
+	},
+	"FORGELLA": {
+		"Name": "Bulbizarre",
+		"N": "958",
+		"img": "958",
+		"price": 1000
+	},
+	"FORGELINA": {
+		"Name": "Bulbizarre",
+		"N": "959",
+		"img": "959",
+		"price": 1000
+	},
+	"TAUPIKEAU": {
+		"Name": "Bulbizarre",
+		"N": "960",
+		"img": "960",
+		"price": 1000
+	},
+	"TRIOPIKEAU": {
+		"Name": "Bulbizarre",
+		"N": "961",
+		"img": "961",
+		"price": 1000
+	},
+	"LESTOMBAILE": {
+		"Name": "Bulbizarre",
+		"N": "962",
+		"img": "962",
+		"price": 1000
+	},
+	"DOFIN": {
+		"Name": "Bulbizarre",
+		"N": "963",
+		"img": "963",
+		"price": 1000
+	},
+	"SUPERDOFIN": {
+		"Name": "Bulbizarre",
+		"N": "964",
+		"img": "964",
+		"price": 1000
+	},
+	"VROMBI": {
+		"Name": "Bulbizarre",
+		"N": "965",
+		"img": "965",
+		"price": 1000
+	},
+	"VROMBOTOR": {
+		"Name": "Bulbizarre",
+		"N": "966",
+		"img": "966",
+		"price": 1000
+	},
+	"MOTORIZARD": {
+		"Name": "Bulbizarre",
+		"N": "967",
+		"img": "967",
+		"price": 1000
+	},
+	"FERDETER": {
+		"Name": "Bulbizarre",
+		"N": "968",
+		"img": "968",
+		"price": 1000
+	},
+	"GERMECLAT": {
+		"Name": "Bulbizarre",
+		"N": "969",
+		"img": "969",
+		"price": 1000
+	},
+	"FLORECLAT": {
+		"Name": "Bulbizarre",
+		"N": "970",
+		"img": "970",
+		"price": 1000
+	},
+	"TOUTOMBE": {
+		"Name": "Bulbizarre",
+		"N": "971",
+		"img": "971",
+		"price": 1000
+	},
+	"TOMBERO": {
+		"Name": "Bulbizarre",
+		"N": "972",
+		"img": "972",
+		"price": 1000
+	},
+	"FLAMENROULE": {
+		"Name": "Bulbizarre",
+		"N": "973",
+		"img": "973",
+		"price": 1000
+	},
+	"PIETACE": {
+		"Name": "Bulbizarre",
+		"N": "974",
+		"img": "974",
+		"price": 1000
+	},
+	"BALBALEZE": {
+		"Name": "Bulbizarre",
+		"N": "975",
+		"img": "975",
+		"price": 1000
+	},
+	"DELESTIN": {
+		"Name": "Bulbizarre",
+		"N": "976",
+		"img": "976",
+		"price": 1000
+	},
+	"OYACATA": {
+		"Name": "Bulbizarre",
+		"N": "977",
+		"img": "977",
+		"price": 1000
+	},
+	"NIGIRIGON": {
+		"Name": "Bulbizarre",
+		"N": "978",
+		"img": "978",
+		"price": 1000
+	},
+	"COURROUSINGE": {
+		"Name": "Bulbizarre",
+		"N": "979",
+		"img": "979",
+		"price": 1000
+	},
+	"TERRAISTE": {
+		"Name": "Bulbizarre",
+		"N": "980",
+		"img": "980",
+		"price": 1000
+	},
+	"FARIGIRAF": {
+		"Name": "Bulbizarre",
+		"N": "981",
+		"img": "981",
+		"price": 1000
+	},
+	"DEUSOLOURDO": {
+		"Name": "Bulbizarre",
+		"N": "982",
+		"img": "982",
+		"price": 1000
+	},
+	"SCALPEREUR": {
+		"Name": "Bulbizarre",
+		"N": "983",
+		"img": "983",
+		"price": 1000
+	},
+	"FORT-IVOIRE": {
+		"Name": "Bulbizarre",
+		"N": "984",
+		"img": "984",
+		"price": 1000
+	},
+	"HURLE-QUEUE": {
+		"Name": "Bulbizarre",
+		"N": "985",
+		"img": "985",
+		"price": 1000
+	},
+	"FONGUS-FURIE": {
+		"Name": "Bulbizarre",
+		"N": "986",
+		"img": "986",
+		"price": 1000
+	},
+	"FLOTTE-MECHE": {
+		"Name": "Bulbizarre",
+		"N": "987",
+		"img": "987",
+		"price": 1000
+	},
+	"RAMPE-AILES": {
+		"Name": "Bulbizarre",
+		"N": "988",
+		"img": "988",
+		"price": 1000
+	},
+	"PELAGE-SABLE": {
+		"Name": "Bulbizarre",
+		"N": "989",
+		"img": "989",
+		"price": 1000
+	},
+	"ROUE-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "990",
+		"img": "990",
+		"price": 1000
+	},
+	"HOTTE-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "991",
+		"img": "991",
+		"price": 1000
+	},
+	"PAUME-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "992",
+		"img": "992",
+		"price": 1000
+	},
+	"TETES-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "993",
+		"img": "993",
+		"price": 1000
+	},
+	"MITE-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "994",
+		"img": "994",
+		"price": 1000
+	},
+	"EPINE-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "995",
+		"img": "995",
+		"price": 1000
+	},
+	"FRIGODO": {
+		"Name": "Bulbizarre",
+		"N": "996",
+		"img": "996",
+		"price": 1000
+	},
+	"CRYODO": {
+		"Name": "Bulbizarre",
+		"N": "997",
+		"img": "997",
+		"price": 1000
+	},
+	"GLAIVODO": {
+		"Name": "Bulbizarre",
+		"N": "998",
+		"img": "998",
+		"price": 1000
+	},
+	"MORDUDOR": {
+		"Name": "Bulbizarre",
+		"N": "999",
+		"img": "999",
+		"price": 1000
+	},
+	"GROMAGO": {
+		"Name": "Bulbizarre",
+		"N": "1000",
+		"img": "1000",
+		"price": 1000
+	},
+	"CHONGJIAN": {
+		"Name": "Bulbizarre",
+		"N": "1001",
+		"img": "1001",
+		"price": 1000
+	},
+	"BAOJIAN": {
+		"Name": "Bulbizarre",
+		"N": "1002",
+		"img": "1002",
+		"price": 1000
+	},
+	"DINGLU": {
+		"Name": "Bulbizarre",
+		"N": "1003",
+		"img": "1003",
+		"price": 1000
+	},
+	"YUYU": {
+		"Name": "Bulbizarre",
+		"N": "1004",
+		"img": "1004",
+		"price": 1000
+	},
+	"RUGIT-LUNE": {
+		"Name": "Bulbizarre",
+		"N": "1005",
+		"img": "1005",
+		"price": 1000
+	},
+	"GARDE-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "1006",
+		"img": "1006",
+		"price": 1000
+	},
+	"KORAIDON": {
+		"Name": "Bulbizarre",
+		"N": "1007",
+		"img": "1007",
+		"price": 1000
+	},
+	"MIRAIDON": {
+		"Name": "Bulbizarre",
+		"N": "1008",
+		"img": "1008",
+		"price": 1000
+	},
+	"SERPENTE-EAU": {
+		"Name": "Bulbizarre",
+		"N": "1009",
+		"img": "1009",
+		"price": 1000
+	},
+	"VERT-DE-FER": {
+		"Name": "Bulbizarre",
+		"N": "1010",
+		"img": "1010",
+		"price": 1000
+	},
+	"1011": {
+		"Name": "Bulbizarre",
+		"N": "1011",
+		"img": "1011",
+		"price": 1000
+	},
+	"1012": {
+		"Name": "Bulbizarre",
+		"N": "1012",
+		"img": "1012",
+		"price": 1000
+	},
+	"1013": {
+		"Name": "Bulbizarre",
+		"N": "1013",
+		"img": "1013",
+		"price": 1000
+	},
+	"1014": {
+		"Name": "Bulbizarre",
+		"N": "1014",
+		"img": "1014",
+		"price": 1000
+	},
+	"1015": {
+		"Name": "Bulbizarre",
+		"N": "1015",
+		"img": "1015",
+		"price": 1000
+	},
+	"1016": {
+		"Name": "Bulbizarre",
+		"N": "1016",
+		"img": "1016",
+		"price": 1000
+	},
+	"1017": {
+		"Name": "Bulbizarre",
+		"N": "1017",
+		"img": "1017",
+		"price": 1000
+	},
+	"1018": {
+		"Name": "Bulbizarre",
+		"N": "1018",
+		"img": "1018",
+		"price": 1000
+	},
+	"1019": {
+		"Name": "Bulbizarre",
+		"N": "1019",
+		"img": "1019",
+		"price": 1000
+	},
+	"1020": {
+		"Name": "Bulbizarre",
+		"N": "1020",
+		"img": "1020",
+		"price": 1000
+	},
+	"1021": {
+		"Name": "Bulbizarre",
+		"N": "1021",
+		"img": "1021",
+		"price": 1000
+	},
+	"1022": {
+		"Name": "Bulbizarre",
+		"N": "1022",
+		"img": "1022",
+		"price": 1000
+	},
+	"1023": {
+		"Name": "Bulbizarre",
+		"N": "1023",
+		"img": "1023",
+		"price": 1000
+	},
+	"1024": {
+		"Name": "Bulbizarre",
+		"N": "1024",
+		"img": "1024",
+		"price": 1000
+	},
+	"1025": {
+		"Name": "Bulbizarre",
+		"N": "1025",
+		"img": "1025",
+		"price": 1000
+	},
+	"1026": {
+		"Name": "Bulbizarre",
+		"N": "1026",
+		"img": "1026",
+		"price": 1000
+	},
+	"1027": {
+		"Name": "Bulbizarre",
+		"N": "1027",
+		"img": "1027",
+		"price": 1000
+	},
+	"1028": {
+		"Name": "Bulbizarre",
+		"N": "1028",
+		"img": "1028",
+		"price": 1000
+	},
+	"1029": {
+		"Name": "Bulbizarre",
+		"N": "1029",
+		"img": "1029",
+		"price": 1000
+	},
+	"1030": {
+		"Name": "Bulbizarre",
+		"N": "1030",
+		"img": "1030",
+		"price": 1000
+	},
+	"1031": {
+		"Name": "Bulbizarre",
+		"N": "1031",
+		"img": "1031",
+		"price": 1000
+	},
+	"1032": {
+		"Name": "Bulbizarre",
+		"N": "1032",
+		"img": "1032",
+		"price": 1000
+	},
+	"1033": {
+		"Name": "Bulbizarre",
+		"N": "1033",
+		"img": "1033",
+		"price": 1000
+	},
+	"1034": {
+		"Name": "Bulbizarre",
+		"N": "1034",
+		"img": "1034",
+		"price": 1000
+	},
+	"1035": {
+		"Name": "Bulbizarre",
+		"N": "1035",
+		"img": "1035",
+		"price": 1000
+	},
+	"1036": {
+		"Name": "Bulbizarre",
+		"N": "1036",
+		"img": "1036",
+		"price": 1000
+	},
+	"1037": {
+		"Name": "Bulbizarre",
+		"N": "1037",
+		"img": "1037",
+		"price": 1000
+	},
+	"1038": {
+		"Name": "Bulbizarre",
+		"N": "1038",
+		"img": "1038",
+		"price": 1000
+	},
+	"1039": {
+		"Name": "Bulbizarre",
+		"N": "1039",
+		"img": "1039",
+		"price": 1000
+	},
+	"1040": {
+		"Name": "Bulbizarre",
+		"N": "1040",
+		"img": "1040",
+		"price": 1000
+	},
+	"1041": {
+		"Name": "Bulbizarre",
+		"N": "1041",
+		"img": "1041",
+		"price": 1000
+	},
+	"1042": {
+		"Name": "Bulbizarre",
+		"N": "1042",
+		"img": "1042",
+		"price": 1000
+	},
+	"1043": {
+		"Name": "Bulbizarre",
+		"N": "1043",
+		"img": "1043",
+		"price": 1000
+	},
+	"1044": {
+		"Name": "Bulbizarre",
+		"N": "1044",
+		"img": "1044",
+		"price": 1000
+	},
+	"1045": {
+		"Name": "Bulbizarre",
+		"N": "1045",
+		"img": "1045",
+		"price": 1000
+	},
+	"1046": {
+		"Name": "Bulbizarre",
+		"N": "1046",
+		"img": "1046",
+		"price": 1000
+	},
+	"1047": {
+		"Name": "Bulbizarre",
+		"N": "1047",
+		"img": "1047",
+		"price": 1000
+	},
+	"1048": {
+		"Name": "Bulbizarre",
+		"N": "1048",
+		"img": "1048",
+		"price": 1000
+	},
+	"1049": {
+		"Name": "Bulbizarre",
+		"N": "1049",
+		"img": "1049",
+		"price": 1000
+	},
+	"1050": {
+		"Name": "Bulbizarre",
+		"N": "1050",
+		"img": "1050",
+		"price": 1000
+	},
+	"1051": {
+		"Name": "Bulbizarre",
+		"N": "1051",
+		"img": "1051",
+		"price": 1000
+	},
+	"1052": {
+		"Name": "Bulbizarre",
+		"N": "1052",
+		"img": "1052",
+		"price": 1000
+	},
+	"1053": {
+		"Name": "Bulbizarre",
+		"N": "1053",
+		"img": "1053",
+		"price": 1000
+	},
+	"1054": {
+		"Name": "Bulbizarre",
+		"N": "1054",
+		"img": "1054",
+		"price": 1000
+	},
+	"1055": {
+		"Name": "Bulbizarre",
+		"N": "1055",
+		"img": "1055",
+		"price": 1000
+	},
+	"1056": {
+		"Name": "Bulbizarre",
+		"N": "1056",
+		"img": "1056",
+		"price": 1000
+	},
+	"1057": {
+		"Name": "Bulbizarre",
+		"N": "1057",
+		"img": "1057",
+		"price": 1000
+	},
+	"1058": {
+		"Name": "Bulbizarre",
+		"N": "1058",
+		"img": "1058",
+		"price": 1000
+	},
+	"1059": {
+		"Name": "Bulbizarre",
+		"N": "1059",
+		"img": "1059",
+		"price": 1000
+	},
+	"1060": {
+		"Name": "Bulbizarre",
+		"N": "1060",
+		"img": "1060",
+		"price": 1000
+	},
+	"1061": {
+		"Name": "Bulbizarre",
+		"N": "1061",
+		"img": "1061",
+		"price": 1000
+	},
+	"1062": {
+		"Name": "Bulbizarre",
+		"N": "1062",
+		"img": "1062",
+		"price": 1000
+	},
+	"1063": {
+		"Name": "Bulbizarre",
+		"N": "1063",
+		"img": "1063",
+		"price": 1000
+	},
+	"1064": {
+		"Name": "Bulbizarre",
+		"N": "1064",
+		"img": "1064",
+		"price": 1000
+	},
+	"1065": {
+		"Name": "Bulbizarre",
+		"N": "1065",
+		"img": "1065",
+		"price": 1000
+	},
+	"1066": {
+		"Name": "Bulbizarre",
+		"N": "1066",
+		"img": "1066",
+		"price": 1000
+	},
+	"1067": {
+		"Name": "Bulbizarre",
+		"N": "1067",
+		"img": "1067",
+		"price": 1000
+	},
+	"1068": {
+		"Name": "Bulbizarre",
+		"N": "1068",
+		"img": "1068",
+		"price": 1000
+	},
+	"1069": {
+		"Name": "Bulbizarre",
+		"N": "1069",
+		"img": "1069",
+		"price": 1000
+	},
+	"1070": {
+		"Name": "Bulbizarre",
+		"N": "1070",
+		"img": "1070",
+		"price": 1000
+	},
+	"1071": {
+		"Name": "Bulbizarre",
+		"N": "1071",
+		"img": "1071",
+		"price": 1000
+	},
+	"1072": {
+		"Name": "Bulbizarre",
+		"N": "1072",
+		"img": "1072",
+		"price": 1000
+	},
+	"1073": {
+		"Name": "Bulbizarre",
+		"N": "1073",
+		"img": "1073",
+		"price": 1000
+	},
+	"1074": {
+		"Name": "Bulbizarre",
+		"N": "1074",
+		"img": "1074",
+		"price": 1000
+	},
+	"1075": {
+		"Name": "Bulbizarre",
+		"N": "1075",
+		"img": "1075",
+		"price": 1000
+	},
+	"1076": {
+		"Name": "Bulbizarre",
+		"N": "1076",
+		"img": "1076",
+		"price": 1000
+	},
+	"1077": {
+		"Name": "Bulbizarre",
+		"N": "1077",
+		"img": "1077",
+		"price": 1000
+	},
+	"1078": {
+		"Name": "Bulbizarre",
+		"N": "1078",
+		"img": "1078",
+		"price": 1000
+	},
+	"1079": {
+		"Name": "Bulbizarre",
+		"N": "1079",
+		"img": "1079",
+		"price": 1000
+	},
+	"1080": {
+		"Name": "Bulbizarre",
+		"N": "1080",
+		"img": "1080",
+		"price": 1000
+	},
+	"1081": {
+		"Name": "Bulbizarre",
+		"N": "1081",
+		"img": "1081",
+		"price": 1000
+	},
+	"1082": {
+		"Name": "Bulbizarre",
+		"N": "1082",
+		"img": "1082",
+		"price": 1000
+	},
+	"1083": {
+		"Name": "Bulbizarre",
+		"N": "1083",
+		"img": "1083",
+		"price": 1000
+	},
+	"1084": {
+		"Name": "Bulbizarre",
+		"N": "1084",
+		"img": "1084",
+		"price": 1000
+	},
+	"1085": {
+		"Name": "Bulbizarre",
+		"N": "1085",
+		"img": "1085",
+		"price": 1000
+	},
+	"1086": {
+		"Name": "Bulbizarre",
+		"N": "1086",
+		"img": "1086",
+		"price": 1000
+	},
+	"1087": {
+		"Name": "Bulbizarre",
+		"N": "1087",
+		"img": "1087",
+		"price": 1000
+	},
+	"1088": {
+		"Name": "Bulbizarre",
+		"N": "1088",
+		"img": "1088",
+		"price": 1000
+	},
+	"1089": {
+		"Name": "Bulbizarre",
+		"N": "1089",
+		"img": "1089",
+		"price": 1000
+	},
+	"1090": {
+		"Name": "Bulbizarre",
+		"N": "1090",
+		"img": "1090",
+		"price": 1000
+	},
+	"1091": {
+		"Name": "Bulbizarre",
+		"N": "1091",
+		"img": "1091",
+		"price": 1000
+	},
+	"1092": {
+		"Name": "Bulbizarre",
+		"N": "1092",
+		"img": "1092",
+		"price": 1000
+	},
+	"1093": {
+		"Name": "Bulbizarre",
+		"N": "1093",
+		"img": "1093",
+		"price": 1000
+	},
+	"1094": {
+		"Name": "Bulbizarre",
+		"N": "1094",
+		"img": "1094",
+		"price": 1000
+	},
+	"1095": {
+		"Name": "Bulbizarre",
+		"N": "1095",
+		"img": "1095",
+		"price": 1000
+	},
+	"1096": {
+		"Name": "Bulbizarre",
+		"N": "1096",
+		"img": "1096",
+		"price": 1000
+	},
+	"1097": {
+		"Name": "Bulbizarre",
+		"N": "1097",
+		"img": "1097",
+		"price": 1000
+	},
+	"1098": {
+		"Name": "Bulbizarre",
+		"N": "1098",
+		"img": "1098",
+		"price": 1000
+	},
+	"1099": {
+		"Name": "Bulbizarre",
+		"N": "1099",
+		"img": "1099",
+		"price": 1000
+	}
+}
