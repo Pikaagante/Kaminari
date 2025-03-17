@@ -48,7 +48,8 @@ module.exports = {
           point.saveData(); // On importe les fonctions d'embed
 
           const { AttachmentBuilder, EmbedBuilder } = require('discord.js'); // On importe les fonctions d'embed
-          const file = new AttachmentBuilder(`./Assets/assetsGS/${pokemon.getPokemon(name).N}.gif`); // On importe l'image du pokemon
+          const filePath = path.resolve(__dirname, `../Assets/assetsGS/${pokemon.getPokemon(name).N}.gif`);
+          const file = new AttachmentBuilder(filePath);
 
           const exampleEmbed = new EmbedBuilder()
             .setTitle(`Bravo tu as obtenu un nouveau pokémon !`)
@@ -75,7 +76,8 @@ module.exports = {
           point.saveData(); // On importe les fonctions d'embed
           console.log(name);
           const { AttachmentBuilder, EmbedBuilder } = require('discord.js'); // On importe les fonctions d'embed
-          const file = new AttachmentBuilder(`./Assets/assetsG/${pokemon.getPokemon(name).N}.gif`); // On importe l'image du pokemon
+          const filePath = path.resolve(__dirname, `../Assets/assetsG/${pokemon.getPokemon(name).N}.gif`);
+          const file = new AttachmentBuilder(filePath);
 
           const exampleEmbed = new EmbedBuilder()
             .setTitle(`Bravo tu as obtenu un nouveau pokémon !`)

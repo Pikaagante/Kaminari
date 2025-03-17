@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+const path = require("path")
 const cooldowns = new Discord.Collection();
 
 module.exports = async (bot, interaction) => {
@@ -23,7 +24,7 @@ module.exports = async (bot, interaction) => {
                 const timeLeft = (expirationTime - now) / 1000;
                 const minutesLeft = timeLeft / 60;
                 return interaction.reply({
-                    content: `Il reste ${minutesLeft.toFixed(1)} minute(s) soit ${minutesLeft.toFixed(1)/60} heures avant de réutiliser \`${command.name}\`.`,
+                    content: `Il reste ${minutesLeft.toFixed(1)} minute(s) soit ${(minutesLeft.toFixed(1) / 60).toFixed(1)} heures avant de réutiliser \`${command.name}\`.`,
                     ephemeral: true
                 });
             }

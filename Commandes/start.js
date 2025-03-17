@@ -35,8 +35,8 @@ module.exports = {
 
                 const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
 
-                const file = new AttachmentBuilder(`assets/R.png`);
-                // const filee = new AttachmentBuilder(`assets/Giovanni.png`);
+                const filePath = path.join(__dirname, '..', 'Assets', 'R.png');
+                const file = new AttachmentBuilder(filePath);
 
                 const exampleEmbed = new EmbedBuilder()
 
