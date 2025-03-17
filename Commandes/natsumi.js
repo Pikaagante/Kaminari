@@ -10,6 +10,7 @@ module.exports = {
     cooldown: 10,
 
 async run(bot, message, args) {
+    try {
     const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
         const file = new AttachmentBuilder(`assets/Pika_LogoBot.png`);
 
@@ -37,5 +38,14 @@ async run(bot, message, args) {
         ])
         .setTimestamp(Date.now())
         message.reply({ embeds: [exampleEmbed], files: [file] })
+    } catch (error) {
+        console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
+        const errorEmbed = new EmbedBuilder()
+          .setTitle('Erreur')
+          .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
+          .setColor('Red')
+          .setTimestamp();
+        message.reply({ embeds: [errorEmbed] });
+      }
     }
 }

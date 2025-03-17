@@ -10,11 +10,12 @@ module.exports = {
   cooldown: 10,
 
   async run(bot, message, args) {
-    if (point.getPoint(message.user.id) > 0) {
+    try {
+      if (point.getPoint(message.user.id) > 0) {
 
         // Obtenir les utilisateurs avec leurs points
         const usersWithPoints = point.getUsersWithPoints();
-        
+
         // Obtenir les 10 meilleurs utilisateurs
         const topUsers = point.getTopUsers(10);
 
@@ -40,15 +41,24 @@ module.exports = {
           );
 
         message.reply({ embeds: [exampleEmbed] });
-        
-    } else {
 
-      const exampleEmbed = new EmbedBuilder()
-        .setTitle("Classement")
-        .setDescription(
-          "Vous n'avez pas commencé l'aventure. Faites `/start` pour commencer.")
-        .setTimestamp(Date.now());
-      message.reply({ embeds: [exampleEmbed] });
+      } else {
+
+        const exampleEmbed = new EmbedBuilder()
+          .setTitle("Classement")
+          .setDescription(
+            "Vous n'avez pas commencé l'aventure. Faites `/start` pour commencer.")
+          .setTimestamp(Date.now());
+        message.reply({ embeds: [exampleEmbed] });
+      }
+    } catch (error) {
+      console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
+      const errorEmbed = new EmbedBuilder()
+        .setTitle('Erreur')
+        .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
+        .setColor('Red')
+        .setTimestamp();
+      message.reply({ embeds: [errorEmbed] });
     }
   }
 };

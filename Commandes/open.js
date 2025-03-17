@@ -25,7 +25,8 @@ module.exports = {
   ],
 
   async run(bot, message, args) {
-    if (point.getPoint(message.user.id) > 0) {
+    try {
+      if (point.getPoint(message.user.id) > 0) {
 
       const balle = args.getString("balls").toUpperCase(); // On récupère la pokeball choisie en majuscule qui permettra un choix dans la fonction ball
 
@@ -112,5 +113,14 @@ module.exports = {
       message.reply({ embeds: [exampleEmbed] });
 
     }
+  } catch (error) {
+    console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
+    const errorEmbed = new EmbedBuilder()
+      .setTitle('Erreur')
+      .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
+      .setColor('Red')
+      .setTimestamp();
+    message.reply({ embeds: [errorEmbed] });
   }
+}
 };

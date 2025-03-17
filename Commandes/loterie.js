@@ -20,7 +20,7 @@ module.exports = {
     ],
 
     async run(bot, message, args) {
-        
+        try {
     if (point.getPoint(message.user.id) > 0) {
         let mise = args.getInteger("loterie")
         const arg = Math.floor(Math.random() * 1001); // On récupère un nombre aléatoire entre 0 et 1000
@@ -86,5 +86,14 @@ module.exports = {
             message.reply({ embeds: [exampleEmbed]})
 
         }
+    } catch (error) {
+        console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
+        const errorEmbed = new EmbedBuilder()
+          .setTitle('Erreur')
+          .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
+          .setColor('Red')
+          .setTimestamp();
+        message.reply({ embeds: [errorEmbed] });
+      }
     }
 }

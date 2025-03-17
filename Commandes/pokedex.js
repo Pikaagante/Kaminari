@@ -21,7 +21,7 @@ module.exports = {
     ],
 
     async run(bot, message, args) {
-
+        try {
          // On vérifie que le pokemon existe
          const Npoke = args.getString("nom_poke").toUpperCase();
          const firstLetter = Npoke.charAt(0);
@@ -92,5 +92,14 @@ module.exports = {
         message.reply("Ce pokemon n'existe pas ! (Pour le moment seul les 200 pokemon sont présents dans le pokedex")
     }
 
+    } catch (error) {
+        console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
+        const errorEmbed = new EmbedBuilder()
+          .setTitle('Erreur')
+          .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
+          .setColor('Red')
+          .setTimestamp();
+        message.reply({ embeds: [errorEmbed] });
+      }
     }
 }
