@@ -23,7 +23,7 @@ module.exports = async (bot, interaction) => {
                 const timeLeft = (expirationTime - now) / 1000;
                 const minutesLeft = timeLeft / 60;
                 return interaction.reply({
-                    content: `⏳ Veuillez attendre ${minutesLeft.toFixed(1)} minute(s) avant de réutiliser \`${command.name}\`.`,
+                    content: `Il reste ${minutesLeft.toFixed(1)} minute(s) soit ${minutesLeft.toFixed(1)/60} heures avant de réutiliser \`${command.name}\`.`,
                     ephemeral: true
                 });
             }

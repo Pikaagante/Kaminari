@@ -1,16 +1,17 @@
+const fs = require('fs').promises;
+
 class JSONHandler {
   constructor(pathURL) {
     this.path = pathURL;
   }
 
   async loadFile() {
-    /* Data est privé */
-    this.data = JSON.parse(await fs.readFileSync(this.path));
+    this.data = JSON.parse(await fs.readFile(this.path, 'utf-8'));
     console.log(`⚡Fichier ${this.path} chargé !`);
   }
 
   async saveData() {
-    await fs.writeFileSync(this.path, JSON.stringify(this.data, null, '\t'));
+    await fs.writeFile(this.path, JSON.stringify(this.data, null, '\t'));
   }
 
   addData(key, value) {
