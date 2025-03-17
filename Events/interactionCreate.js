@@ -2,36 +2,41 @@ const Discord = require("discord.js")
 const cooldowns = new Discord.Collection();
 
 module.exports = async (bot, interaction) => {
+    if (interaction.type !== Discord.InteractionType.ApplicationCommand) return;
 
-const commandName = interaction.commandName;
-const command = bot.commands.get(commandName);
+    const command = bot.commands.get(interaction.commandName);
+    if (!command) return;
 
-if (command && command.cooldown) {
-    if (!cooldowns.has(commandName)) {
-        cooldowns.set(commandName, new Discord.Collection());
-    }
-
-    const now = Date.now();
-    const timestamps = cooldowns.get(commandName);
-    const cooldownAmount = command.cooldown * 1000;
-
-    if (timestamps.has(interaction.user.id)) {
-        const expirationTime = timestamps.get(interaction.user.id) + cooldownAmount;
-
-        if (now < expirationTime) {
-            const timeLeft = (expirationTime - now) / 1000; // Temps restant en secondes
-            const minutesLeft = timeLeft / 60; // Temps restant en minutes
-            return interaction.reply(`Veuillez attendre ${minutesLeft.toFixed(1)} minute(s) avant de réutiliser cette commande.`);
+    if (command.cooldown) {
+        if (!cooldowns.has(command.name)) {
+            cooldowns.set(command.name, new Discord.Collection());
         }
+
+        const now = Date.now();
+        const timestamps = cooldowns.get(command.name);
+        const cooldownAmount = command.cooldown * 1000;
+
+        if (timestamps.has(interaction.user.id)) {
+            const expirationTime = timestamps.get(interaction.user.id) + cooldownAmount;
+
+            if (now < expirationTime) {
+                const timeLeft = (expirationTime - now) / 1000;
+                const minutesLeft = timeLeft / 60;
+                return interaction.reply({
+                    content: `⏳ Veuillez attendre ${minutesLeft.toFixed(1)} minute(s) avant de réutiliser \`${command.name}\`.`,
+                    ephemeral: true
+                });
+            }
+        }
+
+        timestamps.set(interaction.user.id, now);
+        setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
     }
 
-    timestamps.set(interaction.user.id, now);
-    setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount);
-}
-
-if (interaction.type === Discord.InteractionType.ApplicationCommand) {
-    let command = require(`../Commandes/${interaction.commandName}`);
-    command.run(bot, interaction, interaction.options);
-}
-
+    try {
+        await command.run(bot, interaction, interaction.options);
+    } catch (err) {
+        console.error(err);
+        interaction.reply({ content: "❌ Une erreur est survenue.", ephemeral: true });
+    }
 }

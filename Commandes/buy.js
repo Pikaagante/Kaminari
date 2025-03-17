@@ -13,7 +13,7 @@ module.exports = {
     description: "acheter une ball",
     permission: "Aucune",
     dm: false,
-    cooldown:600,
+    cooldown: 10,
     options: [
         {
             type: "string",

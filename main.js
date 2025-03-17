@@ -6,7 +6,8 @@ const loadEvents = require("./Loaders/loadEvents")
 const config = require("./config")
 const path = require('path')
 
-
+const { Client, Collection } = require('discord.js');
+bot.cooldowns = new Collection();
 
 let pokemon, dresseur;
 const main = async () => {
