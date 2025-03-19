@@ -3,6 +3,7 @@ const { argent } = require('../main.js')
 const { point } = require('../main.js');
 const { EmbedBuilder } = require('discord.js');
 const { SlashCommandBuilder } = require('discord.js');
+const { balls } = require('../main.js');
 
 module.exports = {
 
