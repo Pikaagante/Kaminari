@@ -6,7 +6,7 @@ module.exports = {
     description: "Voir les balls disponibles",
     permission: "Aucune",
     dm: false,
-    cooldown: 10,
+    cooldown: 5,
     options: [
         {
             type: "string",
@@ -135,7 +135,7 @@ module.exports = {
                 const ballData = balls.getBalls(ball.toUpperCase());
 
                 if (!ballData) {
-                    console.warn(`⚠️ Ball non trouvée -> ${ball}`);
+                    console.warn(`Ball non trouvée -> ${ball}`);
                     continue;
                 }
 
@@ -162,10 +162,9 @@ module.exports = {
                 files: [new AttachmentBuilder("assets/pokeball.png")]
             });
 
-            console.log("✅ DEBUG - Embed envoyé avec succès.");
         } catch (error) {
-            console.error("❌ Erreur lors de l'exécution de la commande SHOP :", error);
-            return interaction.reply({ content: "❌ Une erreur est survenue.", ephemeral: true });
+            console.error("Erreur lors de l'exécution de la commande SHOP :", error);
+            return interaction.reply({ content: "Une erreur est survenue.", ephemeral: true });
         }
     }
 };

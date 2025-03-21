@@ -1,23 +1,71 @@
 {
 	"365039602882445312": {
-		"BARGANTUA": {
-			"shiny": true,
+		"TIBOUDET": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"ROUCOOL": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"CRAPAROI": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"POISSOROY": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"MOUMOUFLON": {
+			"shiny": false,
+			"nbr": 1
+		},
+		"POISSIRENE": {
+			"shiny": false,
+			"nbr": 3
+		},
+		"PALARTICHO": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"TAUROS": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"GOURMELET": {
+			"shiny": false,
+			"nbr": 3
+		},
+		"CANARTICHO": {
+			"shiny": false,
+			"nbr": 1
+		},
+		"FLINGOUSTE": {
+			"shiny": false,
+			"nbr": 3
+		},
+		"MAGIKARP": {
+			"shiny": false,
+			"nbr": 2
+		},
+		"KRABBY": {
+			"shiny": false,
+			"nbr": 3
+		},
+		"GAMBLAST": {
+			"shiny": false,
+			"nbr": 1
+		},
+		"GROTICHON": {
+			"shiny": false,
+			"nbr": 1
+		},
+		"GRUIKUI": {
+			"shiny": false,
 			"nbr": 1
 		},
 		"MOUMOUTON": {
-			"shiny": true,
-			"nbr": 1
-		},
-		"TIBOUDET": {
-			"shiny": true,
-			"nbr": 1
-		},
-		"CRAPAROI": {
-			"shiny": true,
-			"nbr": 2
-		},
-		"FLINGOUSTE": {
-			"shiny": true,
+			"shiny": false,
 			"nbr": 2
 		}
 	}

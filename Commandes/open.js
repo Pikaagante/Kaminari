@@ -5,22 +5,30 @@ const fonction = require('./fonction/balle.js');
 
 module.exports = {
   name: "open",
-  description: "Ouvrir une pokéball",
+  description: "Ouvrir une ou plusieurs pokéballs",
   permission: "Aucune",
   dm: false,
-  cooldown: 0,
+  cooldown: 5,
   options: [
     {
       type: "string",
       name: "balls",
-      description: "Pokéball à ouvrir",
+      description: "Pokéball à utiliser",
       required: true
+    },
+    {
+      type: "integer",
+      name: "quantite",
+      description: "Quantité à ouvrir (défaut : 1)",
+      required: false
     }
   ],
 
   async run(bot, message, args) {
     try {
       const userId = message.user.id;
+      const balle = args.getString("balls").toUpperCase();
+      const quantity = args.getInteger("quantite") || 1;
 
       if (point.getPoint(userId) <= 0) {
         return message.reply({
@@ -31,82 +39,105 @@ module.exports = {
         });
       }
 
-      const balle = args.getString("balls").toUpperCase();
-      const userInventory = inventory.getInventory(userId);
+      const userInventory = inventory.data?.[userId] || {};
+      const ballInfo = userInventory[balle];
 
-      if (!userInventory.includes(balle)) {
+      if (!ballInfo || ballInfo.nbr < quantity) {
         return message.reply({
           embeds: [new EmbedBuilder()
             .setTitle("Erreur d'ouverture")
-            .setDescription("Vous ne possédez pas cette pokéball.")
+            .setDescription(`Vous n'avez pas ${quantity} ${balle}(s) dans votre inventaire.`)
             .setTimestamp()]
         });
       }
 
-      const Tshiny = Math.floor(Math.random() * 4097);
-      // const Tshiny = 1;
-      const resultatp = fonction.ball(balle);
-      const name = resultatp.name.toUpperCase();
-
-      // Retirer la ball de l'inventaire
-      const index = userInventory.indexOf(balle);
-      userInventory.splice(index, 1);
-      inventory.saveData();
-
-      const isShiny = Tshiny === 1;
-
-      // Initialiser le joueur dans dresseur si nécessaire
       if (!dresseur.data[userId]) dresseur.data[userId] = {};
 
-      // Si déjà capturé, on incrémente
-      const existing = dresseur.data[userId][name];
-      if (existing) {
-        existing.nbr += 1;
-        if (isShiny && !existing.shiny) {
-          existing.shiny = true; // mise à jour shiny si nouvellement capturé
+      let messages = [];
+      let lastResult = null;
+      let lastShiny = false;
+
+      for (let i = 0; i < quantity; i++) {
+        const Tshiny = Math.floor(Math.random() * 4097);
+        const isShiny = Tshiny === 1;
+
+        const resultatp = fonction.ball(balle);
+        const name = resultatp.name.toUpperCase();
+
+        const existing = dresseur.data[userId][name];
+        if (existing) {
+          existing.nbr += 1;
+          if (isShiny && !existing.shiny) existing.shiny = true;
+        } else {
+          dresseur.data[userId][name] = { shiny: isShiny, nbr: 1 };
         }
-      } else {
-        dresseur.data[userId][name] = { shiny: isShiny, nbr: 1 };
+
+        point.addData(userId, point.getKey(userId) + balls.getBalls(resultatp.rarity));
+        messages.push(`${resultatp.name}${isShiny ? " **SHINY**" : ""} (rareté ${resultatp.rarity})`);
+
+        if (i === quantity - 1) {
+          lastResult = resultatp;
+          lastShiny = isShiny;
+        }
       }
 
+      ballInfo.nbr -= quantity;
+      if (ballInfo.nbr <= 0) delete inventory.data[userId][balle];
+
       dresseur.saveData();
-
-      // Points
-      point.addData(userId, point.getKey(userId) + balls.getBalls(resultatp.rarity));
       point.saveData();
-
-      const folder = isShiny ? "assetsGS" : "assetsG";
-      const filePath = path.resolve(__dirname, `../Assets/${folder}/${pokemon.getPokemon(name).N}.gif`);
-      const file = new AttachmentBuilder(filePath);
+      inventory.saveData();
 
       const embed = new EmbedBuilder()
-        .setTitle(`Bravo ! Tu as obtenu un nouveau Pokémon !`)
-        .setDescription(`Tu as attrapé un ${resultatp.name}${isShiny ? " **SHINY**" : ""} de rareté ${resultatp.rarity}`)
-        .setImage(`attachment://${pokemon.getPokemon(name).N}.gif`)
+        .setTitle(`Ouverture de ${quantity} ${balle}(s)`)
+        .setDescription(messages.join("\n"))
+        .setColor("#2ecc71")
         .setTimestamp();
 
-      await message.reply({ embeds: [embed], files: [file] });
-
-      // Annonce publique
       const guildName = message.guild.name;
       const guildId = "1043996039297892463";
       const channelId = "1109899933332549723";
       const guild = bot.guilds.cache.get(guildId);
       const channel = guild.channels.cache.get(channelId);
 
-      embed.setTitle(isShiny ? "Nouveau Shiny trouvé !" : "Nouveau Pokémon trouvé !");
-      embed.setDescription(`**${message.user.username}** a attrapé un **${resultatp.name}**${isShiny ? " **SHINY**" : ""} de rareté ${resultatp.rarity} sur le serveur **${guildName}**`);
+      if (quantity === 1) {
+        const name = lastResult.name.toUpperCase();
+        const folder = lastShiny ? "assetsGS" : "assetsG";
+        const filePath = path.resolve(__dirname, `../Assets/${folder}/${pokemon.getPokemon(name).N}.gif`);
+        const file = new AttachmentBuilder(filePath);
+        embed.setImage(`attachment://${pokemon.getPokemon(name).N}.gif`);
 
-      channel.send({ embeds: [embed], files: [file] });
+        await message.reply({ embeds: [embed], files: [file] });
+
+        const logEmbed = new EmbedBuilder()
+          .setTitle(lastShiny ? "Nouveau Shiny trouvé !" : "Nouveau Pokémon trouvé !")
+          .setDescription(`**${message.user.username}** a attrapé un **${lastResult.name}**${lastShiny ? " **SHINY**" : ""} de rareté ${lastResult.rarity} sur le serveur **${guildName}**`)
+          .setImage(`attachment://${pokemon.getPokemon(name).N}.gif`)
+          .setColor(lastShiny ? "#FFD700" : "#3498db")
+          .setTimestamp();
+
+        channel.send({ embeds: [logEmbed], files: [file] });
+
+      } else {
+        await message.reply({ embeds: [embed] });
+
+        const logEmbed = new EmbedBuilder()
+          .setTitle("Ouverture multiple")
+          .setDescription(`**${message.user.username}** a ouvert **${quantity} ${balle}(s)** sur **${guildName}**.\n\n${messages.join("\n")}`)
+          .setColor("#9b59b6")
+          .setTimestamp();
+
+        channel.send({ embeds: [logEmbed] });
+      }
 
     } catch (error) {
-      console.error("Une erreur s'est produite :", error);
+      console.error("Erreur open.js :", error);
       const errorEmbed = new EmbedBuilder()
         .setTitle('Erreur')
-        .setDescription("Une erreur est survenue lors de l'ouverture de votre pokéball.")
+        .setDescription("Une erreur est survenue lors de l'ouverture de vos pokéballs.")
         .setColor('Red')
         .setTimestamp();
-      message.reply({ embeds: [errorEmbed] });
+      return message.reply({ embeds: [errorEmbed] });
     }
   }
 };

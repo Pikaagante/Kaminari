@@ -14,19 +14,15 @@ module.exports = {
     description: "Débuter votre aventure",
     permission: "Aucune",
     dm: false,
-    cooldown: 10,
+    cooldown: 5,
 
     async run(bot, message, args) {
         try {
             if (point.getPoint(message.user.id) > 0) {
                 message.reply("Vous avez déjà commencé votre aventure !")
             } else {
-                let ball = "CARNIVOBALL"
-
                 point.addData(message.user.id, point.getKey(message.user.id) + 1)
                 point.saveData();
-                inventory.addToList(message.user.id, ball)
-                inventory.saveData();
                 argent.addData(message.user.id, argent.getKey(message.user.id) + 600)
                 argent.saveData();
 

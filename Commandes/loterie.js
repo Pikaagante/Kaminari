@@ -9,7 +9,7 @@ module.exports = {
     description: "tu veux parier ?",
     permission: "Aucune",
     dm: false,
-    cooldown: 120,
+    cooldown: 600,
     options: [
         {
             type:"integer",
