@@ -19,13 +19,22 @@ module.exports = async bot => {
                 const optionName = option.name;
                 const optionDescription = option.description;
                 const isRequired = option.required;
+                const choices = option.choices || [];
 
                 if (option.type === "string") {
-                    slashcommand.addStringOption(option =>
-                        option.setName(optionName)
+                    slashcommand.addStringOption(opt => {
+                        let o = opt.setName(optionName)
                             .setDescription(optionDescription)
-                            .setRequired(isRequired)
-                    );
+                            .setRequired(isRequired);
+        
+                        if (choices.length > 0) {
+                            choices.forEach(choice => {
+                                o.addChoices({ name: choice.name, value: choice.value });
+                            });
+                        }
+        
+                        return o;
+                    });
                 } else if (option.type === "integer") {
                     slashcommand.addIntegerOption(option =>
                         option.setName(optionName)

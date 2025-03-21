@@ -12,7 +12,7 @@
    "VEGGIEBALL" : {
       "price" : 600,
       "MinPoint" : 0,
-      "PokemonC" : "Mystherbe \nPimito\nApitrini\nNoeufnoeuf\nCeribou\nCroquine\nCremy\nVerpom\nOlivini",
+      "PokemonC" : "Mystherbe \nPimito\nApitrini\nNoeunoeuf\nCeribou\nCroquine\nCremy\nVerpom\nOlivini",
       "PokemonPC" : "Candine\nScovilain\nGuerilande\nCharmilly\nOlivado\nArboliva",
       "PokemonR" : "Ceriflor\nPomdrapi\nDratatin\nTropius\nSucreine",
       "PokemonE" : "Aucun",
@@ -25,7 +25,7 @@
       "PokemonC" : "Selutin\nPatachiot\nCremy\nSorbebe\nSucroquin",
       "PokemonPC" : "Amassel\nBriochien\nCharmillly\nSorboul\nCupcanaille\nGoinfrex",
       "PokemonR" : "Gigansel\nSorbouboul\nRonflex\nPolthegeist",
-      "PokemonE" : "Engloutyran",
+      "PokemonE" : "Engloutyran\nQueuramoloss",
       "Description" : "Une petite faim ? Cette ball est faite pour vous !"
    },
 
@@ -52,7 +52,7 @@
    "SAFARIBALL" : {
       "price" : 750,
       "MinPoint" : 300,
-      "PokemonC" : "Helionceau\nDoduo\nNidoran_M\nNidoran_F\nOuisticram\nFerossinge\nHippopotas\nPhanpy\nOssatueur",
+      "PokemonC" : "Helionceau\nDoduo\nNidoran_M\nNidoran_F\nOuisticram\nFerosinge\nHippopotas\nPhanpy\nOssatueur",
       "PokemonPC" : "Nemelios\nDodrio\nZebibron\nScorplane\nNidorino\nNidorina\nChimpenfeu\nColossinge\nHippodocus\nDonphan\nOsselait",
       "PokemonR" : "Zeblitz\nGirafig\nScorvol\nSimiabraz\nCourrousinge\nFeunard\nFort-Ivoire\nKangourex",
       "PokemonE" : "Aucun",
@@ -64,7 +64,7 @@
       "MinPoint" : 300,
       "PokemonC" : "Tadmorv\nAbo\nCradopaud\nVorasterie\nMimigal\nVenipatte\nMoufouette\nRapion\nChetiflor\nKhelocrock",
       "PokemonPC" : "Arbok\nGloupti\nQwilfish\nPredasterie\nMigalos\nScobolide\nMoufflair\nBoustiflor\nTorgamord",
-      "PokemonR" : "Avaltout\nCoatox\nSeviper\nBrutapode\nDrascore\nEmpifor\nVortente\nGaulet",
+      "PokemonR" : "Avaltout\nCoatox\nSeviper\nBrutapode\nDrascore\nEmpiflor\nVortente\nGaulet",
       "PokemonE" : "Aucun",
       "Description" : "A vos risque et péril, cette ball renferme des pokemon tous plus dangereux les uns que les autres"
    },
@@ -73,7 +73,7 @@
       "price" : 750,
       "MinPoint" : 300,
       "PokemonC" : "Crabicoque\nBaggiguane\nCacnea\nKraknoix\nRhinocorne\nGalvaran\nVirovent\nSabelette\nMascaiman\nMedhyena\nVostourno",
-      "PokemonPC" : "Crabaraque\nBaggaid\nCacturne\nVibraninf\nRhinoféros\nIguolta\nVirevorreur\nSablaireau\nCrocorible\nGrahyena\nVaututrice\nDunaja",
+      "PokemonPC" : "Crabaraque\nBaggaid\nCacturne\nVibraninf\nRhinoferos\nIguolta\nVirevorreur\nSablaireau\nCrocorible\nGrahyena\nVaututrice\nDunaja",
       "PokemonR" : "Maracachi\nLibegon\nFerdeter\nEscroco\nDunaconda",
       "PokemonE" : "Aucun",
       "Description" : "Avant de partir dans cette zone prevoyez de quoi vous hydrater"
@@ -112,7 +112,7 @@
    "GEOBALL" : {
       "price" : 900,
       "MinPoint" : 700,
-      "PokemonC" : "Tyllton\nNenupiot\nPifeuil\nRondoudou\nGoelise\nNirondelle\nSkitty\nNingale\nChuchmur\nDynavolt",
+      "PokemonC" : "Tyllton\nNenupiot\nPifeuil\nRondoudou\nGoelise\nNirondelle\nSkitty\nNingale\nChuchmur\nDynavolt\nRacaillou",
       "PokemonPC" : "Nosferalto\nSonistrelle\nRhinolove\nExcavarenne\nGoelithe\nOnix\nStrassie\nCarmache\nNoacier",
       "PokemonR" : "Nostenfer\nBruyverne\nMinotaupe\nGigalithe\nGrolem\nTriopikeur\nSteelix\nCarchacrok\nTenefix",
       "PokemonE" : "Diancie",
@@ -143,8 +143,8 @@
       "price" : 1050,
       "MinPoint" : 900,
       "PokemonC" : "Tentacruel\nMinidraco\nKaiminus\nLoupio\nSancoki\nCouaneton\nMamanbo\nDofin\nSepiatop\nEmbrochet\nTaupikeau",
-      "PokemonPC" : "Draco\nCrocodil\nLanturn\nHypocean\nTritosor\nLakmécygne\nMoyade\nSuperdofin\nNigosier\nHastacuda\nTriopikeau",
-      "PokemonR" : "Aligatueur\nDemanta\nHyporoi\nLeviator\nRoigada\nSepiatroce\nCorayome\nParagruel",
+      "PokemonPC" : "Draco\nCrocrodil\nLanturn\nHypocean\nTritosor\nLakmecygne\nMoyade\nSuperdofin\nNigosier\nHastacuda\nTriopikeau",
+      "PokemonR" : "Aligatueur\nDemanta\nHyporoi\nLeviator\nRoigada\nSepiatroce\nCorayome\nParagruel\nLokhlass",
       "PokemonE" : "Aucun",
       "Description" : "Grace a cette ball vous pourrez repeuplez les océans !"
    },
@@ -242,7 +242,7 @@
    "SMALLBALL" : {
       "price" : 1350,
       "MinPoint" : 1750,
-      "PokemonC" : "Flabebe\nStatitik\nBombydou\nTheffroi\nTaupiqueur\nCheniti\nFloette\nFluvetin\nDedenne\nFroussardine\nSpododo\nMagnéti\nGribouraigne",
+      "PokemonC" : "Flabebe\nStatitik\nBombydou\nTheffroi\nTaupiqueur\nCheniti\nFloette\nFluvetin\nDedenne\nFroussardine\nSpododo\nMagneti\nGribouraigne",
       "PokemonPC" : "Natu\nRozbouton\nPichu\nMelo\nToudoudou\nMorpeko",
       "PokemonR" : "Korillon",
       "PokemonE" : "Meltan\nCosmog",
@@ -253,7 +253,7 @@
       "price" : 1350,
       "MinPoint" : 2000,
       "PokemonC" : "Mustebouee\nPonyta\nStatitik\nStari\nZigzaton\nFlambino",
-      "PokemonPC" : "Ninjask\nLimaspeed\nMusteflot\nGalopa\nCarvanha\nYanma\nStaross\nLinéon\nInsecateur\nFulgudog\nLapyro",
+      "PokemonPC" : "Ninjask\nLimaspeed\nMusteflot\nGalopa\nCarvanha\nYanma\nStaross\nLineon\nInsecateur\nFulgudog\nLapyro",
       "PokemonR" : "Voltali\nNostenfer\nAmphinobi\nSharpedo\nYanmega\nDrattak\nCizayox",
       "PokemonE" : "Deoxys\nZeraora",
       "Description" : "Plus rapide que la lumiere rendez vous tous ou ce sera la guerre !"
@@ -274,7 +274,7 @@
       "MinPoint" : 2000,
       "PokemonC" : "Machoc\nRiolu\nCrabagarre\nCapumain\nPandespiegle\nPoulpaf",
       "PokemonPC" : "Machopeur\nGravalanch\nTygnon\nDebugant\nCrabominable\nCapidextre\nTetartre\nKicklee\nKrakos",
-      "PokemonR" : "Mackogneur\nChelours\nUrsaring\nHariyama\nMonaflemit\nPaume-de-Fer\nShaofouine\nPolagriffe\nGorythmic\nRhinastoc\nLucario\nTartard\nPandarbare",
+      "PokemonR" : "Mackogneur\nChelours\nUrsaring\nHariyama\nMonaflemit\nPaume-de-Fer\nShaofouine\nPolagriffe\nGorythmic\nRhinastoc\nLucario\nTartard\nPandarbare\nArcanin\nMr.Mime",
       "PokemonE" : "Wushours\nShifours\nMelmeltal",
       "Description" : "Vous avez toujours voulu adopter un chien mais ils sont trop basique ? Adoptez donc un pokemon !"
    },
@@ -284,7 +284,7 @@
       "MinPoint" : 2250,
       "PokemonC" : "Tortipouss\nChenipan\nGrainipiot\nVivaldaim\nAspicot\nTrompignon\nRougourman\nChapignon\nArcko\nGoupilou",
       "PokemonPC" : "Boskara\nChrysacier\nSaquedeneu\nCoconfort\nRongrigou\nPifeuil\nBouldeneu\nOrtide\nManzai\nMassko\nRoublenard\nTag-Tag",
-      "PokemonR" : "Torterra\nHaydaim\nPapilusion\nDardagnan\nTengalice\nRafflesia\nScarhino\nScarabrute\nSimulabre\nJungko",
+      "PokemonR" : "Torterra\nHaydaim\nPapilusion\nDardagnan\nTengalice\nRafflesia\nScarhino\nScarabrute\nSimularbre\nJungko",
       "PokemonE" : "Pikachu",
       "Description" : "Rien de tel qu'un bon retour au source nan ?"
    },
@@ -323,8 +323,8 @@
       "price" : 1750,
       "MinPoint" : 2500,
       "PokemonC" : "Abra\nPsytigri\nFlotillon\nFeunnec",
-      "PokemonPC" : "Kadabra\nMimeJr.\nMistigrix\nWimessir\nCléopsytra\nRoussil\nFarigiraf",
-      "PokemonR" : "Alakazam\nMentali\nMrMime.\nGoupelin\nQulbutoké",
+      "PokemonPC" : "Kadabra\nMimeJr.\nMistigrix\nWimessir\nCleopsytra\nRoussil\nFarigiraf",
+      "PokemonR" : "Alakazam\nMentali\nMr.Mime\nGoupelin\nQulbutoke",
       "PokemonE" : "Hoopa",
       "Description" : "Voici un kit de départ pour le parfait magicien !"
    },
@@ -353,7 +353,7 @@
       "MinPoint" : 2750,
       "PokemonC" : "Charpenti",
       "PokemonPC" : "Ouvrifier\nKapoera\nMakuhita\nMeditikka",
-      "PokemonR" : "Gallame\nBetochef\nJudokrak\nKaraclée\nCoudlangue\nNidoking\nPyrobut\nBraségali\nCharmina\nBrutalibré",
+      "PokemonR" : "Gallame\nBetochef\nJudokrak\nKaraclee\nCoudlangue\nNidoking\nPyrobut\nBrasegali\nCharmina\nBrutalibre",
       "PokemonE" : "Marshadow\nMouscoto",
       "Description" : "On ne jugera pas vos gouts, mais on vous conseille de ne pas l'ouvrir en public..."
    },
@@ -382,8 +382,8 @@
       "price" : 2150,
       "MinPoint" : 3050,
       "PokemonC" : "Ptiravi\nTogetic",
-      "PokemonPC" : "Melofée\nLeveinard\nTogekiss",
-      "PokemonR" : "Mélodelfe\nLeuphorie\nNymphali",
+      "PokemonPC" : "Melofee\nLeveinard\nTogekiss",
+      "PokemonR" : "Melodelfe\nLeuphorie\nNymphali",
       "PokemonE" : "Jirachi\nCresselia\nVictini",
       "Description" : "Un peu de douceur dans ce monde de brute !"
    },
@@ -431,9 +431,9 @@
    "FFBALL" : {
       "price" : 2450,
       "MinPoint" : 3650,
-      "PokemonC" : "Gobou\nSkitty\nOkéoké\nMedhyena\nPoussifeu\nParecool\nSpoink\nNénupiot\nDynavolt",
+      "PokemonC" : "Gobou\nSkitty\nOkeoke\nMedhyena\nPoussifeu\nParecool\nSpoink\nNenupiot\nDynavolt",
       "PokemonPC" : "Vigoroth\nTylton\nSpinda\nGroret\nDelcatty\nGalifeu",
-      "PokemonR" : "Queulorior\nMangriff\nAltaria\nMorphéo",
+      "PokemonR" : "Queulorior\nMangriff\nAltaria\nMorpheo",
       "PokemonE" : "Latios\nLatias",
       "Description" : "Est-ce un oiseau ? Est-ce un avion ? Non c'est ????"
    },
@@ -462,8 +462,8 @@
       "price" : 2450,
       "MinPoint" : 3650,
       "PokemonC" : "Nosferalto",
-      "PokemonPC" : "Téraclope",
-      "PokemonR" : "Mysdibule\nTénéfix\nKaorine\nBranette\nAltaria\nMigalos",
+      "PokemonPC" : "Teraclope",
+      "PokemonR" : "Mysdibule\nTenefix\nKaorine\nBranette\nAltaria\nMigalos",
       "PokemonE" : "Rayquaza\nDeoxys",
       "Description" : "Monter en haut de cette tour, et rendez vous compte de la grandeur des terres appartenant desormais a la team Rocket !"
    },
@@ -472,7 +472,7 @@
       "price" : 2600,
       "MinPoint" : 3950,
       "PokemonC" : "Magicarpe\nTentacool\nWailmer\nFlingouste\nKrabby\nSabelette\nKraknoix\nCacnea\nBalbuto",
-      "PokemonPC" : "Linéon\nKecleon\n",
+      "PokemonPC" : "Lineon\nKecleon\n",
       "PokemonR" : "Azumarill\nTropius",
       "PokemonE" : "Regice\nRegisteel\nRegirock\nRegigigas\nRegieleki\nRegidrago",
       "Description" : "Faites face aux légendaires cailloux !"
@@ -483,8 +483,8 @@
       "MinPoint" : 3950,
       "PokemonC" : "Farfuret\nPsykokwak\nPoissirene\nMagicarpe\nArakdo",
       "PokemonPC" : "Korillon\nAkwakwak\nEtourvol",
-      "PokemonR" : "Excelangue\nQulbutoké\nSolaroc\nSeleroc",
-      "PokemonE" : "Créhelf\nCréfadet\nCréfollet",
+      "PokemonR" : "Excelangue\nQulbutoke\nSolaroc\nSeleroc",
+      "PokemonE" : "Crehelf\nCrefadet\nCrefollet",
       "Description" : "Un lac, des légendaires, que demander de plus ?"
    },
 
@@ -492,8 +492,8 @@
       "price" : 2600,
       "MinPoint" : 3950,
       "PokemonC" : "Blizzi",
-      "PokemonPC" : "Mélofée\nMachopeur\nGravalanch\nCharmina\nKorillon\nRamboum",
-      "PokemonR" : "Nosferalto\nEoko\nArchéodong\nBlizzaroi\nNoarfang",
+      "PokemonPC" : "Melofee\nMachopeur\nGravalanch\nCharmina\nKorillon\nRamboum",
+      "PokemonR" : "Nosferalto\nEoko\nArcheodong\nBlizzaroi\nNoarfang",
       "PokemonE" : "Palkia\nDialga\nGiratina",
       "Description" : "La couronne de glace, un endroit froid et glacial !"
    },
@@ -502,8 +502,8 @@
       "price" : 2750,
       "MinPoint" : 4350,
       "PokemonC" : "Chovsourir\nCoupenotte\nRototaupe\nPoichigeon\nCharpenti\nTritonde\nSolochi\nKungfouine\nFuraiglon\nVostourno",
-      "PokemonPC" : "Géolithe\nIncisache",
-      "PokemonR" : "Nanméouïe\nFermite\nAflamanoir",
+      "PokemonPC" : "Geolithe\nIncisache",
+      "PokemonR" : "Nanmeouie\nFermite\nAflamanoir",
       "PokemonE" : "Viridium\nTerrakium\nCobaltium\nKeldeo",
       "Description" : "Les lames de la justice sont de retour !"
    },
@@ -512,7 +512,7 @@
       "price" : 2750,
       "MinPoint" : 4350,
       "PokemonC" : "Feuillajou\nFlamajou\nFlotajou\nScalpion",
-      "PokemonPC" : "Feuiloutan\nFlamoutan\nFlotoutan\nBatracné\nDiamat",
+      "PokemonPC" : "Feuiloutan\nFlamoutan\nFlotoutan\nBatracne\nDiamat",
       "PokemonR" : "Trioxhydre\nTranchodon\nScalproie",
       "PokemonE" : "Fulguris\nBoreas\nDemeteros",
       "Description" : "Oserez vous defier les dieux ?!"
@@ -522,8 +522,8 @@
       "price" : 2750,
       "MinPoint" : 4350,
       "PokemonC" : "Aucun",
-      "PokemonPC" : "Saquedeneu\nHélédelle\nGrodrive\nSorboul\nEmolga\nCochignon",
-      "PokemonR" : "Séléroc\nSolaroc\nAbsol\nCadoizo\nNostenfer\nBouldeneu\nSorbouboul",
+      "PokemonPC" : "Saquedeneu\nHeledelle\nGrodrive\nSorboul\nEmolga\nCochignon",
+      "PokemonR" : "Seleroc\nSolaroc\nAbsol\nCadoizo\nNostenfer\nBouldeneu\nSorbouboul",
       "PokemonE" : "Reshiram\nZekrom\nKyurem",
       "Description" : "Une nouvelle grotte ? Que peut il bien s'y cacher ?"
    },
@@ -532,8 +532,8 @@
       "price" : 2900,
       "MinPoint" : 4750,
       "PokemonC" : "Rocabot\nAraqua\nTritox\nConcombaffe\nSovkipou\nBacabouh\nBrindibou",
-      "PokemonPC" : "Plumeline\nRubombelle\nTarenbulle\nMalamandre\nEfflèche",
-      "PokemonR" : "Lougaroc\nNounourson\nSarmuraï\nArchéduc",
+      "PokemonPC" : "Plumeline\nRubombelle\nTarenbulle\nMalamandre\nEffleche",
+      "PokemonR" : "Lougaroc\nNounourson\nSarmurai\nArcheduc",
       "PokemonE" : "Tokorico\nTokopiyon\nTokotoro\nTokopisco",
       "Description" : "Flemme de faire toute les épreuves ? Venez directement ici !"
    },
@@ -541,9 +541,9 @@
    "DIURNEBALL" : {
       "price" : 2900,
       "MinPoint" : 4750,
-      "PokemonC" : "Bébécaille\nOtaquin",
-      "PokemonPC" : "Ecaïd\nOtarlette\nLampignon\nDodoala\nSinistrail",
-      "PokemonR" : "Ekaïser\nOratoria\nGouroutan\nQuatermac\nDraïeul",
+      "PokemonC" : "Bebecaille\nOtaquin",
+      "PokemonPC" : "Ecaid\nOtarlette\nLampignon\nDodoala\nSinistrail",
+      "PokemonR" : "Ekaiser\nOratoria\nGouroutan\nQuatermac\nDraieul",
       "PokemonE" : "Solgaleo\nLunala",
       "Description" : "Le soleil et la lune directement dans votre poche !"
    },
@@ -552,9 +552,9 @@
       "price" : 2900,
       "MinPoint" : 4750,
       "PokemonC" : "Denticrisse",
-      "PokemonPC" : "Kaorine\nPonchien\nColimucus\nLuminéon\nFlagadoss",
+      "PokemonPC" : "Kaorine\nPonchien\nColimucus\nLumineon\nFlagadoss",
       "PokemonR" : "Millobelus\nPorygonZ",
-      "PokemonE" : "Type:0\nSilvallié",
+      "PokemonE" : "Type:0\nSilvallie",
       "Description" : "La fondation Aether vous ouvre ses portes !"
    },
 
@@ -564,16 +564,16 @@
       "PokemonC" : "Aucun",
       "PokemonPC" : "Aucun",
       "PokemonR" : "Aucun",
-      "PokemonE" : "Zéroïd\nMouscoto\nCâblifière\nCancrelove\nEngloutyran\nBamboiselle\nKatagami\nVémini\nMandrillon\nPierroteknik\nAma-Ama\nNecrozma",
+      "PokemonE" : "Zeroid\nMouscoto\nCablifiere\nCancrelove\nEngloutyran\nBamboiselle\nKatagami\nVemini\nMandrillon\nPierroteknik\nAma-Ama\nNecrozma",
       "Description" : "Une concentration des Ultra Chimeres dans une seule ball !"
    },
 
    "COUROBALL" : {
       "price" : 3050,
       "MinPoint" : 5150,
-      "PokemonC" : "Larméléon\nFantyrm",
+      "PokemonC" : "Larmeleon\nFantyrm",
       "PokemonPC" : "Arrozard\nBerserkatt\nDispareptil",
-      "PokemonR" : "Lézargus\nIxon\nDuralgon\nCerbyllin\nLanssorien",
+      "PokemonR" : "Lezargus\nIxon\nDuralgon\nCerbyllin\nLanssorien",
       "PokemonE" : "Blizzeval\nSpectreval\nSylveroy",
       "Description" : "Visiter notre île DLC !"
    },
@@ -582,8 +582,8 @@
       "price" : 3050,
       "MinPoint" : 5150,
       "PokemonC" : "Coiffeton\nCampagnol\nGrondogue",
-      "PokemonPC" : "Canarbello\nMotorizard\nFamignol\nDogrino\nGerméclat",
-      "PokemonR" : "Palmaval\nScalpereur\nGromago\nFloréclat",
+      "PokemonPC" : "Canarbello\nMotorizard\nFamignol\nDogrino\nGermeclat",
+      "PokemonR" : "Palmaval\nScalpereur\nGromago\nFloreclat",
       "PokemonE" : "Miraidon\nKoraidon",
       "Description" : "Une sensation de liberte se fait ressentir !"
    },

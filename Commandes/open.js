@@ -1,128 +1,112 @@
-const Discord = require("discord.js");
-const { pokemon } = require('../main.js');
-const { dresseur } = require('../main.js');
-const { inventory } = require('../main.js');
-const { point } = require('../main.js');
-const { balls } = require('../main.js');
-const { EmbedBuilder } = require('discord.js');
-const fs = require('fs');
+const { EmbedBuilder, AttachmentBuilder } = require('discord.js');
+const { pokemon, dresseur, inventory, point, balls } = require('../main.js');
 const path = require('path');
 const fonction = require('./fonction/balle.js');
 
 module.exports = {
   name: "open",
-  description: "ouvrir une pokeball",
+  description: "Ouvrir une pokéball",
   permission: "Aucune",
   dm: false,
-  cooldown: 10,
+  cooldown: 0,
   options: [
     {
       type: "string",
       name: "balls",
-      description: "ball a acheter",
+      description: "Pokéball à ouvrir",
       required: true
     }
   ],
 
   async run(bot, message, args) {
     try {
-      if (point.getPoint(message.user.id) > 0) {
+      const userId = message.user.id;
 
-      const balle = args.getString("balls").toUpperCase(); // On récupère la pokeball choisie en majuscule qui permettra un choix dans la fonction ball
+      if (point.getPoint(userId) <= 0) {
+        return message.reply({
+          embeds: [new EmbedBuilder()
+            .setTitle("Open")
+            .setDescription("Vous n'avez pas commencé l'aventure. Faites `/start` pour débuter.")
+            .setTimestamp()]
+        });
+      }
 
-      if (inventory.getInventory(message.user.id).includes(balle) == true) {
+      const balle = args.getString("balls").toUpperCase();
+      const userInventory = inventory.getInventory(userId);
 
-        const Tshiny = Math.floor(Math.random() * 4097); // On récupère un nombre aléatoire entre 0 et 1
-        const resultatp = fonction.ball(balle); // On récupère le pokemon de la fonction ball en fonction du choix fait
-        const index = inventory.getInventory(message.user.id).indexOf(balle); // On récupère l'index de la pokeball dans l'inventaire
-        const name = resultatp.name.toUpperCase(); // On récupère le nom du pokemon en majuscule
-        inventory.getInventory(message.user.id).splice(index, 1); // On supprime la pokeball de l'inventaire
-        inventory.saveData(); // On sauvegarde l'inventaire
+      if (!userInventory.includes(balle)) {
+        return message.reply({
+          embeds: [new EmbedBuilder()
+            .setTitle("Erreur d'ouverture")
+            .setDescription("Vous ne possédez pas cette pokéball.")
+            .setTimestamp()]
+        });
+      }
 
-        if (Tshiny == 1) { // Si le nombre aléatoire est égal à 1
+      const Tshiny = Math.floor(Math.random() * 4097);
+      // const Tshiny = 1;
+      const resultatp = fonction.ball(balle);
+      const name = resultatp.name.toUpperCase();
 
-          const Nshiny = name + " (SHINY)"; // On ajoute un S à la fin du nom du pokemon
-          dresseur.addToList(message.user.id, Nshiny); // On ajoute le pokemon dans la liste du dresseur en majuscule
-          dresseur.saveData(); // On sauvegarde la liste du dresseur 
-          point.addData(message.user.id, point.getKey(message.user.id) + balls.getBalls(resultatp.rarity)); // On ajoute un point au dresseur
-          point.saveData(); // On importe les fonctions d'embed
+      // Retirer la ball de l'inventaire
+      const index = userInventory.indexOf(balle);
+      userInventory.splice(index, 1);
+      inventory.saveData();
 
-          const { AttachmentBuilder, EmbedBuilder } = require('discord.js'); // On importe les fonctions d'embed
-          const filePath = path.resolve(__dirname, `../Assets/assetsGS/${pokemon.getPokemon(name).N}.gif`);
-          const file = new AttachmentBuilder(filePath);
+      const isShiny = Tshiny === 1;
 
-          const exampleEmbed = new EmbedBuilder()
-            .setTitle(`Bravo tu as obtenu un nouveau pokémon !`)
-            .setDescription("Vous avez attrapé un " + resultatp.name + " **SHINY** de rareté " + resultatp.rarity) // On affiche le nom du pokemon et sa rareté
-            .setImage(`attachment://${pokemon.getPokemon(name).N}.gif`)
-            .setTimestamp(Date.now());
-          message.reply({ embeds: [exampleEmbed], files: [file] }); // On envoie l'embed avec l'image du pokemon
+      // Initialiser le joueur dans dresseur si nécessaire
+      if (!dresseur.data[userId]) dresseur.data[userId] = {};
 
-          // Envoi du message dans le salon spécifique
-          const guildName = message.guild.name;
-          const guildId = "1043996039297892463"; // ID du serveur
-          const channelId = "1109899933332549723"; // ID du salon
-          const guild = bot.guilds.cache.get(guildId);
-          const channel = guild.channels.cache.get(channelId);
-          exampleEmbed.setTitle(`Nouveau Shiny trouvé !`);
-          exampleEmbed.setDescription("**" + message.user.username + "** a attrape un **" + resultatp.name + "** **SHINY** de rareté " + resultatp.rarity + " sur le serveur **" + guildName + "**");
-          channel.send({ embeds: [exampleEmbed], files: [file] });
-
-        } else {
-
-          dresseur.addToList(message.user.id, resultatp.name.toUpperCase()); // On ajoute le pokemon dans la liste du dresseur en majuscule
-          dresseur.saveData(); // On sauvegarde la liste du dresseur 
-          point.addData(message.user.id, point.getKey(message.user.id) + balls.getBalls(resultatp.rarity)); // On ajoute un point au dresseur
-          point.saveData(); // On importe les fonctions d'embed
-          console.log(name);
-          const { AttachmentBuilder, EmbedBuilder } = require('discord.js'); // On importe les fonctions d'embed
-          const filePath = path.resolve(__dirname, `../Assets/assetsG/${pokemon.getPokemon(name).N}.gif`);
-          const file = new AttachmentBuilder(filePath);
-
-          const exampleEmbed = new EmbedBuilder()
-            .setTitle(`Bravo tu as obtenu un nouveau pokémon !`)
-            .setDescription("Vous avez attrapé un " + resultatp.name + " de rareté " + resultatp.rarity) // On affiche le nom du pokemon et sa rareté
-            .setImage(`attachment://${pokemon.getPokemon(name).N}.gif`)
-            .setTimestamp(Date.now());
-          message.reply({ embeds: [exampleEmbed], files: [file] }); // On envoie l'embed avec l'image du pokemon
-
-          // Envoi du message dans le salon spécifique
-          const guildName = message.guild.name;
-          const guildId = "1043996039297892463"; // ID du serveur
-          const channelId = "1109899933332549723"; // ID du salon
-          const guild = bot.guilds.cache.get(guildId);
-          const channel = guild.channels.cache.get(channelId);
-          exampleEmbed.setTitle(`Nouveau Pokemon trouvé !`);
-          exampleEmbed.setDescription("**" + message.user.username + "** a attrape un **" + resultatp.name + "** de rareté " + resultatp.rarity + " sur le serveur **" + guildName + "**");
-          channel.send({ embeds: [exampleEmbed], files: [file] });
-
+      // Si déjà capturé, on incrémente
+      const existing = dresseur.data[userId][name];
+      if (existing) {
+        existing.nbr += 1;
+        if (isShiny && !existing.shiny) {
+          existing.shiny = true; // mise à jour shiny si nouvellement capturé
         }
       } else {
-
-        const exampleEmbed = new EmbedBuilder()
-          .setTitle(`Erreur d'ouverture`)
-          .setDescription(`Vous ne possédez pas cette pokeball`)
-          .setTimestamp(Date.now());
-        message.reply({ embeds: [exampleEmbed] });
-
+        dresseur.data[userId][name] = { shiny: isShiny, nbr: 1 };
       }
-    } else {
 
-      const exampleEmbed = new EmbedBuilder()
-        .setTitle(`Open`)
-        .setDescription(`Vous n'avez pas commencé l'aventure faite /start pour commencer`)
-        .setTimestamp(Date.now());
-      message.reply({ embeds: [exampleEmbed] });
+      dresseur.saveData();
 
+      // Points
+      point.addData(userId, point.getKey(userId) + balls.getBalls(resultatp.rarity));
+      point.saveData();
+
+      const folder = isShiny ? "assetsGS" : "assetsG";
+      const filePath = path.resolve(__dirname, `../Assets/${folder}/${pokemon.getPokemon(name).N}.gif`);
+      const file = new AttachmentBuilder(filePath);
+
+      const embed = new EmbedBuilder()
+        .setTitle(`Bravo ! Tu as obtenu un nouveau Pokémon !`)
+        .setDescription(`Tu as attrapé un ${resultatp.name}${isShiny ? " **SHINY**" : ""} de rareté ${resultatp.rarity}`)
+        .setImage(`attachment://${pokemon.getPokemon(name).N}.gif`)
+        .setTimestamp();
+
+      await message.reply({ embeds: [embed], files: [file] });
+
+      // Annonce publique
+      const guildName = message.guild.name;
+      const guildId = "1043996039297892463";
+      const channelId = "1109899933332549723";
+      const guild = bot.guilds.cache.get(guildId);
+      const channel = guild.channels.cache.get(channelId);
+
+      embed.setTitle(isShiny ? "Nouveau Shiny trouvé !" : "Nouveau Pokémon trouvé !");
+      embed.setDescription(`**${message.user.username}** a attrapé un **${resultatp.name}**${isShiny ? " **SHINY**" : ""} de rareté ${resultatp.rarity} sur le serveur **${guildName}**`);
+
+      channel.send({ embeds: [embed], files: [file] });
+
+    } catch (error) {
+      console.error("Une erreur s'est produite :", error);
+      const errorEmbed = new EmbedBuilder()
+        .setTitle('Erreur')
+        .setDescription("Une erreur est survenue lors de l'ouverture de votre pokéball.")
+        .setColor('Red')
+        .setTimestamp();
+      message.reply({ embeds: [errorEmbed] });
     }
-  } catch (error) {
-    console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
-    const errorEmbed = new EmbedBuilder()
-      .setTitle('Erreur')
-      .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
-      .setColor('Red')
-      .setTimestamp();
-    message.reply({ embeds: [errorEmbed] });
   }
-}
 };

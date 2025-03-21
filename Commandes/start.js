@@ -21,13 +21,10 @@ module.exports = {
             if (point.getPoint(message.user.id) > 0) {
                 message.reply("Vous avez déjà commencé votre aventure !")
             } else {
-                let pokemon = "RATTATA"
                 let ball = "CARNIVOBALL"
 
                 point.addData(message.user.id, point.getKey(message.user.id) + 1)
                 point.saveData();
-                dresseur.addToList(message.user.id, pokemon);
-                dresseur.saveData();
                 inventory.addToList(message.user.id, ball)
                 inventory.saveData();
                 argent.addData(message.user.id, argent.getKey(message.user.id) + 600)
