@@ -1,168 +1,161 @@
-const { EmbedBuilder, AttachmentBuilder } = require('discord.js');
-const { point, balls } = require('../main.js');
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
+const { point, balls } = require("../main.js");
+
 
 module.exports = {
-    name: "shop",
-    description: "Voir les balls disponibles",
-    permission: "Aucune",
-    dm: false,
-    cooldown: 5,
-    options: [
-        {
-            type: "string",
-            name: "balls1",
-            description: "Les balls à voir (groupe 1)",
-            required: false,
-            choices: [
-                { name: "CarnivoBall", value: "carnivoball" },
-                { name: "VeggieBall", value: "veggieball" },
-                { name: "SnackBall", value: "snackball" },
-                { name: "CutieBall", value: "cutieball" },
-                { name: "RepulsBall", value: "repulsball" },
-                { name: "SafariBall", value: "safariball" },
-                { name: "AmazonieBall", value: "amazonieball" },
-                { name: "AridBall", value: "aridball" },
-                { name: "SerreBall", value: "serreball" },
-                { name: "AgricoBall", value: "agricoball" },
-                { name: "PiafBall", value: "piafball" },
-                { name: "GeoBall", value: "geoball" },
-                { name: "BubbleBall", value: "bubbleball" },
-                { name: "SeaBall", value: "seaball" },
-                { name: "MossBall", value: "mossball" },
-                { name: "BoomBall", value: "boomball" },
-                { name: "UsineBall", value: "usineball" },
-                { name: "RobotBall", value: "robotball" },
-                { name: "HorrorBall", value: "horrorball" },
-                { name: "TomBall", value: "tomball" },
-                { name: "VolcanoBall", value: "volcanoball" },
-                { name: "ArticBall", value: "articball" },
-                { name: "MassBall", value: "massball" },
-                { name: "SmallBall", value: "smallball" }
-            ]
-        },
-        {
-            type: "string",
-            name: "balls2",
-            description: "Les balls à voir (groupe 2)",
-            required: false,
-            choices: [
-                { name: "RapidBall", value: "rapidball" },
-                { name: "RythmBall", value: "rythmball" },
-                { name: "PetBall", value: "petball" },
-                { name: "ForestBall", value: "forestball" },
-                { name: "DonjonBall", value: "donjonball" },
-                { name: "RuineBall", value: "ruineball" },
-                { name: "ChevalierBall", value: "chevalierball" },
-                { name: "MagieBall", value: "magieball" },
-                { name: "PoingBall", value: "poingball" },
-                { name: "WaifuBall", value: "waifuball" },
-                { name: "HusbandoBall", value: "husbandoball" },
-                { name: "XBall", value: "xball" },
-                { name: "MystrestBall", value: "mystrestball" },
-                { name: "SweetieBall", value: "sweetieball" },
-                { name: "RocketBall", value: "rocketball" },
-                { name: "CarillonBall", value: "carillonball" },
-                { name: "TourbilesBall", value: "tourbilesball" },
-                { name: "CendreeBall", value: "cendreeball" },
-                { name: "FFBall", value: "ffball" },
-                { name: "GTBall", value: "gtball" },
-                { name: "GMBall", value: "gmball" },
-                { name: "CelesteBall", value: "celesteball" }
-            ]
-        },
-        {
-            type: "string",
-            name: "balls3",
-            description: "Les balls à voir (groupe 3)",
-            required: false,
-            choices: [
-                { name: "CaillouxBall", value: "caillouxball" },
-                { name: "LacBall", value: "lacball" },
-                { name: "CouronneeBall", value: "couronneeball" },
-                { name: "LameBall", value: "lameball" },
-                { name: "DieuxBall", value: "dieuxball" },
-                { name: "CyclopeeBall", value: "cyclopeeball" },
-                { name: "GardienBall", value: "gardienball" },
-                { name: "DiurneBall", value: "diurneball" },
-                { name: "AetherBall", value: "aetherball" },
-                { name: "UcBall", value: "ucball" },
-                { name: "PaldeCouroBall", value: "paldeball" }
-            ]
-        }
-    ],
-
-    async run(bot, interaction) {
-        try {
-            const userId = interaction.user.id;
-
-            if (!point.data[userId] || point.getPoint(userId) <= 0) {
-                const embed = new EmbedBuilder()
-                  .setColor("#FF0000")
-                  .setTitle("Achat impossible")
-                  .setDescription("Vous n'avez pas encore commencé l'aventure. Faites `/start` pour commencer.")
-                  .setTimestamp();
-                return interaction.reply({ embeds: [embed] });
-              }
-
-            const selectedBalls = [
-                interaction.options.getString("balls1"),
-                interaction.options.getString("balls2"),
-                interaction.options.getString("balls3")
-            ].filter(Boolean);
-
-            if (selectedBalls.length === 0) {
-                return interaction.reply({
-                    embeds: [
-                        new EmbedBuilder()
-                            .setColor("#FFA500")
-                            .setTitle("Shop")
-                            .setDescription("Veuillez sélectionner une ball parmi les options disponibles.")
-                    ],
-                    ephemeral: true
-                });
-            }
-
-            const embeds = [];
-
-            for (const ball of selectedBalls) {
-                const ballData = balls.getBalls(ball.toUpperCase());
-
-                if (!ballData) {
-                    console.warn(`Ball non trouvée -> ${ball}`);
-                    continue;
-                }
-
-                const embed = new EmbedBuilder()
-                    .setTitle(`${ball}`)
-                    .setDescription(ballData.Description)
-                    .setColor("#FFD700")
-                    .setThumbnail("attachment://pokeball.png")
-                    .addFields(
-                        { name: "💰 Prix", value: `${ballData.price} P$`, inline: true },
-                        { name: "🔹 Points min.", value: `${ballData.MinPoint}`, inline: true }
-                    );
-
-                if (ballData.PokemonC !== "Aucun") embed.addFields({ name: "⭐ Commun", value: ballData.PokemonC, inline: true });
-                if (ballData.PokemonPC !== "Aucun") embed.addFields({ name: "🔹 Peu Commun", value: ballData.PokemonPC, inline: true });
-                if (ballData.PokemonR !== "Aucun") embed.addFields({ name: "🔴 Rare", value: ballData.PokemonR, inline: true });
-                if (ballData.PokemonE !== "Aucun") embed.addFields({ name: "🔥 Épique", value: ballData.PokemonE, inline: true });
-
-                embeds.push(embed);
-            }
-
-            await interaction.reply({
-                embeds,
-                files: [new AttachmentBuilder("assets/pokeball.png")]
-            });
-
-        } catch (error) {
-            console.error("❌ Erreur lors de l'exécution de la commande /shop :", error);
-            const errorEmbed = new EmbedBuilder()
-                .setTitle("Erreur")
-                .setDescription("Une erreur est survenue lors du chargement du shop.")
-                .setColor("Red")
-                .setTimestamp();
-            return interaction.reply({ embeds: [errorEmbed], ephemeral: true });
-        }
+  name: "shop",
+  description: "Voir les balls disponibles",
+  permission: "Aucune",
+  dm: false,
+  cooldown: 5,
+  options: [
+    {
+      type: "string",
+      name: "balls",
+      description: "Les balls à voir (groupe 1)",
+      required: false
     }
+  ],
+
+  async run(bot, interaction) {
+    try {
+      const userId = interaction.user.id;
+      if (!point.data[userId] || point.getPoint(userId) <= 0) {
+        return interaction.reply({
+          embeds: [
+            new EmbedBuilder()
+              .setColor("#FF0000")
+              .setTitle("Accès refusé")
+              .setDescription("Vous devez d'abord commencer votre aventure avec `/start`.")
+              .setTimestamp()
+          ]
+        });
+      }
+
+      const selectedBall = interaction.options.getString("balls");
+
+      if (selectedBall) {
+        // **Cas où une Pokéball est spécifiée**
+        const ballData = balls.getBalls(selectedBall.toUpperCase());
+
+        if (!ballData) {
+          return interaction.reply({
+            embeds: [
+              new EmbedBuilder()
+                .setColor("#FF0000")
+                .setTitle("Erreur")
+                .setDescription("Cette Pokéball n'existe pas.")
+            ]
+          });
+        }
+
+        const embed = new EmbedBuilder()
+          .setTitle(selectedBall.toUpperCase())
+          .setColor("#FFD700")
+
+        if (ballData.PokemonC !== "Aucun") embed.addFields({ name: "⭐ Commun", value: ballData.PokemonC, inline: true });
+        if (ballData.PokemonPC !== "Aucun") embed.addFields({ name: "🔹 Peu Commun", value: ballData.PokemonPC, inline: true });
+        if (ballData.PokemonR !== "Aucun") embed.addFields({ name: "🔴 Rare", value: ballData.PokemonR, inline: true });
+        if (ballData.PokemonE !== "Aucun") embed.addFields({ name: "🔥 Épique", value: ballData.PokemonE, inline: true });
+
+        embed.addFields(
+          { name: "💰 Prix", value: `${ballData.price} P$`, inline: true },
+          { name: "🔹 Points requis", value: `${ballData.MinPoint}`, inline: true }
+        );
+
+        return interaction.reply({ embeds: [embed] });
+      }
+
+      // **Cas où aucune Pokéball n'est spécifiée -> affichage paginé de toutes les Pokéballs**
+      let ballsToShow = Object.keys(balls.data).filter(ball => balls.data[ball]?.price !== undefined);
+      const perPage = 9;
+      const totalPages = Math.ceil(ballsToShow.length / perPage);
+      let currentPage = 0;
+
+      const generateEmbed = (page) => {
+        const start = page * perPage;
+        const end = start + perPage;
+        const slice = ballsToShow.slice(start, end);
+
+        const embed = new EmbedBuilder()
+          .setTitle("Shop - Liste des Pokéballs")
+          .setColor("#FFD700")
+          .setFooter({ text: `Page ${page + 1} / ${totalPages}` });
+
+        for (const ballName of slice) {
+          const ballData = balls.data[ballName];
+          if (!ballData) continue;
+
+          embed.addFields({
+            name: ballName.toUpperCase(),
+            value: `💰 Prix: **${ballData.price} P$**\n🔹 Points requis: **${ballData.MinPoint}**`,
+            inline: true
+          });
+        }
+
+        return embed;
+      };
+
+      const row = new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+          .setCustomId("prevShop")
+          .setLabel("⬅️")
+          .setStyle(ButtonStyle.Primary)
+          .setDisabled(true),
+        new ButtonBuilder()
+          .setCustomId("nextShop")
+          .setLabel("➡️")
+          .setStyle(ButtonStyle.Primary)
+          .setDisabled(totalPages <= 1)
+      );
+
+      const message = await interaction.reply({
+        embeds: [generateEmbed(currentPage)],
+        components: [row],
+        fetchReply: true
+      });
+
+      const collector = message.createMessageComponentCollector({ time: 60000 });
+
+      collector.on("collect", async i => {
+        if (i.user.id !== userId) return i.reply({ content: "Ce bouton n'est pas pour toi.", ephemeral: true });
+
+        if (i.customId === "nextShop") currentPage++;
+        if (i.customId === "prevShop") currentPage--;
+
+        const newRow = new ActionRowBuilder().addComponents(
+          new ButtonBuilder()
+            .setCustomId("prevShop")
+            .setLabel("⬅️")
+            .setStyle(ButtonStyle.Primary)
+            .setDisabled(currentPage === 0),
+          new ButtonBuilder()
+            .setCustomId("nextShop")
+            .setLabel("➡️")
+            .setStyle(ButtonStyle.Primary)
+            .setDisabled(currentPage === totalPages - 1)
+        );
+
+        await i.update({ embeds: [generateEmbed(currentPage)], components: [newRow] });
+      });
+
+      collector.on("end", async () => {
+        try { await interaction.editReply({ components: [] }); } catch {}
+      });
+
+    } catch (error) {
+      console.error("Erreur /shop :", error);
+      return interaction.reply({
+        embeds: [
+          new EmbedBuilder()
+            .setTitle("Erreur")
+            .setDescription("Une erreur est survenue lors du chargement du shop.")
+            .setColor("Red")
+            .setTimestamp()
+        ],
+        ephemeral: true
+      });
+    }
+  }
 };

@@ -70,7 +70,6 @@ module.exports = {
         pokedex.push({
           name: p.Name,
           id: p.N,
-          type: p.Type || "Inconnu",
           color: p.color || "#FFFFFF",
           ballList: p.balls || [],
           isUnlocked: !!userEntry,
@@ -103,7 +102,7 @@ module.exports = {
           const count = p.quantity > 1 ? ` x${p.quantity}` : "";
           embed.addFields({
             name: `${emoji} ${shiny}${p.name} (#${p.id})${count}`,
-            value: `Type : ${p.type}\nBalls : ${p.ballList.join(", ") || "Aucune"}`,
+            value: `Balls : ${p.ballList.join(", ") || "Aucune"}`,
             inline: true
           });
         });
