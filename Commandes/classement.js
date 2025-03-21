@@ -1,64 +1,64 @@
-const Discord = require("discord.js");
-const { point } = require('../main.js');
-const { EmbedBuilder } = require('discord.js');
+const { EmbedBuilder } = require("discord.js");
+const { point } = require("../main.js");
 
 module.exports = {
   name: "classement",
   description: "Qui sera le premier ?",
   permission: "Aucune",
   dm: false,
-  cooldown: 10,
+  cooldown: 5,
 
-  async run(bot, message, args) {
+  async run(bot, interaction) {
     try {
-      if (point.getPoint(message.user.id) > 0) {
+      const userId = interaction.user.id;
 
-        // Obtenir les utilisateurs avec leurs points
-        const usersWithPoints = point.getUsersWithPoints();
+      if (!point.data[userId] || point.getPoint(userId) <= 0) {
+        const embed = new EmbedBuilder()
+          .setColor("#FF0000")
+          .setTitle("Achat impossible")
+          .setDescription("Vous n'avez pas encore commencé l'aventure. Faites `/start` pour commencer.")
+          .setTimestamp();
+        return interaction.reply({ embeds: [embed] });
+      }
 
-        // Obtenir les 10 meilleurs utilisateurs
-        const topUsers = point.getTopUsers(10);
+      // Obtenir tous les utilisateurs avec leurs points
+      const usersWithPoints = point.getUsersWithPoints();
 
-        // Récupérer les pseudos des utilisateurs en remplaçant les ID par les pseudos
-        const updatedUsersWithPoints = await Promise.all(usersWithPoints.map(async ([userID, points]) => {
-          const user = await bot.users.fetch(userID);
-          const username = user ? user.username : "Utilisateur inconnu";
-          return [username, points];
-        }));
+      // Top 10
+      const topUsers = point.getTopUsers(10);
 
-        const updatedTopUsers = await Promise.all(topUsers.map(async ([userID, points], index) => {
+      // Remplacer les ID par les pseudos
+      const updatedTopUsers = await Promise.all(topUsers.map(async ([userID, points], index) => {
+        try {
           const user = await bot.users.fetch(userID);
           const username = user ? user.username : "Utilisateur inconnu";
           return [username, points, index + 1];
-        }));
+        } catch {
+          return [`Utilisateur inconnu`, points, index + 1];
+        }
+      }));
 
-        // Créer un message d'embed pour afficher les informations avec les pseudos
-        const exampleEmbed = new EmbedBuilder()
-          .setTitle("Classement des utilisateurs")
-          .setTimestamp(Date.now())
-          .setDescription(
-            `Voici les 10 meilleurs utilisateurs :\n${updatedTopUsers.map(([user, points, index]) => `${index}. ${user}: ${points}`).join('\n')}`
-          );
+      // Embed
+      const embed = new EmbedBuilder()
+        .setTitle("Classement des meilleurs dresseurs")
+        .setColor("#FFD700")
+        .setTimestamp()
+        .setDescription(
+          updatedTopUsers
+            .map(([user, points, index]) => `**${index}.** ${user} — ${points} points`)
+            .join("\n")
+        );
 
-        message.reply({ embeds: [exampleEmbed] });
+      return interaction.reply({ embeds: [embed] });
 
-      } else {
-
-        const exampleEmbed = new EmbedBuilder()
-          .setTitle("Classement")
-          .setDescription(
-            "Vous n'avez pas commencé l'aventure. Faites `/start` pour commencer.")
-          .setTimestamp(Date.now());
-        message.reply({ embeds: [exampleEmbed] });
-      }
     } catch (error) {
-      console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
+      console.error("Erreur dans la commande classement :", error);
       const errorEmbed = new EmbedBuilder()
-        .setTitle('Erreur')
-        .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
-        .setColor('Red')
+        .setTitle("Erreur")
+        .setDescription("Une erreur est survenue lors de l'affichage du classement.")
+        .setColor("Red")
         .setTimestamp();
-      message.reply({ embeds: [errorEmbed] });
+      return interaction.reply({ embeds: [errorEmbed] });
     }
   }
 };

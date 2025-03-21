@@ -1,65 +1,60 @@
-const Discord = require("discord.js")
-const { EmbedBuilder } = require('discord.js');
-const {point} = require('../main.js');
+const { EmbedBuilder } = require("discord.js");
+const { point } = require('../main.js');
 
 module.exports = {
+  name: "tuto",
+  description: "Comment utiliser le bot",
+  permission: "Aucune",
+  dm: false,
+  cooldown: 10,
 
-    name: "tuto",
-    description: "Comment utiliser le bot",
-    permission: "Aucune",
-    dm: false,
-    cooldown: 10,
-
-async run(bot, message, args) {
+  async run(bot, interaction) {
     try {
-    const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
+      const embed = new EmbedBuilder()
+        .setTitle("📘 Tuto")
+        .setDescription("Hey ! Merci à toi d'utiliser mon bot !\nVoici un petit tuto pour bien démarrer (toutes les commandes sont listées dans `/help`)")
+        .addFields(
+          { name: '\u200b', value: '\u200b', inline: false },
+          {
+            name: 'Argent',
+            value:
+              "Tu as 3 moyens d’obtenir de l’argent :\n\n" +
+              "1. Travailler toutes les 10 minutes → `/job`\n" +
+              "2. Jouer à la loterie → `/loterie` (tu peux perdre ton argent !)\n" +
+              "3. Récupérer ta récompense quotidienne → `/daily`",
+            inline: true
+          },
+          { name: '\u200b', value: '\u200b', inline: false },
+          {
+            name: 'Pokéballs',
+            value:
+              "Pour capturer un Pokémon, suis ces étapes :\n\n" +
+              "1. Acheter une pokéball → `/buy <ball>`\n" +
+              "2. L'ouvrir pour tenter une capture → `/open <ball>`",
+            inline: true
+          },
+          { name: '\u200b', value: '\u200b', inline: false },
+          {
+            name: 'Shop',
+            value:
+              "Pour voir le contenu d’une pokéball et son prix → `/shop <ball>`\n" +
+              "Ou bien consulter toutes les pokéballs disponibles → `/shop all`",
+            inline: true
+          }
+        )
+        .setColor("#00BFFF")
+        .setTimestamp();
 
+      await interaction.reply({ embeds: [embed] });
 
-        const exampleEmbed = new EmbedBuilder()    //ba cest une commande embed ya pas de code ducon
-	    .setTitle(`Tuto`)
-        .setDescription(`Hey ! Merci a toi d'utiliser mon bot ! \n Voici un petit tuto pour pouvoir utiliser le bot sans problème (toute les commandes sont indiques dans /help)`)
-        .addFields([
-            {
-                name: '\u200b',
-                value: '\u200b',
-                inline: false,
-            },
-            {
-                name: 'Argent',
-                value: "Vous avez 3 manières d'obtenir de l'argent : \n\n 1. En travaillant toute les 10 minutes ```/job```  \n\n 2. Avec la loterie ```/loterie``` (!! vous pouvez perdre votre argent !!) \n\n 3. Avec le ```/daily```",
-                inline: true,
-            },
-            {
-                name: '\u200b',
-                value: '\u200b',
-                inline: false,
-            },
-            {
-                name: 'Ball',
-                value: "Pour capturer un pokemon il y a 2 étapes \n\n 1. Tout d'abord utiliser la commande qui permet d'acheter une pokeball ```/buy <ball>```\n\n 2. Utiliser la commande pour l'ouvrir ```/open <ball>``` Et voila vous possedez desormais un pokemon !",
-                inline: true,
-            },
-            {
-                name: '\u200b',
-                value: '\u200b',
-                inline: false,
-            },
-            {
-                name: 'Shop',
-                value: "Pour voir le contenue d'une pokeball et son prix ```/shop <ball>``` ou voir l'intégralité des balls ```/shop all```",
-                inline: true,
-            },
-        ])
-        .setTimestamp(Date.now())
-        message.reply({ embeds: [exampleEmbed]})
     } catch (error) {
-        console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
-        const errorEmbed = new EmbedBuilder()
-          .setTitle('Erreur')
-          .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
-          .setColor('Red')
-          .setTimestamp();
-        message.reply({ embeds: [errorEmbed] });
-      }
+      console.error("Erreur dans la commande /tuto :", error);
+      const errorEmbed = new EmbedBuilder()
+        .setTitle("Erreur")
+        .setDescription("Une erreur est survenue lors de l'exécution de la commande.")
+        .setColor("Red")
+        .setTimestamp();
+      await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
-}
+  }
+};

@@ -1,53 +1,63 @@
-const Discord = require("discord.js")
-const { argent } = require('../main.js')
-const { point } = require('../main.js');
-const { EmbedBuilder } = require('discord.js');
-const { SlashCommandBuilder } = require('discord.js');
-const { balls } = require('../main.js');
+const { EmbedBuilder } = require("discord.js");
+const { argent, point, balls } = require("../main.js");
 
 module.exports = {
+  name: "job",
+  description: "Effectuer un job pour gagner de l'argent",
+  permission: "Aucune",
+  dm: false,
+  cooldown: 600, // 10 minutes
 
-    name: "job",
-    description: "pour gagner de l'argent",
-    permission: "Aucune",
-    dm: false,
-    cooldown: 600,
+  async run(bot, interaction) {
+    try {
+      const userId = interaction.user.id;
 
-    async run(bot, message, args) {
-        try {
+      if (!point.data[userId] || point.getPoint(userId) <= 0) {
+        const embed = new EmbedBuilder()
+          .setColor("#FF0000")
+          .setTitle("Achat impossible")
+          .setDescription("Vous n'avez pas encore commencé l'aventure. Faites `/start` pour commencer.")
+          .setTimestamp();
+        return interaction.reply({ embeds: [embed] });
+      }
 
-            if (point.getPoint(message.user.id) > 0) {
-                var arg = Math.floor(Math.random() * 200) + 400; // On génère un nombre aléatoire entre 400 et 600 
-                var mes = Math.floor(Math.random() * 9);      // On génère un nombre aléatoire entre 1 et 12 qui servira a choisir un message
+      const gain = Math.floor(Math.random() * 200) + 400; // 400 à 599
+      const jobMessages = [
+        "Tu as travaillé dans une ferme",
+        "Tu as bossé sur un chantier",
+        "Tu as fait du ménage dans un manoir hanté",
+        "Tu as été commis dans un fast-food",
+        "Tu as peint une fresque murale",
+        "Tu as trié des colis dans un entrepôt",
+        "Tu as fait des tests de produits pour la Team Rocket",
+        "Tu as lavé des voitures",
+        "Tu as testé un nouveau jeu Pokémon",
+        "Tu as joué dans une pub pour Pokéballs"
+      ];
 
-                const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
+      const randomIndex = Math.floor(Math.random() * jobMessages.length);
+      const jobMessage = jobMessages[randomIndex];
 
-                const exampleEmbed = new EmbedBuilder()
-                    .setTitle(`Job`)
-                    .setDescription(`${balls.getBalls(mes)} : ${arg}P$ \n\n Votre argent s'élève à : ${argent.getArgent(message.user.id)}P$`)
-                    .setTimestamp(Date.now());
-                message.reply({ embeds: [exampleEmbed] })
+      argent.addData(userId, argent.getKey(userId) + gain);
+      argent.saveData();
 
-                argent.addData(message.user.id, argent.getKey(message.user.id) + arg)
-                argent.saveData()
+      const embed = new EmbedBuilder()
+        .setTitle("Job terminé !")
+        .setDescription(`${jobMessage} et gagné **${gain}P$**.\n\n Ton solde actuel est de **${argent.getArgent(userId)}P$**`)
+        .setColor("#2ecc71")
+        .setTimestamp();
 
+      await interaction.reply({ embeds: [embed] });
 
-            } else {
-                const exampleEmbed = new EmbedBuilder()
-                    .setTitle(`Job`)
-                    .setDescription(`Vous n'avez pas commencer l'aventure faite /start pour commencer`)
-                    .setTimestamp(Date.now());
-                message.reply({ embeds: [exampleEmbed] })
-            }
-        } catch (error) {
-            console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
-            const errorEmbed = new EmbedBuilder()
-                .setTitle('Erreur')
-                .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
-                .setColor('Red')
-                .setTimestamp();
-            message.reply({ embeds: [errorEmbed] });
-        }
+    } catch (error) {
+      console.error("Erreur dans la commande job :", error);
+      const errorEmbed = new EmbedBuilder()
+        .setTitle("Erreur")
+        .setDescription("Une erreur est survenue lors de l'exécution du job.")
+        .setColor("Red")
+        .setTimestamp();
+
+      await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
+  }
 };
-

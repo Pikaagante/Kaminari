@@ -1,62 +1,65 @@
-const Discord = require("discord.js")
-const { inventory } = require('../main.js')
-const { point } = require('../main.js');
-const { EmbedBuilder } = require('discord.js');
+const { EmbedBuilder } = require("discord.js");
+const { inventory, point } = require("../main.js");
 
 module.exports = {
-
   name: "inventory",
   description: "Voir son inventaire",
   permission: "Aucune",
   dm: false,
-  cooldown: 10,
+  cooldown: 5,
 
-  async run(bot, message, args) {
+  async run(bot, interaction) {
     try {
-      if (point.getPoint(message.user.id) > 0) {
-        const inventoryList = inventory.getInventory(message.user.id);
-        const inventoryCounts = {};
+      const userId = interaction.user.id;
 
-        // Compte le nombre de chaque balle dans l'inventaire
-        inventoryList.forEach(ball => {
-          if (inventoryCounts[ball]) {
-            inventoryCounts[ball]++;
-          } else {
-            inventoryCounts[ball] = 1;
-          }
-        });
-
-        // Construit une chaîne de caractères pour afficher les résultats
-        let inventoryString = "Vous avez : \n";
-
-        for (const ball in inventoryCounts) {
-          const ballCount = inventoryCounts[ball];
-          const formattedBallName = ball.charAt(0).toUpperCase() + ball.slice(1).toLowerCase();
-          inventoryString += `${formattedBallName} x${ballCount}\n`;
-        }
-
-        const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
-
-        const exampleEmbed = new EmbedBuilder()
-          .setTitle("Inventaire")
-          .setDescription(inventoryString);
-
-        message.reply({ embeds: [exampleEmbed] });
-      } else {
-        const exampleEmbed = new EmbedBuilder()
-          .setTitle(`Inventaire`)
-          .setDescription(`Vous n'avez pas commencer l'aventure faite /start pour commencer`)
-          .setTimestamp(Date.now());
-        message.reply({ embeds: [exampleEmbed] })
+      if (!point.data[userId] || point.getPoint(userId) <= 0) {
+        const embed = new EmbedBuilder()
+          .setColor("#FF0000")
+          .setTitle("Achat impossible")
+          .setDescription("Vous n'avez pas encore commencé l'aventure. Faites `/start` pour commencer.")
+          .setTimestamp();
+        return interaction.reply({ embeds: [embed] });
       }
-    } catch (error) {
-      console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
-      const errorEmbed = new EmbedBuilder()
-        .setTitle('Erreur')
-        .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
-        .setColor('Red')
+
+      const userInventory = inventory.data?.[userId] || {};
+      const ballEntries = Object.entries(userInventory);
+
+      if (ballEntries.length === 0) {
+        return interaction.reply({
+          embeds: [
+            new EmbedBuilder()
+              .setTitle("Inventaire")
+              .setDescription("Votre inventaire est vide.")
+              .setColor("#AAAAAA")
+              .setTimestamp()
+          ],
+          ephemeral: true
+        });
+      }
+
+      let inventoryString = "Vous avez :\n";
+      for (const [ballName, info] of ballEntries) {
+        const displayName = ballName.charAt(0).toUpperCase() + ballName.slice(1).toLowerCase();
+        inventoryString += `- ${displayName} x${info.nbr}\n`;
+      }
+
+      const embed = new EmbedBuilder()
+        .setTitle("Inventaire")
+        .setDescription(inventoryString)
+        .setColor("#2ecc71")
         .setTimestamp();
-      message.reply({ embeds: [errorEmbed] });
+
+      await interaction.reply({ embeds: [embed] });
+
+    } catch (error) {
+      console.error("Erreur dans la commande inventory :", error);
+      const errorEmbed = new EmbedBuilder()
+        .setTitle("Erreur")
+        .setDescription("Une erreur est survenue lors de l'affichage de l'inventaire.")
+        .setColor("Red")
+        .setTimestamp();
+
+      await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
   }
 };

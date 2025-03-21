@@ -93,29 +93,22 @@ module.exports = {
 
     async run(bot, interaction) {
         try {
-            console.log(`🔍 DEBUG - Exécution de la commande SHOP par ${interaction.user.id}`);
+            const userId = interaction.user.id;
 
-            // Vérification du profil utilisateur
-            if (!point.getPoint(interaction.user.id)) {
-                return interaction.reply({
-                    embeds: [
-                        new EmbedBuilder()
-                            .setColor("#FF0000")
-                            .setTitle("Shop")
-                            .setDescription("Vous n'avez pas commencé l'aventure ! Faites `/start` pour débuter.")
-                    ],
-                    ephemeral: true
-                });
-            }
+            if (!point.data[userId] || point.getPoint(userId) <= 0) {
+                const embed = new EmbedBuilder()
+                  .setColor("#FF0000")
+                  .setTitle("Achat impossible")
+                  .setDescription("Vous n'avez pas encore commencé l'aventure. Faites `/start` pour commencer.")
+                  .setTimestamp();
+                return interaction.reply({ embeds: [embed] });
+              }
 
-            // Récupération des paramètres sélectionnés
             const selectedBalls = [
                 interaction.options.getString("balls1"),
                 interaction.options.getString("balls2"),
                 interaction.options.getString("balls3")
-            ].filter(Boolean); // Filtre les valeurs null
-
-            console.log(`🎯 DEBUG - Balls sélectionnées : ${selectedBalls.join(", ") || "Aucune"}`);
+            ].filter(Boolean);
 
             if (selectedBalls.length === 0) {
                 return interaction.reply({
@@ -158,13 +151,18 @@ module.exports = {
             }
 
             await interaction.reply({
-                embeds: embeds,
+                embeds,
                 files: [new AttachmentBuilder("assets/pokeball.png")]
             });
 
         } catch (error) {
-            console.error("Erreur lors de l'exécution de la commande SHOP :", error);
-            return interaction.reply({ content: "Une erreur est survenue.", ephemeral: true });
+            console.error("❌ Erreur lors de l'exécution de la commande /shop :", error);
+            const errorEmbed = new EmbedBuilder()
+                .setTitle("Erreur")
+                .setDescription("Une erreur est survenue lors du chargement du shop.")
+                .setColor("Red")
+                .setTimestamp();
+            return interaction.reply({ embeds: [errorEmbed], ephemeral: true });
         }
     }
 };

@@ -1,31 +1,48 @@
-const Discord = require("discord.js")
-const { EmbedBuilder } = require('discord.js');
-
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
+  name: "help",
+  description: "Toutes les commandes disponibles",
+  permission: "Aucune",
+  dm: false,
+  cooldown: 5,
 
-    name: "help",
-    description: "Toute les commandes",
-    permission: "Aucune",
-    dm: false,
-    cooldown: 10,
+  async run(bot, interaction) {
+    try {
+      const helpEmbed = new EmbedBuilder()
+        .setTitle("Commandes disponibles")
+        .setColor("#3498db")
+        .setDescription(
+          [
+            "/profil : ```voir son argent et ses points```",
+            "/daily : ```gagner 1000P$ par jour```",
+            "/buy <ball> <quantite> : ```acheter des Pokéballs```",
+            "/open <ball> <quantite?> : ```ouvrir une ou plusieurs Pokéballs```",
+            "/inventory : ```voir ses Pokéballs restantes```",
+            "/job : ```gagner de l'argent toutes les 15 minutes```",
+            "/loterie : ```tenter sa chance pour gagner de l'argent```",
+            "/start : ```commencer l'aventure```",
+            "/pc : ```voir ses Pokémon capturés```",
+            "/pokedex <filtres?> : ```affiche le Pokédex avec filtres```",
+            "/shop <ball> : ```voir le contenu d'une Pokéball```",
+            "/vendre <pokemon> : ```vendre un Pokémon capturé```",
+            "/tuto : ```voir le tutoriel du bot```",
+            "/beta : ```infos sur la version beta du bot```"
+          ].join("\n")
+        )
+        .setTimestamp();
 
-    async run(bot, message, args) {
-        try {
-            const { AttachmentBuilder, EmbedBuilder } = require('discord.js');
-            const exampleEmbed = new EmbedBuilder()    //ba cest une commande embed ya pas de code ducon
-                .setTitle(`Toutes les commandes`)
-                .setDescription("/profil : ```permet de voir son argent et ses points```\n /daily ```permet de gagner chaque jour 1000P$```\n /buy <ball> : ```permet d'acheter une ball``` \n /help : ```permet de voir les commandes``` \n /inventory : ```permet de voir ses pokeballs non utilisée``` \n /job : ```permet de gagner de l'argent toute les 15 minutes``` \n /loterie : ```permet de jouer a la loterie``` \n /natsumi : ```permet de voir les liens de l'artiste Natsumi``` \n /open <ball> : ```permet d'ouvrir une pokeball contenue dans l'inventaire``` \n /pc : ```permet de voir tout ses pokemons``` \n /pokedex <pokemon> : ```permet d'avoir toute les infos sur un pokemon``` \n /shop <ball> : ```permet de voir le contenue d'une pokeball et son prix``` \n /start : ```permet de commencer l'aventure``` \n /tuto : ```permet de voir le tuto``` \n /vendre <pokemon> : ```permet de vendre un de ses pokemons```")
-                .setTimestamp(Date.now())
-            message.reply({ embeds: [exampleEmbed] })
-        } catch (error) {
-            console.error("Une erreur s'est produite lors de l'exécution de la commande :", error);
-            const errorEmbed = new EmbedBuilder()
-                .setTitle('Erreur')
-                .setDescription('Une erreur est survenue lors de l\'ouverture de votre pokéball.')
-                .setColor('Red')
-                .setTimestamp();
-            message.reply({ embeds: [errorEmbed] });
-        }
+      await interaction.reply({ embeds: [helpEmbed] });
+
+    } catch (error) {
+      console.error("Erreur dans la commande help :", error);
+      const errorEmbed = new EmbedBuilder()
+        .setTitle("Erreur")
+        .setDescription("Une erreur est survenue lors de l'affichage de l'aide.")
+        .setColor("Red")
+        .setTimestamp();
+
+      await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
-}
+  }
+};

@@ -24,30 +24,31 @@ module.exports = {
     }
   ],
 
-  async run(bot, message, args) {
+  async run(bot, interaction, args) {
     try {
-      const userId = message.user.id;
+      const userId = interaction.user.id;
       const balle = args.getString("balls").toUpperCase();
       const quantity = args.getInteger("quantite") || 1;
 
-      if (point.getPoint(userId) <= 0) {
-        return message.reply({
-          embeds: [new EmbedBuilder()
-            .setTitle("Open")
-            .setDescription("Vous n'avez pas commencé l'aventure. Faites `/start` pour débuter.")
-            .setTimestamp()]
-        });
+      if (!point.data[userId] || point.getPoint(userId) <= 0) {
+        const embed = new EmbedBuilder()
+          .setColor("#FF0000")
+          .setTitle("Achat impossible")
+          .setDescription("Vous n'avez pas encore commencé l'aventure. Faites `/start` pour commencer.")
+          .setTimestamp();
+        return interaction.reply({ embeds: [embed] });
       }
 
       const userInventory = inventory.data?.[userId] || {};
       const ballInfo = userInventory[balle];
 
       if (!ballInfo || ballInfo.nbr < quantity) {
-        return message.reply({
+        return interaction.reply({
           embeds: [new EmbedBuilder()
             .setTitle("Erreur d'ouverture")
             .setDescription(`Vous n'avez pas ${quantity} ${balle}(s) dans votre inventaire.`)
-            .setTimestamp()]
+            .setTimestamp()],
+          ephemeral: false
         });
       }
 
@@ -81,6 +82,7 @@ module.exports = {
         }
       }
 
+      // Mise à jour de l'inventaire
       ballInfo.nbr -= quantity;
       if (ballInfo.nbr <= 0) delete inventory.data[userId][balle];
 
@@ -94,7 +96,7 @@ module.exports = {
         .setColor("#2ecc71")
         .setTimestamp();
 
-      const guildName = message.guild.name;
+      const guildName = interaction.guild.name;
       const guildId = "1043996039297892463";
       const channelId = "1109899933332549723";
       const guild = bot.guilds.cache.get(guildId);
@@ -107,11 +109,11 @@ module.exports = {
         const file = new AttachmentBuilder(filePath);
         embed.setImage(`attachment://${pokemon.getPokemon(name).N}.gif`);
 
-        await message.reply({ embeds: [embed], files: [file] });
+        await interaction.reply({ embeds: [embed], files: [file] });
 
         const logEmbed = new EmbedBuilder()
           .setTitle(lastShiny ? "Nouveau Shiny trouvé !" : "Nouveau Pokémon trouvé !")
-          .setDescription(`**${message.user.username}** a attrapé un **${lastResult.name}**${lastShiny ? " **SHINY**" : ""} de rareté ${lastResult.rarity} sur le serveur **${guildName}**`)
+          .setDescription(`**${interaction.user.username}** a attrapé un **${lastResult.name}**${lastShiny ? " **SHINY**" : ""} de rareté ${lastResult.rarity} sur le serveur **${guildName}**`)
           .setImage(`attachment://${pokemon.getPokemon(name).N}.gif`)
           .setColor(lastShiny ? "#FFD700" : "#3498db")
           .setTimestamp();
@@ -119,11 +121,11 @@ module.exports = {
         channel.send({ embeds: [logEmbed], files: [file] });
 
       } else {
-        await message.reply({ embeds: [embed] });
+        await interaction.reply({ embeds: [embed] });
 
         const logEmbed = new EmbedBuilder()
           .setTitle("Ouverture multiple")
-          .setDescription(`**${message.user.username}** a ouvert **${quantity} ${balle}(s)** sur **${guildName}**.\n\n${messages.join("\n")}`)
+          .setDescription(`**${interaction.user.username}** a ouvert **${quantity} ${balle}(s)** sur **${guildName}**.\n\n${messages.join("\n")}`)
           .setColor("#9b59b6")
           .setTimestamp();
 
@@ -137,7 +139,7 @@ module.exports = {
         .setDescription("Une erreur est survenue lors de l'ouverture de vos pokéballs.")
         .setColor('Red')
         .setTimestamp();
-      return message.reply({ embeds: [errorEmbed] });
+      return interaction.reply({ embeds: [errorEmbed], ephemeral: false });
     }
   }
 };
