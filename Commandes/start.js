@@ -13,33 +13,26 @@ module.exports = {
     try {
       const userId = interaction.user.id;
 
-      if (point.getPoint(userId) > 0) {
-        return interaction.reply({
-          content: "Vous avez déjà commencé votre aventure !",
-          ephemeral: true
-        });
-      }
-
-      // ✅ Ajouter 1 point
+      // Ajouter 1 point
       point.addData(userId, 1);
       point.saveData();
 
-      // ✅ Ajouter 600P$
+      // Ajouter 600P$
       argent.addData(userId, 600);
       argent.saveData();
 
-      // ✅ Offrir 1 Carnivoball
+      // Offrir 1 Carnivoball
       if (!inventory.data[userId]) inventory.data[userId] = {};
       if (!inventory.data[userId]["CARNIVOBALL"]) inventory.data[userId]["CARNIVOBALL"] = { nbr: 0 };
       inventory.data[userId]["CARNIVOBALL"].nbr += 1;
       inventory.saveData();
 
-      // ✅ Offrir Rattata
+      // Offrir Rattata
       if (!dresseur.data[userId]) dresseur.data[userId] = {};
       dresseur.data[userId]["RATTATA"] = { shiny: false, nbr: 1 };
       dresseur.saveData();
 
-      // ✅ Embed RP d'accueil
+      // Embed RP d'accueil
       const filePath = path.join(__dirname, '..', 'Assets', 'R.png');
       const file = new AttachmentBuilder(filePath);
 

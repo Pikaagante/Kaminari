@@ -22,7 +22,6 @@ module.exports = {
             "/job : ```gagner de l'argent toutes les 15 minutes```",
             "/loterie : ```tenter sa chance pour gagner de l'argent```",
             "/start : ```commencer l'aventure```",
-            "/pc : ```voir ses Pokémon capturés```",
             "/pokedex <filtres?> : ```affiche le Pokédex avec filtres```",
             "/shop <ball> : ```voir le contenu d'une Pokéball```",
             "/vendre <pokemon> : ```vendre un Pokémon capturé```",

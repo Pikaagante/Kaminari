@@ -20,6 +20,7 @@ module.exports = {
     try {
       const userId = interaction.user.id;
 
+      // Vérifie que le joueur a commencé l'aventure avec /start
       if (!point.data[userId] || point.getPoint(userId) <= 0) {
         const embed = new EmbedBuilder()
           .setColor("#FF0000")
@@ -29,8 +30,11 @@ module.exports = {
         return interaction.reply({ embeds: [embed] });
       }
 
+      // Récupère la somme choisie par l'utilisateur.
       let mise = args.getInteger("loterie");
+      // Génère un nombre aléatoire entre 0 et 1000.
       const arg = Math.floor(Math.random() * 1001);
+      // Récupère le solde actuel du joueur.
       const solde = argent.getArgent(userId);
 
       const embed = new EmbedBuilder()
@@ -38,13 +42,16 @@ module.exports = {
         .setColor("Blurple")
         .setTimestamp();
 
+      // Vérifie que le joueur possède suffisamment d'argent
       if (mise > solde) {
         embed.setDescription(`Vous n'avez pas assez d'argent. Solde actuel : ${solde}P$`);
         return interaction.reply({ embeds: [embed], ephemeral: true });
       }
 
+      // Retire la mise du solde avant de déterminer le résultat.
       argent.addData(userId, argent.getKey(userId) - mise);
 
+      // Détermine le résultat en fonction du nombre aléatoire généré.
       if (arg > 776) {
         mise = mise * 2;
         embed.setDescription(`Tu gagnes ${mise}P$ (2x ta mise) !`);
@@ -59,9 +66,11 @@ module.exports = {
         embed.setDescription(`Tu perds tout... Gagné : ${mise}P$`);
       }
 
+      // Ajoute le résultat de la loterie au compte du joueur.
       argent.addData(userId, argent.getKey(userId) + mise);
       argent.saveData();
 
+      // Affiche le solde restant après la loterie.
       embed.setFooter({ text: `Solde actuel : ${argent.getArgent(userId)}P$` });
       return interaction.reply({ embeds: [embed] });
 

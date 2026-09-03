@@ -19,10 +19,14 @@ module.exports = {
 
   async run(bot, interaction, args) {
     try {
+      // Récupère le nom donné par l'utilisateur et le convertit en majuscule
       const rawName = args.getString("nom_poke").toUpperCase();
+      // Transforme le nom en format plus lisible pour l'affichage.
       const displayName = rawName.charAt(0) + rawName.slice(1).toLowerCase();
+      // Recherche les informations du Pokémon dans pokemon.json.
       const data = pokemon.getPokemon(rawName);
 
+      // Vérifie que le Pokémon existe et que son nom correspond
       if (!data || data.Name !== displayName) {
         return interaction.reply({
           content: "Ce Pokémon n'existe pas ! (Pour le moment seuls les 200 premiers sont dans le Pokédex)",
@@ -30,9 +34,12 @@ module.exports = {
         });
       }
 
+      // Construit le chemin vers l'image du Pokémon à partir de son numéro dans le pokédex
       const imagePath = path.resolve(__dirname, `../Assets/assetsP/${data.N}.png`);
+      // Prépare l'image pour pouvoir l'envoyer avec le message Discord.
       const file = new AttachmentBuilder(imagePath);
 
+      // Création de l'embed contenant toutes les informations du Pokémon.
       const embed = new EmbedBuilder()
         .setColor(data.color || "#ffffff")
         .setTitle(`#${data.N} ${data.Name} | ${data.English_name}`)

@@ -6,12 +6,13 @@ module.exports = {
   description: "Effectuer un job pour gagner de l'argent",
   permission: "Aucune",
   dm: false,
-  cooldown: 600, // 10 minutes
+  cooldown: 300, // 5 minutes remettre a 10m si le bot passe public
 
   async run(bot, interaction) {
     try {
       const userId = interaction.user.id;
 
+      // Vérifie que le joueur a commencé l'aventure avec /start
       if (!point.data[userId] || point.getPoint(userId) <= 0) {
         const embed = new EmbedBuilder()
           .setColor("#FF0000")
@@ -21,6 +22,7 @@ module.exports = {
         return interaction.reply({ embeds: [embed] });
       }
 
+      // Génère un gain aléatoire compris entre 400 et 599 P$.
       const gain = Math.floor(Math.random() * 200) + 400; // 400 à 599
       const jobMessages = [
         "Tu as travaillé dans une ferme",
@@ -35,12 +37,15 @@ module.exports = {
         "Tu as joué dans une pub pour Pokéballs"
       ];
 
+      // Choisit aléatoirement un message dans la liste.
       const randomIndex = Math.floor(Math.random() * jobMessages.length);
       const jobMessage = jobMessages[randomIndex];
 
       argent.addData(userId, argent.getKey(userId) + gain);
       argent.saveData();
 
+      // Création du message indiquant au joueur
+      // le job effectué, son gain et son nouveau solde.
       const embed = new EmbedBuilder()
         .setTitle("Job terminé !")
         .setDescription(`${jobMessage} et gagné **${gain}P$**.\n\n Ton solde actuel est de **${argent.getArgent(userId)}P$**`)

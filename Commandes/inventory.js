@@ -12,6 +12,7 @@ module.exports = {
     try {
       const userId = interaction.user.id;
 
+      // Vérifie que le joueur a commencé l'aventure avec /start
       if (!point.data[userId] || point.getPoint(userId) <= 0) {
         const embed = new EmbedBuilder()
           .setColor("#FF0000")
@@ -21,9 +22,11 @@ module.exports = {
         return interaction.reply({ embeds: [embed] });
       }
 
+      // Récupère l'inventaire du joueur.
       const userInventory = inventory.data?.[userId] || {};
       const ballEntries = Object.entries(userInventory);
 
+      // Vérifie si le joueur ne possède aucune Pokéball.
       if (ballEntries.length === 0) {
         return interaction.reply({
           embeds: [
@@ -38,8 +41,10 @@ module.exports = {
       }
 
       let inventoryString = "Vous avez :\n";
+      // Parcourt toutes les Pokéballs présentes dans l'inventaire.
       for (const [ballName, info] of ballEntries) {
         const displayName = ballName.charAt(0).toUpperCase() + ballName.slice(1).toLowerCase();
+        // Ajoute la Pokéball et sa quantité à la liste.
         inventoryString += `- ${displayName} x${info.nbr}\n`;
       }
 

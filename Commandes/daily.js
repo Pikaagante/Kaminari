@@ -12,6 +12,7 @@ module.exports = {
     try {
       const userId = interaction.user.id;
 
+      // Vérifie que le joueur a commencé l'aventure avec /start
       if (!point.data[userId] || point.getPoint(userId) <= 0) {
         const embed = new EmbedBuilder()
           .setColor("#FF0000")
@@ -25,6 +26,7 @@ module.exports = {
       argent.addData(userId, argent.getKey(userId) + 1000);
       argent.saveData();
 
+      // Récupère le nouveau solde après avoir ajouté la récompense.
       const newBalance = argent.getArgent(userId);
       const embed = new EmbedBuilder()
         .setTitle("Récompense quotidienne ! ")

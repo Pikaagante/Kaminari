@@ -1,5 +1,110 @@
 {
 	"365039602882445312": {
+		"NOEUNOEUF": {
+			"shiny": true,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"ARBOLIVA": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"APITRINI": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"PIMITO": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"VERPOM": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"CERIFLOR": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "R"
+		},
+		"GUERILANDE": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"CERIBOU": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"DRATATIN": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "R"
+		},
+		"CREMY": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"OLIVINI": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"OLIVADO": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"MYSTHERBE": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"SCOVILAIN": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"TROPIUS": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "R"
+		},
+		"CROQUINE": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "C"
+		},
+		"CANDINE": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"OBALIE_VEGAN": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "L"
+		},
+		"CHARMILLY": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "P"
+		},
+		"SUCREINE": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "R"
+		},
+		"POMDRAPI": {
+			"shiny": false,
+			"nbr": 1,
+			"rarity": "R"
+		},
 		"RATTATA": {
 			"shiny": false,
 			"nbr": 1
